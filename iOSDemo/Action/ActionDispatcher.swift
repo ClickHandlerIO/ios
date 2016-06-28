@@ -11,12 +11,12 @@ class ActionDispatcher {
     private init() {
     }
 
-    func queue<Request, Response, Action: ActionProtocol where Action.Request == Request, Action.Response == Response>(request: Request, action: Action.Type) {
+    func queue<Request, Response, Action: ActionProtocol where Action.REQUEST == Request, Action.RESPONSE == Response>(request: Request, _ action: Action.Type, _ callback: ((Response) -> (Void))?) {
         // todo queue in nsoperation
         let response = action.run(request)
-//        if let callback = callback {
-//            callback(response)
-//        }
+        if let callback = callback {
+            callback(response)
+        }
     }
 
 //    func queue<Request, Response, Action: ActionProtocol where Action.Request == Request, Action.Response == Response>(request: Request, action: Action.Type, callback: ((Response) -> (Void))?) {

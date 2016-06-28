@@ -6,23 +6,23 @@
 import Foundation
 
 protocol ActionProtocol {
-    associatedtype Request
-    associatedtype Response
+    associatedtype REQUEST
+    associatedtype RESPONSE
 
     static func actionType() -> ActionType
 
-    static func run(request: Request) -> Response
+    static func run(request: REQUEST) -> RESPONSE
 }
 
 struct LoginAction: ActionProtocol {
-    typealias Request = LoginAction.Req
-    typealias Response = LoginAction.Resp
+    typealias REQUEST = LoginAction.Request
+    typealias RESPONSE = LoginAction.Response
 
     static func actionType() -> ActionType {
         return .General
     }
 
-    static func run(request: Request) -> Response {
+    static func run(request: REQUEST) -> RESPONSE {
         // todo guard against nil username and pw
         // todo mulitple unwrap and guard?
 
@@ -30,19 +30,57 @@ struct LoginAction: ActionProtocol {
             print("hello")
             if let password = request.password {
                 print("there")
-                return Response(.SUCCESS)
+                return RESPONSE(.SUCCESS)
             }
         }
 
-        return Response(.FAILED)
+        return RESPONSE(.FAILED)
     }
 
-    struct Req {
+    struct Request {
         var username: String?
         var password: String?
     }
 
-    struct Resp {
+    struct Response {
+        var code: Code
+
+        init(_ code: Code) {
+            self.code = code
+        }
+
+        enum Code {
+            case CANCELLED
+            case FAILED
+            case SUCCESS
+        }
+
+    }
+
+}
+
+struct ListAction: ActionProtocol {
+    typealias REQUEST = ListAction.Request
+    typealias RESPONSE = ListAction.Response
+
+    static func actionType() -> ActionType {
+        return .General
+    }
+
+    static func run(request: REQUEST) -> RESPONSE {
+        if let search = request.search {
+            print("hello search")
+            return RESPONSE(.SUCCESS)
+        }
+
+        return RESPONSE(.FAILED)
+    }
+
+    struct Request {
+        var search: String?
+    }
+
+    struct Response {
         var code: Code
 
         init(_ code: Code) {
@@ -55,5 +93,4 @@ struct LoginAction: ActionProtocol {
             case SUCCESS
         }
     }
-
 }
