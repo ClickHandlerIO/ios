@@ -77,29 +77,31 @@ class ViewController: UIViewController {
             print("catch here!")
         }*/
 
+        if (DatabaseManager.instance.connect()) {
+            ActionDispatcher.instance.queue(SchemaAction.Request(), SchemaAction.self, nil)
+            ActionDispatcher.instance.queue(WriteAction.Request(), WriteAction.self, nil)
 
-        var listReq = ListAction.Request()
-        listReq.search = "search me"
+            var listReq = ListAction.Request()
+            listReq.search = "search me"
+            ActionDispatcher.instance.queue(listReq, ListAction.self) {
+                (response: ListAction.Response) in
+                switch response.code {
+                case .SUCCESS:
+                    print("success")
+                case .FAILED:
+                    print("failure")
+                default:
+                    print("default here")
+                }
 
-        ActionDispatcher.instance.queue(listReq, ListAction.self) {
-            (response: ListAction.Response) in
-            switch response.code {
-            case .SUCCESS:
-                print("success")
-            case .FAILED:
-                print("failure")
-            default:
-                print("default here")
-            }
-
-            if let datas = response.data {
-                for s in datas {
-                    print(s)
+                if let datas = response.data {
+                    for s in datas {
+                        print(s.name)
+                    }
                 }
             }
+
         }
-
-
     }
 
 }

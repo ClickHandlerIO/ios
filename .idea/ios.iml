@@ -52,17 +52,20 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/iOSDemoTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ListAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/WriteAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/LoginAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/LoginAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/SchemaAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Common/Address.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Base/BaseRecord.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Entity/FacilityEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Database/DatabaseManager.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/TODO.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/GRDB-Bridging.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLCollation.swift" isTestSource="false" />

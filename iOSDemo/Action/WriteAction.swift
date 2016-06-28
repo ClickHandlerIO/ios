@@ -6,9 +6,9 @@
 import Foundation
 import GRDBCipher
 
-struct ListAction: DatabaseActionProtocol {
-    typealias Request = ListAction.REQ
-    typealias Response = ListAction.RESP
+struct WriteAction: DatabaseActionProtocol {
+    typealias Request = WriteAction.REQ
+    typealias Response = WriteAction.RESP
 
     static func actionType() -> ActionType {
         return .DatabaseWrite
@@ -20,30 +20,29 @@ struct ListAction: DatabaseActionProtocol {
             return
         }
 
-        guard let search = request.search else {
-            onCompletion(Response(.FAILED))
-            return
-        }
+        let facility = FacilityEntity()
+        facility.id = "c"
+        facility.name = "ScrippsC"
 
-        onCompletion(Response(FacilityEntity.fetchAll(db, "SELECT * FROM FacilityEntity")))
+        var addr = Address()
+        addr.line1 = "Aln1"
+        addr.line2 = "Bln2"
+        addr.line3 = "Cln3"
+        addr.city = "cty"
+        addr.state = "st"
+        addr.postalCode = "postcde"
+        addr.country = "cntry"
+        facility.applyAddress(addr)
+        try facility.save(db)
+
+        onCompletion(Response(.SUCCESS))
     }
 
     struct REQ {
-        var search: String?
     }
 
     struct RESP {
         var code: Code
-        var data: [FacilityEntity]?
-
-        init() {
-            code = .SUCCESS
-        }
-
-        init(_ data: [FacilityEntity]?) {
-            self.init()
-            self.data = data
-        }
 
         init(_ code: Code) {
             self.code = code
