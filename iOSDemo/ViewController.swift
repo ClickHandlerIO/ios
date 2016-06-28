@@ -16,75 +16,39 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(animated: Bool) {
-//        super.viewDidAppear(animated)
-//        var req = LoginAction.Request()
-//        req.username = "me"
-//        req.password = "passme"
+        super.viewDidAppear(animated)
 
-//        ActionDispatcher.instance.queue(req, LoginAction.self, {
-//            response in
-//            print("response here!", response)
-//        })
-//
-        var listReq = ListAction.Request()
-        listReq.search = "searching..."
-//        ActionDispatcher.instance.queue(listReq, ListAction.self, {
-//            (response: ListAction.Response) in
-//            print("list response here!", response)
-//            switch response.code {
-//            case .SUCCESS:
-//                print("success")
-//            case .FAILED:
-//                print("failure")
-//            default:
-//                print("default here")
-//            }
-//
-//            if let datas = response.data {
-//                for s in datas {
-//                    print(s)
-//                }
-//            }
-//
-//        })
-
-        for i in 1 ... 100 {
-            ActionDispatcher.instance.queue(listReq, ListAction.self) {
-                (response: ListAction.Response) in
-                switch response.code {
-                case .SUCCESS:
-                    print("success " + String(i))
-                case .FAILED:
-                    print("failure")
-                default:
-                    print("default here")
-                }
-
-                if let datas = response.data {
-                    for s in datas {
-                        print(s)
-                    }
-                }
+        let mirror = Mirror(reflecting: FacilityEntity())
+        for child in mirror.children {
+            guard let label = child.label else {
+                continue
             }
+
+            print(child.value.dynamicType)
+            print(label + " type: " + String(child.value.dynamicType), child.value)
         }
 
-//        let op = ActionDispatcher.instance.queue(listReq, ListAction.self) {
-//            (response: ListAction.Response) in
-//            switch response.code {
-//            case .SUCCESS:
-//                print("success")
-//            case .FAILED:
-//                print("failure")
-//            default:
-//                print("default here")
-//            }
+
+//        for i in 1 ... 100 {
+//            ActionDispatcher.instance.queue(listReq, ListAction.self) {
+//                (response: ListAction.Response) in
+//                switch response.code {
+//                case .SUCCESS:
+//                    print("success " + String(i))
+//                case .FAILED:
+//                    print("failure")
+//                default:
+//                    print("default here")
+//                }
 //
-//            if let datas = response.data {
-//                for s in datas {
-//                    print(s)
+//                if let datas = response.data {
+//                    for s in datas {
+//                        print(s)
+//                    }
 //                }
 //            }
 //        }
+
     }
 
 }

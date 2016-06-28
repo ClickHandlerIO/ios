@@ -21,7 +21,7 @@ struct ListAction: DatabaseActionProtocol {
         if let search = request.search {
 //            print("hello search")
             var resp = Response(.SUCCESS)
-            resp.data = ["1","2","3"]
+            resp.data = ["1", "2", "3"]
             return resp
         }
 

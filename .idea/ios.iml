@@ -11,22 +11,23 @@
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/iOSDemoTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionDispatcher.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionProtocol.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/LoginAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ListAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/LoginAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/FacilityEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" isTestSource="false" />
@@ -45,23 +46,23 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Extensions/FTS4.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Extensions/R*Tree.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Schema.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Query.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Operators.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Expression.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Collation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/CoreFunctions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Query.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Schema.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Setter.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/CustomFunctions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/AggregateFunctions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Typed/Collation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/SQLite.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Foundation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Helpers.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/fts3_tokenizer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/SQLite-Bridging.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/Statement.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/Connection.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/SQLite-Bridging.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/Statement.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/SQLite-Bridging.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/Blob.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SQLite.swift/SQLite/Core/Value.swift" isTestSource="false" />
     </content>
