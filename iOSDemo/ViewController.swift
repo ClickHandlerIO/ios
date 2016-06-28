@@ -37,25 +37,48 @@ class ViewController: UIViewController {
 
         do {
             let dbQueue = try DatabaseQueue(path: getDbPath())
+//            try dbQueue.changePassphrase("passme1234")
+
+//            try dbQueue.inDatabase {
+//                db in
+//                try db.execute(
+//                "CREATE TABLE pointOfInterests (" +
+//                        "id INTEGER PRIMARY KEY, " +
+//                        "title TEXT, " +
+//                        "favorite BOOLEAN NOT NULL, " +
+//                        "latitude DOUBLE NOT NULL, " +
+//                        "longitude DOUBLE NOT NULL" +
+//                        ")")
+//
+//                try db.execute(
+//                "INSERT INTO pointOfInterests (title, favorite, latitude, longitude) " +
+//                        "VALUES (?, ?, ?, ?)",
+//                        arguments: ["Paris", true, 48.85341, 2.3488])
+//
+//                let parisId = db.lastInsertedRowID
+//            }
+
             try dbQueue.inDatabase {
                 db in
-                try db.execute(
-                "CREATE TABLE pointOfInterests (" +
-                        "id INTEGER PRIMARY KEY, " +
-                        "title TEXT, " +
-                        "favorite BOOLEAN NOT NULL, " +
-                        "latitude DOUBLE NOT NULL, " +
-                        "longitude DOUBLE NOT NULL" +
-                        ")")
+                for row in Row.fetch(db, "SELECT * FROM pointOfInterests") {
+                    let title: String = row.value(named: "title")
+                    let favorite: Bool = row.value(named: "favorite")
+//                    let coordinate = CLLocationCoordinate2DMake(
+//                    row.value(named: "latitude"),
+//                            row.value(named: "longitude"))
+//                }
 
-                try db.execute(
-                "INSERT INTO pointOfInterests (title, favorite, latitude, longitude) " +
-                        "VALUES (?, ?, ?, ?)",
-                        arguments: ["Paris", true, 48.85341, 2.3488])
-
-                let parisId = db.lastInsertedRowID
+                    let poiCount = Int.fetchOne(db, "SELECT COUNT(*) FROM pointOfInterests")! // Int
+                    let poiTitles = String.fetchAll(db, "SELECT title FROM pointOfInterests") // [String]
+                    print("stuff", poiCount, poiTitles)
+                }
             }
 
+            // Extraction
+            let poiCount = try dbQueue.inDatabase { db in
+                var extraction = Int.fetchOne(db, "SELECT COUNT(*) FROM pointOfInterests")!
+                print("extraction", extraction)
+            }
         } catch let unknownError {
             print("\(unknownError) unknown error catch here!")
         } catch {
