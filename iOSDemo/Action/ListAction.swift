@@ -19,7 +19,7 @@ struct ListAction: ActionProtocol {
         }
 
         if let search = request.search {
-            print("hello search")
+//            print("hello search")
             var resp = Response(.SUCCESS)
             resp.data = ["1","2","3"]
             return resp

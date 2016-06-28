@@ -48,23 +48,43 @@ class ViewController: UIViewController {
 //
 //        })
 
-        ActionDispatcher.instance.queue(listReq, ListAction.self) {
-            (response: ListAction.Response) in
-            switch response.code {
-            case .SUCCESS:
-                print("success")
-            case .FAILED:
-                print("failure")
-            default:
-                print("default here")
-            }
+        for i in 1 ... 100 {
+            ActionDispatcher.instance.queue(listReq, ListAction.self) {
+                (response: ListAction.Response) in
+                switch response.code {
+                case .SUCCESS:
+                    print("success " + String(i))
+                case .FAILED:
+                    print("failure")
+                default:
+                    print("default here")
+                }
 
-            if let datas = response.data {
-                for s in datas {
-                    print(s)
+                if let datas = response.data {
+                    for s in datas {
+                        print(s)
+                    }
                 }
             }
         }
+
+//        let op = ActionDispatcher.instance.queue(listReq, ListAction.self) {
+//            (response: ListAction.Response) in
+//            switch response.code {
+//            case .SUCCESS:
+//                print("success")
+//            case .FAILED:
+//                print("failure")
+//            default:
+//                print("default here")
+//            }
+//
+//            if let datas = response.data {
+//                for s in datas {
+//                    print(s)
+//                }
+//            }
+//        }
     }
 
 }
