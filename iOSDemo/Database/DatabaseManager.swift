@@ -8,7 +8,7 @@ import GRDBCipher
 
 class DatabaseManager {
     static let instance = DatabaseManager()
-    var queue: DatabaseQueue?
+    var queue: DatabaseQueue? // todo change to using database pool for WAL
     private var key: String = "passme"
     // todo where / how to store encryption key for the db. as well as trigger re-key
     private var databaseFolder = "/db"
@@ -50,5 +50,9 @@ class DatabaseManager {
         }
         path += databaseFileName
         return path;
+    }
+
+    private func version() {
+        // todo version the app
     }
 }
