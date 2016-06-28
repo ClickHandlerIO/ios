@@ -18,36 +18,38 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
 
-        let mirror = Mirror(reflecting: FacilityEntity())
-        for child in mirror.children {
-            guard let label = child.label else {
-                continue
-            }
-
-            print(child.value.dynamicType)
-            print(label + " type: " + String(child.value.dynamicType), child.value)
-        }
-
-
-//        for i in 1 ... 100 {
-//            ActionDispatcher.instance.queue(listReq, ListAction.self) {
-//                (response: ListAction.Response) in
-//                switch response.code {
-//                case .SUCCESS:
-//                    print("success " + String(i))
-//                case .FAILED:
-//                    print("failure")
-//                default:
-//                    print("default here")
-//                }
-//
-//                if let datas = response.data {
-//                    for s in datas {
-//                        print(s)
-//                    }
-//                }
+//        let mirror = Mirror(reflecting: FacilityEntity())
+//        for child in mirror.children {
+//            guard let label = child.label else {
+//                continue
 //            }
+//
+//            print(child.value.dynamicType)
+//            print(label + " type: " + String(child.value.dynamicType), child.value)
 //        }
+
+
+        var listReq = ListAction.Request()
+        listReq.search = "search me"
+
+            ActionDispatcher.instance.queue(listReq, ListAction.self) {
+                (response: ListAction.Response) in
+                switch response.code {
+                case .SUCCESS:
+                    print("success")
+                case .FAILED:
+                    print("failure")
+                default:
+                    print("default here")
+                }
+
+                if let datas = response.data {
+                    for s in datas {
+                        print(s)
+                    }
+                }
+            }
+        
 
     }
 

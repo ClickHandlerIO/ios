@@ -19,6 +19,7 @@
 		83AA00241D1DAD9C008DEE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AA00231D1DAD9C008DEE91 /* Assets.xcassets */; };
 		83AA00321D1DAD9C008DEE91 /* iOSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA00311D1DAD9C008DEE91 /* iOSDemoTests.swift */; };
 		83AA003D1D1DAD9C008DEE91 /* iOSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA003C1D1DAD9C008DEE91 /* iOSDemoUITests.swift */; };
+		83FC8E181D22CB4A004E46D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FC8E171D22CB4A004E46D2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,19 @@
 			remoteInfo = iOSDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83FC8E161D22CB3A004E46D2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0BF69A594BDB707857154672 /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +72,7 @@
 		83AA00381D1DAD9C008DEE91 /* iOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA003C1D1DAD9C008DEE91 /* iOSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDemoUITests.swift; sourceTree = "<group>"; };
 		83AA003E1D1DAD9C008DEE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83FC8E171D22CB4A004E46D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C22518F7A34BA19543A7EBED /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +142,7 @@
 		83AA00101D1DAD9C008DEE91 = {
 			isa = PBXGroup;
 			children = (
+				83FC8E171D22CB4A004E46D2 /* Default-568h@2x.png */,
 				83AA001B1D1DAD9C008DEE91 /* iOSDemo */,
 				83AA00301D1DAD9C008DEE91 /* iOSDemoTests */,
 				83AA003B1D1DAD9C008DEE91 /* iOSDemoUITests */,
@@ -198,6 +214,7 @@
 				83AA00171D1DAD9C008DEE91 /* Resources */,
 				09A2D4CE403DB5B647FD3C37 /* [CP] Embed Pods Frameworks */,
 				AA287B688D6A0AB41BE455A3 /* [CP] Copy Pods Resources */,
+				83FC8E161D22CB3A004E46D2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83AA00241D1DAD9C008DEE91 /* Assets.xcassets in Resources */,
+				83FC8E181D22CB4A004E46D2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +516,7 @@
 			baseConfigurationReference = 0BF69A594BDB707857154672 /* Pods-iOSDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = iOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.clickhandler.iOSDemo;
@@ -510,6 +529,7 @@
 			baseConfigurationReference = C22518F7A34BA19543A7EBED /* Pods-iOSDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = iOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.clickhandler.iOSDemo;
