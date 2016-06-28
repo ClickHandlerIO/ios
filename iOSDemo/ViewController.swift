@@ -27,7 +27,7 @@ class ViewController: UIViewController {
                 print("Failed to create directory: " + path)
             }
         }
-        path += "/snowreport2.sqlite"
+        path += "/snowreport3.sqlite"
         return path;
     }
 
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 
         do {
             var config = Configuration()
-            config.passphrase = "abc"
+            config.passphrase = "passme"
 
             let dbQueue = try DatabaseQueue(path: getDbPath(), configuration: config)
 //            try dbQueue.changePassphrase("abc")
@@ -45,25 +45,33 @@ class ViewController: UIViewController {
             try dbQueue.inDatabase {
                 db in
                 try db.execute(
-                "CREATE TABLE pointOfInterests (" +
-                        "id INTEGER PRIMARY KEY, " +
-                        "title TEXT, " +
-                        "favorite BOOLEAN NOT NULL, " +
-                        "latitude DOUBLE NOT NULL, " +
-                        "longitude DOUBLE NOT NULL" +
+                "CREATE TABLE IF NOT EXISTS FacilityEntity (" +
+                        "id TEXT PRIMARY KEY, " +
+                        "name TEXT" +
                         ")")
 
-                try db.execute(
-                "INSERT INTO pointOfInterests (title, favorite, latitude, longitude) " +
-                        "VALUES (?, ?, ?, ?)",
-                        arguments: ["Paris", true, 48.85341, 2.3488])
+                let facility = FacilityEntity()
+                facility.id = "b"
+                facility.name = "Scripps"
+                try facility.insert(db)
 
-                let parisId = db.lastInsertedRowID
+//                try db.execute(
+//                "INSERT INTO pointOfInterests (title, favorite, latitude, longitude) " +
+//                        "VALUES (?, ?, ?, ?)",
+//                        arguments: ["Paris", true, 48.85341, 2.3488])
+//
+//                let parisId = db.lastInsertedRowID
             }
 
             try dbQueue.inDatabase {
                 db in
-                for row in Row.fetch(db, "SELECT * FROM pointOfInterests") {
+
+                let facilities = FacilityEntity.fetchAll(db, "SELECT * FROM FacilityEntity")
+                for f in facilities {
+                    print("Facility",f.id, f.name)
+                }
+
+                /*for row in Row.fetch(db, "SELECT * FROM pointOfInterests") {
                     let title: String = row.value(named: "title")
                     let favorite: Bool = row.value(named: "favorite")
 //                    let coordinate = CLLocationCoordinate2DMake(
@@ -74,14 +82,15 @@ class ViewController: UIViewController {
                     let poiCount = Int.fetchOne(db, "SELECT COUNT(*) FROM pointOfInterests")! // Int
                     let poiTitles = String.fetchAll(db, "SELECT title FROM pointOfInterests") // [String]
                     print("stuff", poiCount, poiTitles)
-                }
+                }*/
             }
 
             // Extraction
-            let poiCount = try dbQueue.inDatabase { db in
+            /*let poiCount = try dbQueue.inDatabase {
+                db in
                 var extraction = Int.fetchOne(db, "SELECT COUNT(*) FROM pointOfInterests")!
                 print("extraction", extraction)
-            }
+            }*/
         } catch let unknownError {
             print("\(unknownError) unknown error catch here!")
         } catch {

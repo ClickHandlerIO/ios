@@ -4,11 +4,34 @@
 //
 
 import Foundation
-import SQLite
+import GRDBCipher
 
-class FacilityEntity {
+class FacilityEntity: Record {
+    var id: String?
     var name: String?
-    var address: String?
 
-    init() {}
+    override class func databaseTableName() -> String {
+        print("classname: " + String(self))
+        return String(self)
+    }
+
+    override init() {
+        super.init()
+    }
+
+    required init(_ row: Row) {
+        id = row.value(named: "id")
+        name = row.value(named: "name")
+        super.init(row)
+    }
+
+    override var persistentDictionary: [String:DatabaseValueConvertible?] {
+        return [
+                "id": id,
+                "name": name
+        ]
+    }
+
+    override func didInsertWithRowID(rowID: Int64, forColumn column: String?) {
+    }
 }
