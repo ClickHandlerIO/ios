@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
 
 
-        do {
+        /*do {
             var config = Configuration()
             config.passphrase = "passme"
 
@@ -75,7 +75,7 @@ class ViewController: UIViewController {
             print("\(unknownError) unknown error catch here!")
         } catch {
             print("catch here!")
-        }
+        }*/
 
 
         var listReq = ListAction.Request()
