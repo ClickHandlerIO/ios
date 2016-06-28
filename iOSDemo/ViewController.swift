@@ -27,7 +27,7 @@ class ViewController: UIViewController {
                 print("Failed to create directory: " + path)
             }
         }
-        path += "/snowreport.sqlite"
+        path += "/snowreport2.sqlite"
         return path;
     }
 
@@ -36,27 +36,30 @@ class ViewController: UIViewController {
 
 
         do {
-            let dbQueue = try DatabaseQueue(path: getDbPath())
-//            try dbQueue.changePassphrase("passme1234")
+            var config = Configuration()
+            config.passphrase = "abc"
 
-//            try dbQueue.inDatabase {
-//                db in
-//                try db.execute(
-//                "CREATE TABLE pointOfInterests (" +
-//                        "id INTEGER PRIMARY KEY, " +
-//                        "title TEXT, " +
-//                        "favorite BOOLEAN NOT NULL, " +
-//                        "latitude DOUBLE NOT NULL, " +
-//                        "longitude DOUBLE NOT NULL" +
-//                        ")")
-//
-//                try db.execute(
-//                "INSERT INTO pointOfInterests (title, favorite, latitude, longitude) " +
-//                        "VALUES (?, ?, ?, ?)",
-//                        arguments: ["Paris", true, 48.85341, 2.3488])
-//
-//                let parisId = db.lastInsertedRowID
-//            }
+            let dbQueue = try DatabaseQueue(path: getDbPath(), configuration: config)
+//            try dbQueue.changePassphrase("abc")
+
+            try dbQueue.inDatabase {
+                db in
+                try db.execute(
+                "CREATE TABLE pointOfInterests (" +
+                        "id INTEGER PRIMARY KEY, " +
+                        "title TEXT, " +
+                        "favorite BOOLEAN NOT NULL, " +
+                        "latitude DOUBLE NOT NULL, " +
+                        "longitude DOUBLE NOT NULL" +
+                        ")")
+
+                try db.execute(
+                "INSERT INTO pointOfInterests (title, favorite, latitude, longitude) " +
+                        "VALUES (?, ?, ?, ?)",
+                        arguments: ["Paris", true, 48.85341, 2.3488])
+
+                let parisId = db.lastInsertedRowID
+            }
 
             try dbQueue.inDatabase {
                 db in
