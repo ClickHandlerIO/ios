@@ -58,6 +58,8 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/LoginAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/FacilityEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Base/BaseRecord.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Address.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
@@ -359,6 +361,7 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
+          <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos" />
           <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers" />
           <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers" />
           <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/PrivateHeaders" />
@@ -696,6 +699,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
         </CLASSES>
         <SOURCES>
+          <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos" />
           <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers" />
           <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers" />
           <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/PrivateHeaders" />
@@ -1032,6 +1036,10 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
         </SOURCES>
+        <excluded>
+          <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework" />
+          <root url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/iOSDemo-gfpfpnwkpssaxqemxnfdsxgkusyw/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework" />
+        </excluded>
       </library>
     </orderEntry>
   </component>

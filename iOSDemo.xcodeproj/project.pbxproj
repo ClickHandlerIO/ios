@@ -13,7 +13,9 @@
 		5A416884B76E0D2B26A18978 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416D507CE03944FF76D440 /* ActionType.swift */; };
 		5A416B668A61FE3D277DEA0E /* ListAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4167F793A98A2A859A276A /* ListAction.swift */; };
 		5A416BB481D28885AD84F31C /* ActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4166EF14DD6DB22AD33A7F /* ActionProtocol.swift */; };
+		5A416D2E696ADFD96B0EE0A1 /* BaseRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */; };
 		5A416D6245A769F068D2D59C /* ActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416706D42629C3FDF5C65E /* ActionDispatcher.swift */; };
+		5A416E4B19CFD087788BE5A4 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4163700A7DD9EFA4E3A12D /* Address.swift */; };
 		83AA001D1D1DAD9C008DEE91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA001C1D1DAD9C008DEE91 /* AppDelegate.swift */; };
 		83AA001F1D1DAD9C008DEE91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA001E1D1DAD9C008DEE91 /* ViewController.swift */; };
 		83AA00241D1DAD9C008DEE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AA00231D1DAD9C008DEE91 /* Assets.xcassets */; };
@@ -183,11 +185,13 @@
 
 /* Begin PBXFileReference section */
 		0BF69A594BDB707857154672 /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5A4163700A7DD9EFA4E3A12D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		5A4166EF14DD6DB22AD33A7F /* ActionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionProtocol.swift; sourceTree = "<group>"; };
 		5A416706D42629C3FDF5C65E /* ActionDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionDispatcher.swift; sourceTree = "<group>"; };
 		5A4167246668171EC97DF7FC /* FacilityEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacilityEntity.swift; sourceTree = "<group>"; };
 		5A4167F793A98A2A859A276A /* ListAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAction.swift; sourceTree = "<group>"; };
 		5A416D507CE03944FF76D440 /* ActionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
+		5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRecord.swift; sourceTree = "<group>"; };
 		5A416F6017C18B9FD651586D /* LoginAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAction.swift; sourceTree = "<group>"; };
 		72A4E007E56321F2E1F2E4A3 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA00191D1DAD9C008DEE91 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,10 +257,20 @@
 			path = Action;
 			sourceTree = "<group>";
 		};
+		5A416A43426EA2824E782B19 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5A416C2F6A886AF9A5DF34C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				5A4167246668171EC97DF7FC /* FacilityEntity.swift */,
+				5A416A43426EA2824E782B19 /* Base */,
+				5A4163700A7DD9EFA4E3A12D /* Address.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -669,6 +683,8 @@
 				5A416D6245A769F068D2D59C /* ActionDispatcher.swift in Sources */,
 				5A416BB481D28885AD84F31C /* ActionProtocol.swift in Sources */,
 				5A4166A78FC2E731502A118D /* FacilityEntity.swift in Sources */,
+				5A416D2E696ADFD96B0EE0A1 /* BaseRecord.swift in Sources */,
+				5A416E4B19CFD087788BE5A4 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

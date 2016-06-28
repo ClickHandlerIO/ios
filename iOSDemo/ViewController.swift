@@ -27,7 +27,7 @@ class ViewController: UIViewController {
                 print("Failed to create directory: " + path)
             }
         }
-        path += "/snowreport3.sqlite"
+        path += "/snowreport5.sqlite"
         return path;
     }
 
@@ -44,23 +44,23 @@ class ViewController: UIViewController {
 
             try dbQueue.inDatabase {
                 db in
-                try db.execute(
-                "CREATE TABLE IF NOT EXISTS FacilityEntity (" +
-                        "id TEXT PRIMARY KEY, " +
-                        "name TEXT" +
-                        ")")
+                try db.execute(FacilityEntity.databaseTableCreateSql())
 
                 let facility = FacilityEntity()
                 facility.id = "b"
-                facility.name = "Scripps"
-                try facility.insert(db)
+                facility.name = "ScrippsB"
 
-//                try db.execute(
-//                "INSERT INTO pointOfInterests (title, favorite, latitude, longitude) " +
-//                        "VALUES (?, ?, ?, ?)",
-//                        arguments: ["Paris", true, 48.85341, 2.3488])
-//
-//                let parisId = db.lastInsertedRowID
+                var addr = Address()
+                addr.line1 = "Aln1"
+                addr.line2 = "Bln2"
+                addr.line3 = "Cln3"
+                addr.city = "cty"
+                addr.state = "st"
+                addr.postalCode = "postcde"
+                addr.country = "cntry"
+                facility.applyAddress(addr)
+
+                try facility.save(db)
             }
 
             try dbQueue.inDatabase {
@@ -68,44 +68,14 @@ class ViewController: UIViewController {
 
                 let facilities = FacilityEntity.fetchAll(db, "SELECT * FROM FacilityEntity")
                 for f in facilities {
-                    print("Facility",f.id, f.name)
+                    print("Facility", f.id, f.name, f.createAddress())
                 }
-
-                /*for row in Row.fetch(db, "SELECT * FROM pointOfInterests") {
-                    let title: String = row.value(named: "title")
-                    let favorite: Bool = row.value(named: "favorite")
-//                    let coordinate = CLLocationCoordinate2DMake(
-//                    row.value(named: "latitude"),
-//                            row.value(named: "longitude"))
-//                }
-
-                    let poiCount = Int.fetchOne(db, "SELECT COUNT(*) FROM pointOfInterests")! // Int
-                    let poiTitles = String.fetchAll(db, "SELECT title FROM pointOfInterests") // [String]
-                    print("stuff", poiCount, poiTitles)
-                }*/
             }
-
-            // Extraction
-            /*let poiCount = try dbQueue.inDatabase {
-                db in
-                var extraction = Int.fetchOne(db, "SELECT COUNT(*) FROM pointOfInterests")!
-                print("extraction", extraction)
-            }*/
         } catch let unknownError {
             print("\(unknownError) unknown error catch here!")
         } catch {
             print("catch here!")
         }
-
-//        let mirror = Mirror(reflecting: FacilityEntity())
-//        for child in mirror.children {
-//            guard let label = child.label else {
-//                continue
-//            }
-//
-//            print(child.value.dynamicType)
-//            print(label + " type: " + String(child.value.dynamicType), child.value)
-//        }
 
 
         var listReq = ListAction.Request()
