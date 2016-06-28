@@ -6,23 +6,23 @@
 import Foundation
 
 protocol ActionProtocol {
-    associatedtype REQUEST
-    associatedtype RESPONSE
+    associatedtype Request
+    associatedtype Response
 
     static func actionType() -> ActionType
 
-    static func run(request: REQUEST) -> RESPONSE
+    static func run(request: Request) -> Response
 }
 
 struct LoginAction: ActionProtocol {
-    typealias REQUEST = LoginAction.Request
-    typealias RESPONSE = LoginAction.Response
+    typealias Request = LoginAction.REQ
+    typealias Response = LoginAction.RESP
 
     static func actionType() -> ActionType {
         return .General
     }
 
-    static func run(request: REQUEST) -> RESPONSE {
+    static func run(request: Request) -> Response {
         // todo guard against nil username and pw
         // todo mulitple unwrap and guard?
 
@@ -30,19 +30,19 @@ struct LoginAction: ActionProtocol {
             print("hello")
             if let password = request.password {
                 print("there")
-                return RESPONSE(.SUCCESS)
+                return Response(.SUCCESS)
             }
         }
 
-        return RESPONSE(.FAILED)
+        return Response(.FAILED)
     }
 
-    struct Request {
+    struct REQ {
         var username: String?
         var password: String?
     }
 
-    struct Response {
+    struct RESP {
         var code: Code
 
         init(_ code: Code) {
@@ -60,31 +60,33 @@ struct LoginAction: ActionProtocol {
 }
 
 struct ListAction: ActionProtocol {
-    typealias REQUEST = ListAction.Request
-    typealias RESPONSE = ListAction.Response
+    typealias Request = ListAction.REQ
+    typealias Response = ListAction.RESP
 
     static func actionType() -> ActionType {
         return .General
     }
 
-    static func run(request: REQUEST) -> RESPONSE {
+    static func run(request: Request) -> Response {
         if let search = request.search {
             print("hello search")
-            return RESPONSE(.SUCCESS)
+            return Response(.SUCCESS, ["1", "2", "3"])
         }
 
-        return RESPONSE(.FAILED)
+        return Response(.FAILED, nil)
     }
 
-    struct Request {
+    struct REQ {
         var search: String?
     }
 
-    struct Response {
+    struct RESP {
         var code: Code
+        var data: [String]?
 
-        init(_ code: Code) {
+        init(_ code: Code, _ data: [String]?) {
             self.code = code
+            self.data = data
         }
 
         enum Code {

@@ -26,16 +26,27 @@ class ViewController: UIViewController {
             print("response here!", response)
         })
 
-        var listReq = ListAction.REQUEST()
+        var listReq = ListAction.Request()
         listReq.search = "searching..."
         ActionDispatcher.instance.queue(listReq, ListAction.self, {
-            response in
+            (response: ListAction.Response) in
             print("list response here!", response)
-        })
+            switch response.code {
+            case .SUCCESS:
+                print("success")
+            case .FAILED:
+                print("failure")
+            default:
+                print("default here")
+            }
 
-//        ActionDispatcher.instance.queue(req, LoginAction.self) { response in
-//            print("response in trailing closure here!", response)
-//        }
+            if let datas = response.data {
+                for s in datas {
+                    print(s)
+                }
+            }
+
+        })
     }
 
 }
