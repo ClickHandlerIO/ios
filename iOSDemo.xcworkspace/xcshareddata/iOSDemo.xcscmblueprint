@@ -4,27 +4,62 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59" : 0,
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : 0,
+    "CBF92293916D19D8AA3B5911EB5CE04B7EBCA00D" : 0,
     "0B4DAB7885553308D197E26D9D2197F0DFC4BC29" : 0,
-    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : 0
+    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : 0,
+    "04101981B66E318109934C9516F88D824BB96459" : 0,
+    "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3F5D2BC1-6CE8-4321-8A9B-C6BE255A5AD5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59" : "ios\/GRDB.swift\/Tests\/Performance\/Realm\/",
+    "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD" : "ios\/GRDB.swift\/Tests\/Performance\/SQLite.swift\/",
+    "CBF92293916D19D8AA3B5911EB5CE04B7EBCA00D" : "ios\/GRDB.swift\/SQLiteCustom\/src\/",
     "0B4DAB7885553308D197E26D9D2197F0DFC4BC29" : "ios\/",
-    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : "ios\/GRDB.swift\/"
+    "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B" : "ios\/GRDB.swift\/",
+    "04101981B66E318109934C9516F88D824BB96459" : "ios\/GRDB.swift\/Tests\/Performance\/fmdb\/",
+    "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D" : "ios\/GRDB.swift\/SQLCipher\/src\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSDemo.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ccgus\/fmdb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04101981B66E318109934C9516F88D824BB96459"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ClickHandlerIO\/ios.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B4DAB7885553308D197E26D9D2197F0DFC4BC29"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/stephencelis\/SQLite.swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AE8ED2E684071AF4FB151FA51BF266B82FF45BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/groue\/sqlcipher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55011AEBD444630C0E9DF47BD2E18FDBBDCC285D"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:groue\/GRDB.swift.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "78CEBD94FC52DCE625058FE6959F9449C7CD4A7B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/realm\/realm-cocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9FB1FDDBA011002795A1FF5BD3CABFA2F79E6A59"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/swiftlyfalling\/SQLiteLib",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBF92293916D19D8AA3B5911EB5CE04B7EBCA00D"
     }
   ]
 }
