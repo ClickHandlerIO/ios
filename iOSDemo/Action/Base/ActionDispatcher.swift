@@ -42,7 +42,7 @@ class ActionDispatcher {
                     })
                 }
             })
-        }, callback)
+        })
 
         switch action.actionType() {
         case .General:
@@ -58,29 +58,16 @@ class ActionDispatcher {
 
 class ActionOperation<Response>: NSOperation {
     var run: (NSOperation) -> Void
-    var callback: ((Response) -> Void)?
 
-    init(_ run: ((operation:NSOperation) -> Void), _ callback: ((Response) -> Void)?) {
+    init(_ run: ((operation:NSOperation) -> Void)) {
         self.run = run
-        self.callback = callback
     }
 
     override func main() {
         if self.cancelled {
             return
         }
-
         run(self)
-
-//        if self.cancelled {
-//            return
-//        }
-
-//        if let c = callback {
-//            dispatch_async(dispatch_get_main_queue(), {
-//                c(response)
-//            })
-//        }
     }
 
 }
