@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import GRDBCipher
 
 protocol ActionProtocol {
     associatedtype Request
@@ -15,21 +16,53 @@ protocol ActionProtocol {
 }
 
 protocol DatabaseActionProtocol: ActionProtocol {
-    static func run(request: Request, conn: AnyObject, operation: NSOperation) -> Response
+    static func run(request: Request, conn: Database?, operation: NSOperation) throws -> Response?
+}
+
+func getDbPath() -> String {
+    let documentsDir = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
+    var path = documentsDir + "/db"
+
+    if !NSFileManager.defaultManager().fileExistsAtPath(path) {
+        do {
+            try NSFileManager.defaultManager().createDirectoryAtPath(path, withIntermediateDirectories: true, attributes: nil)
+        } catch {
+            print("Failed to create directory: " + path)
+        }
+    }
+    path += "/snowreport5.sqlite"
+    return path;
 }
 
 extension DatabaseActionProtocol {
-    static func run(request: Request, operation: NSOperation) -> Response {
-        var conn: AnyObject
-        // TODO provide actual connections
-        switch actionType() {
-        case .General:
-            fatalError("General ActionType is invalid for DatabaseActionProtocol implementation")
-        case .DatabaseWrite:
-            conn = "writeconn"
-        case .DatabaseReadUncommitted:
-            conn = "readuncommitted"
+    /*static func run(request: Request, operation: NSOperation) -> Response? {
+        do {
+            var config = Configuration()
+            config.passphrase = "passme"
+            let dbQueue = try DatabaseQueue(path: getDbPath(), configuration: config)
+
+            switch actionType() {
+            case .General:
+                fatalError("General ActionType is invalid for DatabaseActionProtocol implementation")
+                return nil
+            case .DatabaseWrite:
+                try dbQueue.inDatabase {
+                    db in
+                    return try run(request, conn: db, operation: operation)
+                }
+            case .DatabaseReadUncommitted:
+                try dbQueue.inDatabase {
+                    db in
+                    return try run(request, conn: db, operation: operation)
+                }
+            }
+//        } catch unknownError {
+//            print("DatabaseActionProtocol unknown error \(unknownError)")
+        } catch {
+            print("DatabaseActionProtocol error catch")
+            return nil
         }
-        return run(request, conn: conn, operation: operation)
-    }
+        return nil
+
+    }*/
 }

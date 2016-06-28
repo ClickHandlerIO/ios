@@ -5,15 +5,15 @@
 
 import Foundation
 
-struct ListAction: DatabaseActionProtocol {
+struct ListAction: ActionProtocol {
     typealias Request = ListAction.REQ
     typealias Response = ListAction.RESP
 
     static func actionType() -> ActionType {
-        return .DatabaseWrite
+        return .General
     }
 
-    static func run(request: Request, conn: AnyObject, operation: NSOperation) -> Response {
+    static func run(request: Request, operation: NSOperation) -> Response {
         if operation.cancelled {
             return Response(.CANCELLED)
         }
