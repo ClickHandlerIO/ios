@@ -5,6 +5,7 @@
 
 import Foundation
 
+/*
 struct LoginAction: ActionProtocol {
     typealias Request = LoginAction.REQ
     typealias Response = LoginAction.RESP
@@ -13,9 +14,13 @@ struct LoginAction: ActionProtocol {
         return .General
     }
 
-    static func run(request: Request) -> Response {
+    static func run(request: Request, operation: NSOperation) -> Response {
         // todo guard against nil username and pw
         // todo mulitple unwrap and guard?
+
+        if operation.cancelled {
+            return Response(.FAILED)
+        }
 
         if let username = request.username {
             print("hello")
@@ -41,11 +46,11 @@ struct LoginAction: ActionProtocol {
         }
 
         enum Code {
-            case CANCELLED
-            case FAILED
             case SUCCESS
+            case FAILED
+            case CANCELLED
         }
 
     }
 
-}
+}*/

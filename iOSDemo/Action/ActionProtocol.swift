@@ -11,5 +11,5 @@ protocol ActionProtocol {
 
     static func actionType() -> ActionType
 
-    static func run(request: Request) -> Response
+    static func run(request: Request, _ operation: NSOperation) -> Response
 }

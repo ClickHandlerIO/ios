@@ -16,10 +16,10 @@ class ViewController: UIViewController {
     }
 
     override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        var req = LoginAction.Request()
-        req.username = "me"
-        req.password = "passme"
+//        super.viewDidAppear(animated)
+//        var req = LoginAction.Request()
+//        req.username = "me"
+//        req.password = "passme"
 
 //        ActionDispatcher.instance.queue(req, LoginAction.self, {
 //            response in

@@ -13,13 +13,19 @@ struct ListAction: ActionProtocol {
         return .General
     }
 
-    static func run(request: Request) -> Response {
-        if let search = request.search {
-            print("hello search")
-            return Response(.SUCCESS, ["1", "2", "3"])
+    static func run(request: Request, _ operation: NSOperation) -> Response {
+        if operation.cancelled {
+            return Response(.CANCELLED)
         }
 
-        return Response(.FAILED, nil)
+        if let search = request.search {
+            print("hello search")
+            var resp = Response(.SUCCESS)
+            resp.data = ["1","2","3"]
+            return resp
+        }
+
+        return Response(.FAILED)
     }
 
     struct REQ {
@@ -30,15 +36,14 @@ struct ListAction: ActionProtocol {
         var code: Code
         var data: [String]?
 
-        init(_ code: Code, _ data: [String]?) {
+        init(_ code: Code) {
             self.code = code
-            self.data = data
         }
 
         enum Code {
-            case CANCELLED
-            case FAILED
             case SUCCESS
+            case FAILED
+            case CANCELLED
         }
 
     }
