@@ -14,5 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.redColor()
     }
+
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        var req = LoginAction.Req()
+        req.username = "me"
+        req.password = "passme"
+        ActionDispatcher.instance.queue(req, action: LoginAction.self)
+    }
+
 }
 

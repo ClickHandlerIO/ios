@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		36D9EA2702EB745E4BFF69DB /* Pods_iOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A4E007E56321F2E1F2E4A3 /* Pods_iOSDemo.framework */; };
+		5A41613675BB5212E013296D /* ActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41674BF27CA827DD0919A2 /* ActionDispatcher.swift */; };
+		5A4162C1B76DD1A82CEDB49B /* ActionBaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416D3BDEC85AA585D9B80B /* ActionBaseProtocol.swift */; };
 		5A416632E1163669BB220F8F /* ActionBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416EB8822371F60E9E13AE /* ActionBase.swift */; };
 		5A416EE93CC07451572E0B36 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416396338A857AD1A451E5 /* ActionType.swift */; };
 		83AA001D1D1DAD9C008DEE91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA001C1D1DAD9C008DEE91 /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 /* Begin PBXFileReference section */
 		0BF69A594BDB707857154672 /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5A416396338A857AD1A451E5 /* ActionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
+		5A41674BF27CA827DD0919A2 /* ActionDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionDispatcher.swift; sourceTree = "<group>"; };
+		5A416D3BDEC85AA585D9B80B /* ActionBaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBaseProtocol.swift; sourceTree = "<group>"; };
 		5A416EB8822371F60E9E13AE /* ActionBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionBase.swift; sourceTree = "<group>"; };
 		72A4E007E56321F2E1F2E4A3 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA00191D1DAD9C008DEE91 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +88,8 @@
 			children = (
 				5A416EB8822371F60E9E13AE /* ActionBase.swift */,
 				5A416396338A857AD1A451E5 /* ActionType.swift */,
+				5A416D3BDEC85AA585D9B80B /* ActionBaseProtocol.swift */,
+				5A41674BF27CA827DD0919A2 /* ActionDispatcher.swift */,
 			);
 			path = Action;
 			sourceTree = "<group>";
@@ -341,6 +347,8 @@
 				83AA001D1D1DAD9C008DEE91 /* AppDelegate.swift in Sources */,
 				5A416632E1163669BB220F8F /* ActionBase.swift in Sources */,
 				5A416EE93CC07451572E0B36 /* ActionType.swift in Sources */,
+				5A4162C1B76DD1A82CEDB49B /* ActionBaseProtocol.swift in Sources */,
+				5A41613675BB5212E013296D /* ActionDispatcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
