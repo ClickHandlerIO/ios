@@ -16,7 +16,7 @@ protocol ActionProtocol {
 }
 
 protocol DatabaseActionProtocol: ActionProtocol {
-    static func run(request: Request, db: Database, operation: NSOperation, onCompletion: ((Response) -> Void)) throws -> Response
+    static func run(request: Request, db: Database, operation: NSOperation, onCompletion: ((Response) -> Void)) throws
 }
 
 extension DatabaseActionProtocol {

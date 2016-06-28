@@ -4,16 +4,17 @@
 //
 
 import Foundation
+import GRDBCipher
 
-struct ListAction: ActionProtocol {
+struct ListAction: DatabaseActionProtocol {
     typealias Request = ListAction.REQ
     typealias Response = ListAction.RESP
 
     static func actionType() -> ActionType {
-        return .General
+        return .DatabaseReadUncommitted
     }
 
-    static func run(request: Request, operation: NSOperation, onCompletion: ((Response) -> Void)) {
+    static func run(request: Request, db: Database, operation: NSOperation, onCompletion: ((Response) -> Void)) throws {
         if operation.cancelled {
             onCompletion(Response(.CANCELLED))
             return
@@ -22,6 +23,11 @@ struct ListAction: ActionProtocol {
         guard let search = request.search else {
             onCompletion(Response(.FAILED))
             return
+        }
+
+        let facilities = FacilityEntity.fetchAll(db, "SELECT * FROM FacilityEntity")
+        for f in facilities {
+            print("Facility", f.id, f.name, f.createAddress())
         }
 
         var resp = Response(.SUCCESS)
