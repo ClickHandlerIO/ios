@@ -34,7 +34,14 @@ class ActionDispatcher {
     func queue<Request, Response, Action:ActionProtocol where Action.Request == Request, Action.Response == Response>(request: Request, _ action: Action.Type, _ callback: ((Response) -> (Void))?) -> NSOperation {
         var operation = ActionOperation<Response>({
             op in
-            action.run(request, operation: op)
+            action.run(request, operation: op, onCompletion: {
+                response in
+                if let c = callback {
+                    dispatch_async(dispatch_get_main_queue(), {
+                        c(response)
+                    })
+                }
+            })
         }, callback)
 
         switch action.actionType() {
@@ -50,10 +57,10 @@ class ActionDispatcher {
 }
 
 class ActionOperation<Response>: NSOperation {
-    var run: (operation:NSOperation) -> Response
+    var run: (NSOperation) -> Void
     var callback: ((Response) -> Void)?
 
-    init(_ run: ((operation:NSOperation) -> Response), _ callback: ((Response) -> Void)?) {
+    init(_ run: ((operation:NSOperation) -> Void), _ callback: ((Response) -> Void)?) {
         self.run = run
         self.callback = callback
     }
@@ -63,17 +70,17 @@ class ActionOperation<Response>: NSOperation {
             return
         }
 
-        var response = run(operation: self)
+        run(self)
 
-        if self.cancelled {
-            return
-        }
+//        if self.cancelled {
+//            return
+//        }
 
-        if let c = callback {
-            dispatch_async(dispatch_get_main_queue(), {
-                c(response)
-            })
-        }
+//        if let c = callback {
+//            dispatch_async(dispatch_get_main_queue(), {
+//                c(response)
+//            })
+//        }
     }
 
 }

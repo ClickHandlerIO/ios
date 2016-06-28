@@ -13,19 +13,20 @@ struct ListAction: ActionProtocol {
         return .General
     }
 
-    static func run(request: Request, operation: NSOperation) -> Response {
+    static func run(request: Request, operation: NSOperation, onCompletion: ((Response) -> Void)) {
         if operation.cancelled {
-            return Response(.CANCELLED)
+            onCompletion(Response(.CANCELLED))
+            return
         }
 
-        if let search = request.search {
-//            print("hello search")
-            var resp = Response(.SUCCESS)
-            resp.data = ["1", "2", "3"]
-            return resp
+        guard let search = request.search else {
+            onCompletion(Response(.FAILED))
+            return
         }
 
-        return Response(.FAILED)
+        var resp = Response(.SUCCESS)
+        resp.data = ["1", "2", "3", search]
+        onCompletion(resp)
     }
 
     struct REQ {
