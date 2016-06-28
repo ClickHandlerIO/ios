@@ -13,7 +13,7 @@ struct ListAction: ActionProtocol {
         return .General
     }
 
-    static func run(request: Request, _ operation: NSOperation) -> Response {
+    static func run(request: Request, operation: NSOperation) -> Response {
         if operation.cancelled {
             return Response(.CANCELLED)
         }

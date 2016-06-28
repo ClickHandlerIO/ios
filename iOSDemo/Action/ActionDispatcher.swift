@@ -8,20 +8,20 @@ import Foundation
 class ActionDispatcher {
     static let instance = ActionDispatcher()
 
-    lazy var generalQueue:NSOperationQueue = {
+    lazy var generalQueue: NSOperationQueue = {
         var queue = NSOperationQueue()
         queue.name = "General Queue"
         return queue
     }()
 
-    lazy var DbWriteQueue:NSOperationQueue = {
+    lazy var dbWriteQueue: NSOperationQueue = {
         var queue = NSOperationQueue()
         queue.name = "DB Write Queue"
         queue.maxConcurrentOperationCount = 1
         return queue
     }()
 
-    lazy var DbReadUncommittedQueue:NSOperationQueue = {
+    lazy var dbReadUncommittedQueue: NSOperationQueue = {
         var queue = NSOperationQueue()
         queue.name = "DB Read Uncommitted Queue"
         queue.maxConcurrentOperationCount = 1
@@ -31,24 +31,49 @@ class ActionDispatcher {
     private init() {
     }
 
-    func queue<Request, Response, Action: ActionProtocol where Action.Request == Request, Action.Response == Response>(request: Request, _ action: Action.Type, _ callback: ((Response) -> (Void))?) {
-        // todo queue in nsoperation
-        let response = action.run(request, NSOperation())
-        if let callback = callback {
-            callback(response)
+    func queue<Request, Response, Action:ActionProtocol where Action.Request == Request, Action.Response == Response>(request: Request, _ action: Action.Type, _ callback: ((Response) -> (Void))?) -> NSOperation {
+        var operation = ActionOperation<Response>({
+            op in
+            action.run(request, operation: op)
+        }, callback)
+
+        switch action.actionType() {
+        case .General:
+            generalQueue.addOperation(operation)
+        case .DatabaseWrite:
+            dbWriteQueue.addOperation(operation)
+        case .DatabaseReadUncommitted:
+            dbReadUncommittedQueue.addOperation(operation)
         }
+        return operation
     }
 }
 
-class ActionOperation: NSOperation {
+class ActionOperation<Response>: NSOperation {
+    var run: (operation:NSOperation) -> Response
+    var callback: ((Response) -> Void)?
+
+    init(_ run: ((operation:NSOperation) -> Response), _ callback: ((Response) -> Void)?) {
+        self.run = run
+        self.callback = callback
+    }
 
     override func main() {
         if self.cancelled {
             return
         }
 
-        // todo run
+        var response = run(operation: self)
 
-        // todo do work and return it
+        if self.cancelled {
+            return
+        }
+
+        if let c = callback {
+            dispatch_async(dispatch_get_main_queue(), {
+                c(response)
+            })
+        }
     }
+
 }
