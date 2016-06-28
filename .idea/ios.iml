@@ -11,14 +11,15 @@
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/iOSDemoTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionDispatcher.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionBase.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionBaseProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ActionProtocol.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/LoginAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/ListAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" isTestSource="false" />
