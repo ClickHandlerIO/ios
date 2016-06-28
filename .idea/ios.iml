@@ -57,9 +57,9 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/LoginAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/FacilityEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Common/Address.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Base/BaseRecord.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Address.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Entity/FacilityEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
