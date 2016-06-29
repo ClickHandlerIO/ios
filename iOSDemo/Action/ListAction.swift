@@ -30,6 +30,12 @@ struct ListAction: DatabaseActionProtocol {
 
     struct REQ {
         var search: String?
+
+        init() {}
+
+        init(_ search: String?) {
+            self.search = search
+        }
     }
 
     struct RESP {

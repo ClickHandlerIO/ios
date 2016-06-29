@@ -8,11 +8,11 @@ import GRDBCipher
 
 class DatabaseManager {
     static let instance = DatabaseManager()
-    var queue: DatabaseQueue? // todo change to using database pool for WAL
+
+    var dbPool: DatabasePool?
     private var key: String = "passme"
-    // todo where / how to store encryption key for the db. as well as trigger re-key
     private var databaseFolder = "/db"
-    private var databaseFileName = "/movemedical3.sqlite"
+    private var databaseFileName = "/movemedical4.sqlite"
 
     deinit {
         // todo disconnect
@@ -21,8 +21,14 @@ class DatabaseManager {
     func connect() -> Bool {
         var config = Configuration()
         config.passphrase = key
+        config.fileAttributes = [NSFileProtectionKey: NSFileProtectionComplete]
+        config.foreignKeysEnabled = false
+        config.trace = {
+            print($0)
+        } // config this as a dev mode thing
+
         do {
-            queue = try DatabaseQueue(path: getDbPath(), configuration: config)
+            dbPool = try DatabasePool(path: getDbPath(), configuration: config)
             // todo call versioning script
             return true // todo probably switch to callback pattern
         } catch {
@@ -32,10 +38,15 @@ class DatabaseManager {
     }
 
     func disconnect() {
-        if let q = queue {
-            // todo close
-        }
-        queue = nil
+//        if let q = queue {
+//             todo close
+//        }
+//        queue = nil
+    }
+
+    func rekey(passphrase: String) {
+        // todo where / how to store encryption key for the db. as well as trigger re-key
+//        dbQueue.changePassphrase("abc")
     }
 
     private func getDbPath() -> String {
@@ -53,6 +64,6 @@ class DatabaseManager {
     }
 
     private func version() {
-        // todo version the app
+        // todo version the app (see docs on using their versioning mechanism)
     }
 }

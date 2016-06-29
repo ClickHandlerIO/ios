@@ -31,12 +31,12 @@ extension DatabaseActionProtocol {
             case .General:
                 fatalError("General ActionType is invalid for DatabaseActionProtocol implementation")
             case .DatabaseWrite:
-                try DatabaseManager.instance.queue?.inDatabase {
+                try DatabaseManager.instance.dbPool?.write {
                     db in
                     try run(request, db: db, operation: operation, onCompletion: onCompletion)
                 }
             case .DatabaseReadUncommitted:
-                try DatabaseManager.instance.queue?.inDatabase {
+                try DatabaseManager.instance.dbPool?.read {
                     db in
                     try run(request, db: db, operation: operation, onCompletion: onCompletion)
                 }
