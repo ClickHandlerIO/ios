@@ -3,5 +3,5 @@ use_frameworks!
 
 target 'iOSDemo' do
   pod 'SwiftyJSON', '~> 2.3'
-  pod 'SQLite.swift', '~> 0.10.1'
+  pod 'ReachabilitySwift', '~> 2.3'
 end

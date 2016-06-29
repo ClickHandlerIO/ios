@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		36D9EA2702EB745E4BFF69DB /* Pods_iOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A4E007E56321F2E1F2E4A3 /* Pods_iOSDemo.framework */; };
+		5A416049890993E9CE482F89 /* WsDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4164D34BB6C280BB67BF19 /* WsDispatcher.swift */; };
 		5A41622DEB96AF0AE1A6FD2C /* SchemaAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4162379A06268DA226F227 /* SchemaAction.swift */; };
 		5A4163CD086B346FD1412949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41679655338D20727D8558 /* ViewController.swift */; };
+		5A4165016B497DE47EDD6938 /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416BE4820120168D3AEE61 /* EventBus.swift */; };
 		5A4167026B448C42AFDDD7D2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41634208C37D2D6485BDD3 /* Address.swift */; };
 		5A4167413CBD6644DB333BD2 /* FacilityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4167AF27380BFC12177CE5 /* FacilityEntity.swift */; };
 		5A41684F688EC14357BE87D6 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416B8CC9F242D0A6933405 /* DatabaseManager.swift */; };
@@ -18,6 +20,7 @@
 		5A4169BC259D7DF1A4011DEC /* ListFacilitiesAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4169F52D9C247E2CFB5CB5 /* ListFacilitiesAction.swift */; };
 		5A416BB481D28885AD84F31C /* ActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4166EF14DD6DB22AD33A7F /* ActionProtocol.swift */; };
 		5A416BECD530BAAA684605DB /* SaveFacilityAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416AEBB37CBA2026633CA1 /* SaveFacilityAction.swift */; };
+		5A416CA37CB0207CE870D2AC /* LoggedInEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416389FAB38585639DDCA6 /* LoggedInEvent.swift */; };
 		5A416D2E696ADFD96B0EE0A1 /* BaseRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */; };
 		5A416D5007106D01A5EE965A /* BodySide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416EE2BB8C4F968A05DBCF /* BodySide.swift */; };
 		5A416D6245A769F068D2D59C /* ActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416706D42629C3FDF5C65E /* ActionDispatcher.swift */; };
@@ -192,6 +195,8 @@
 		0BF69A594BDB707857154672 /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5A4162379A06268DA226F227 /* SchemaAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaAction.swift; sourceTree = "<group>"; };
 		5A41634208C37D2D6485BDD3 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		5A416389FAB38585639DDCA6 /* LoggedInEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInEvent.swift; sourceTree = "<group>"; };
+		5A4164D34BB6C280BB67BF19 /* WsDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WsDispatcher.swift; sourceTree = "<group>"; };
 		5A4166EF14DD6DB22AD33A7F /* ActionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionProtocol.swift; sourceTree = "<group>"; };
 		5A416706D42629C3FDF5C65E /* ActionDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionDispatcher.swift; sourceTree = "<group>"; };
 		5A41679655338D20727D8558 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +206,7 @@
 		5A416B2576C7E02DE5009B83 /* LoginAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAction.swift; sourceTree = "<group>"; };
 		5A416B8CC9F242D0A6933405 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		5A416BDB0DBC5F6FCFB47D93 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		5A416BE4820120168D3AEE61 /* EventBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBus.swift; sourceTree = "<group>"; };
 		5A416D507CE03944FF76D440 /* ActionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
 		5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRecord.swift; sourceTree = "<group>"; };
 		5A416EE2BB8C4F968A05DBCF /* BodySide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodySide.swift; sourceTree = "<group>"; };
@@ -301,6 +307,15 @@
 			path = Directory;
 			sourceTree = "<group>";
 		};
+		5A4168202C8365030015507A /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				5A416BE4820120168D3AEE61 /* EventBus.swift */,
+				5A416389FAB38585639DDCA6 /* LoggedInEvent.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
 		5A4168859AE010E9A94EF395 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +330,14 @@
 				5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		5A416AF864F1CD8BB19C655F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5A4164D34BB6C280BB67BF19 /* WsDispatcher.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		5A416C2F6A886AF9A5DF34C4 /* Model */ = {
@@ -388,6 +411,8 @@
 				5A416EF5ABC78468764779B3 /* Database */,
 				5A4164010E69D0DCB66900BC /* Base */,
 				5A4168859AE010E9A94EF395 /* UserInterface */,
+				5A416AF864F1CD8BB19C655F /* Network */,
+				5A4168202C8365030015507A /* Event */,
 			);
 			path = iOSDemo;
 			sourceTree = "<group>";
@@ -761,6 +786,9 @@
 				5A4169BC259D7DF1A4011DEC /* ListFacilitiesAction.swift in Sources */,
 				5A416F6978258329CA045F8F /* LoginAction.swift in Sources */,
 				5A416BECD530BAAA684605DB /* SaveFacilityAction.swift in Sources */,
+				5A416049890993E9CE482F89 /* WsDispatcher.swift in Sources */,
+				5A4165016B497DE47EDD6938 /* EventBus.swift in Sources */,
+				5A416CA37CB0207CE870D2AC /* LoggedInEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

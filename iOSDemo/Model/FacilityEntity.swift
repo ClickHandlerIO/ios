@@ -11,6 +11,9 @@ class FacilityEntity: BaseRecord {
     var name: String?
     var bodySide: BodySide?
 
+    // todo save a Date
+    // any other types?
+
     // Ship To Address
     var addressLine1: String?
     var addressLine2: String?

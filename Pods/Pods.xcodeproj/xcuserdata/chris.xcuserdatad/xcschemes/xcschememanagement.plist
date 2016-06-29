@@ -8,41 +8,19 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
-		<key>SQLite.swift.xcscheme</key>
+		<key>ReachabilitySwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>334A9CAA282777C8422B2CFCE01D3119</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F9D943FE885941007B1CC42B52BBC60D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FA8064644C65A826265AD253C0CB8C34</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
