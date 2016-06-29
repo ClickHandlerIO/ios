@@ -7,37 +7,40 @@ import Foundation
 
 class EventBus {
 
-    static var eventRegistration: [String:[NSUUID:((Any) -> Void)]] = [:]
+    static var eventDict: [String:[NSUUID:Any]] = [:]
 
-    static func publish(event: Any) {
-        var er = eventRegistration
+    static func publish<E>(event: E) {
         var eventId = String(event.self)
         if (eventId.containsString(".")) {
             if let last = eventId.componentsSeparatedByString(".").last {
                 eventId = last
             }
         }
-        if let handlerDictionary = eventRegistration[eventId] {
+
+        if let handlerDictionary = eventDict[eventId] {
             dispatch_async(dispatch_get_main_queue(), {
                 for handler in handlerDictionary.values {
-                    handler(event)
+                    if let handlerAction = handler as? ((E) -> Void) {
+                        handlerAction(event)
+                    }
                 }
             })
         }
     }
 
-    static func subscribe<E>(eventType: E.Type, _ handle: ((Any) -> Void)) -> EventRegistration {
+    static func subscribe<E:Any>(eventType: E.Type, _ handle: ((E) -> Void)) -> EventRegistration {
         let eventIdentifier = String(eventType)
-        let newRegistration = EventRegistration(eventIdentifier)
+        let reg = EventRegistration(eventIdentifier)
 
-        var d = eventRegistration[eventIdentifier] ?? [:]
-        d[newRegistration.id] = handle //as! ((Any) -> Void)
-        eventRegistration[eventIdentifier] = d
-        return newRegistration
+        var d = eventDict[eventIdentifier] ?? [:]
+        d[reg.id] = handle
+        eventDict[eventIdentifier] = d
+
+        return reg
     }
 
     static func unsubscribe(r: EventRegistration) {
-        eventRegistration[r.event]?.removeValueForKey(r.id)
+        eventDict[r.event]?.removeValueForKey(r.id)
     }
 }
 

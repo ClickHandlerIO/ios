@@ -2,72 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/ReachabilitySwift.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/ReachabilitySwift/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/ReachabilitySwift/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/ReachabilitySwift/Reachability/Reachability.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReachabilitySwift/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/Event/EventBus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/Event/LoggedInEvent.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/SQLite.swift.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/appletvos/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/appletvsimulator/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/iphoneos/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/iphonesimulator/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/watchos/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/watchsimulator/module.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/Blob.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/Connection.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/SQLite-Bridging.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/SQLite-Bridging.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/Statement.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/Value.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/fts3_tokenizer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Extensions/FTS4.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Extensions/R*Tree.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Foundation.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Helpers.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/SQLite.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/AggregateFunctions.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Collation.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/CoreFunctions.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/CustomFunctions.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Expression.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Operators.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Query.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Schema.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Setter.swift" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.modulemap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.xcconfig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ios.iml" afterPath="$PROJECT_DIR$/.idea/ios.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/Pods-iOSDemo.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/Pods-iOSDemo.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/SwiftyJSON.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/SwiftyJSON.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift" afterPath="$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Event/EventBus.swift" afterPath="$PROJECT_DIR$/iOSDemo/Event/EventBus.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" afterPath="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" />
     </list>
     <ignored path="ios.iws" />
@@ -94,8 +30,8 @@
           <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+                <state relative-caret-position="465">
+                  <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
                   <folding>
                     <element signature="e#144#156#0" expanded="true" />
                   </folding>
@@ -113,21 +49,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ActionDispatcher.swift" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift">
+          <file leaf-file-name="UIViewControllerExtension.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Base/UIViewControllerExtension.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LoggedInEvent.swift" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/Event/LoggedInEvent.swift">
+          <file leaf-file-name="ActionDispatcher.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -140,8 +76,8 @@
           <file leaf-file-name="EventBus.swift" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iOSDemo/Event/EventBus.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+                <state relative-caret-position="705">
+                  <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -180,8 +116,8 @@
         <option value="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Base/EventBus.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Event/LoggedInEvent.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Event/EventBus.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Event/EventBus.swift" />
       </list>
     </option>
   </component>
@@ -622,7 +558,21 @@
       <option name="project" value="LOCAL" />
       <updated>1467219259523</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add pod for reachability. basic event bus">
+      <created>1467237484287</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1467237484287</updated>
+    </task>
+    <task id="LOCAL-00024" summary="checkpoint">
+      <created>1467237991548</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1467237991548</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -635,7 +585,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2898113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754716" sideWeight="0.5040201" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32754716" sideWeight="0.4959799" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18490566" sideWeight="0.4959799" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754716" sideWeight="0.4971187" order="7" side_tool="false" content_ui="tabs" />
@@ -694,16 +644,17 @@
     <MESSAGE value="db and encryption working!" />
     <MESSAGE value="facility record" />
     <MESSAGE value="general action working" />
-    <MESSAGE value="checkpoint" />
     <MESSAGE value="notes" />
     <MESSAGE value="enum persistence" />
     <MESSAGE value="database pools" />
     <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <MESSAGE value="add pod for reachability. basic event bus" />
+    <MESSAGE value="checkpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkpoint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="49" />
+      <option name="time" value="52" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -935,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/UIViewControllerExtension.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Directory/Facility/ListFacilitiesAction.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -977,10 +920,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/AppDelegate.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/UIViewControllerExtension.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Event/LoggedInEvent.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -993,29 +952,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/AppDelegate.swift">
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Event/EventBus.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="465">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding>
             <element signature="e#144#156#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Event/EventBus.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -17,10 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
 
-        registration = EventBus.subscribe(LoggedInEvent.self) { e in
-            if let event = e as? LoggedInEvent {
+        registration = EventBus.subscribe(LoggedInEvent.self) { (event: LoggedInEvent) in
                 print("Received Event!", event.username)
-            }
         }
 
         let btn:UIButton = UIButton(frame: CGRectMake(100, 400, 100, 50))
