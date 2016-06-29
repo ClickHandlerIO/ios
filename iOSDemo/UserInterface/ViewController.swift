@@ -11,18 +11,19 @@ import GRDBCipher
 
 class ViewController: UIViewController {
     var fetchOp: NSOperation?
+    var registration: EventRegistration?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
 
-        EventBus.subscribe(LoggedInEvent.self) { e in
-            let event = e as! LoggedInEvent
-            print("Received Event!", event.username)
+        registration = EventBus.subscribe(LoggedInEvent.self) { e in
+            if let event = e as? LoggedInEvent {
+                print("Received Event!", event.username)
+            }
         }
 
         let btn:UIButton = UIButton(frame: CGRectMake(100, 400, 100, 50))
-//        btn.frame = CGRectMake(300,300,300,500)
         btn.setTitle("Fire Event", forState: .Normal)
         btn.setTitleColor(UIColor.blueColor(), forState: .Normal)
         btn.addTarget(self, action:#selector(fireEvent), forControlEvents: .TouchUpInside)
@@ -45,6 +46,7 @@ class ViewController: UIViewController {
 
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
+        registration?.unsubscribe()
         if let op = fetchOp {
             op.cancel()
         }

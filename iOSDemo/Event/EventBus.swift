@@ -26,12 +26,12 @@ class EventBus {
         }
     }
 
-    static func subscribe<E:Any>(eventType: E.Type, _ handle: ((Any) -> Void)) -> EventRegistration {
+    static func subscribe<E>(eventType: E.Type, _ handle: ((Any) -> Void)) -> EventRegistration {
         let eventIdentifier = String(eventType)
         let newRegistration = EventRegistration(eventIdentifier)
 
         var d = eventRegistration[eventIdentifier] ?? [:]
-        d[newRegistration.id] = handle
+        d[newRegistration.id] = handle //as! ((Any) -> Void)
         eventRegistration[eventIdentifier] = d
         return newRegistration
     }
