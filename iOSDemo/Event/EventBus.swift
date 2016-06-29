@@ -44,7 +44,7 @@ class EventBus {
     }
 }
 
-struct EventRegistration {
+class EventRegistration {
     var event: String
     var id: NSUUID
 

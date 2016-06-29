@@ -67,9 +67,11 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Base/BaseRecord.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/BodySide.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Database/DatabaseManager.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Base/UIViewControllerExtension.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Base/AssociatedObjectFunc.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseTableViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/TODO.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/GRDB-Bridging.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLCollation.swift" isTestSource="false" />

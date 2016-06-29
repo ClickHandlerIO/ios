@@ -9,27 +9,26 @@
 import UIKit
 import GRDBCipher
 
-class ViewController: UIViewController {
-    var fetchOp: NSOperation?
-    var registration: EventRegistration?
+class ViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
 
-        registration = EventBus.subscribe(LoggedInEvent.self) { (event: LoggedInEvent) in
-                print("Received Event!", event.username)
-        }
-
-        let btn:UIButton = UIButton(frame: CGRectMake(100, 400, 100, 50))
+        let btn: UIButton = UIButton(frame: CGRectMake(100, 400, 100, 50))
         btn.setTitle("Fire Event", forState: .Normal)
         btn.setTitleColor(UIColor.blueColor(), forState: .Normal)
-        btn.addTarget(self, action:#selector(fireEvent), forControlEvents: .TouchUpInside)
+        btn.addTarget(self, action: #selector(fireEvent), forControlEvents: .TouchUpInside)
         self.view.addSubview(btn)
     }
 
-    func fireEvent() {
-        EventBus.publish(LoggedInEvent("Jane Doe"))
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+
+        subscribe(LoggedInEvent.self) {
+            (event: LoggedInEvent) in
+            print("Received Event!", event.username)
+        }
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -42,16 +41,13 @@ class ViewController: UIViewController {
         }
     }
 
-    override func viewWillDisappear(animated: Bool) {
-        super.viewWillDisappear(animated)
-        registration?.unsubscribe()
-        if let op = fetchOp {
-            op.cancel()
-        }
+    func fireEvent() {
+        EventBus.publish(LoggedInEvent("Jane Doe"))
+        loadData()
     }
 
     func loadData() {
-        fetchOp = dispatch(ListAction.Request("search text"), ListAction.self) {
+        dispatch(ListAction.Request("search text"), ListAction.self) {
             (response: ListAction.Response) in
             print(response.code)
             if let datas = response.data {
