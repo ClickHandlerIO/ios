@@ -22,11 +22,6 @@ protocol DatabaseActionProtocol: ActionProtocol {
 extension DatabaseActionProtocol {
     static func run(request: Request, operation: NSOperation, onCompletion: ((Response) -> Void)) {
         do {
-            // db conn config / open (todo move this)
-//            var config = Configuration()
-//            config.passphrase = "passme"
-//            let dbQueue = try DatabaseQueue(path: getDbPath(), configuration: config)
-
             switch actionType() {
             case .General:
                 fatalError("General ActionType is invalid for DatabaseActionProtocol implementation")
@@ -47,19 +42,4 @@ extension DatabaseActionProtocol {
             print("DatabaseActionProtocol empty error")
         }
     }
-
-//    static func getDbPath() -> String {
-//        let documentsDir = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
-//        var path = documentsDir + "/db"
-//
-//        if !NSFileManager.defaultManager().fileExistsAtPath(path) {
-//            do {
-//                try NSFileManager.defaultManager().createDirectoryAtPath(path, withIntermediateDirectories: true, attributes: nil)
-//            } catch {
-//                print("Failed to create directory: " + path)
-//            }
-//        }
-//        path += "/snowreport5.sqlite"
-//        return path;
-//    }
 }

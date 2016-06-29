@@ -10,7 +10,8 @@ class FacilityEntity: BaseRecord {
     var id: String?
     var name: String?
     var bodySide: BodySide?
-    // Address
+
+    // Ship To Address
     var addressLine1: String?
     var addressLine2: String?
     var addressLine3: String?

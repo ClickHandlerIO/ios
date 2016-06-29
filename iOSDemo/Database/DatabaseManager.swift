@@ -18,14 +18,17 @@ class DatabaseManager {
         // todo disconnect
     }
 
-    func connect() -> Bool {
+    // todo make this async with callback
+    func open() -> Bool {
         var config = Configuration()
         config.passphrase = key
         config.fileAttributes = [NSFileProtectionKey: NSFileProtectionComplete]
         config.foreignKeysEnabled = false
+        config.maximumReaderCount = 10
+        // config this as a dev mode thing
         config.trace = {
             print($0)
-        } // config this as a dev mode thing
+        }
 
         do {
             dbPool = try DatabasePool(path: getDbPath(), configuration: config)
@@ -37,11 +40,8 @@ class DatabaseManager {
         }
     }
 
-    func disconnect() {
-//        if let q = queue {
-//             todo close
-//        }
-//        queue = nil
+    func close() {
+        dbPool = nil
     }
 
     func rekey(passphrase: String) {

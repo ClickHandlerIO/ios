@@ -10,31 +10,34 @@ import UIKit
 import GRDBCipher
 
 class ViewController: UIViewController {
+    var fetchOp: NSOperation?
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
 
-        if (DatabaseManager.instance.connect()) {
+        if (DatabaseManager.instance.open()) {
             dispatch(SchemaAction.Request(), SchemaAction.self, nil)
             dispatch(WriteAction.Request(), WriteAction.self, nil)
-            dispatch(ListAction.Request("search text"), ListAction.self) {
-                (response: ListAction.Response) in
-                switch response.code {
-                case .SUCCESS:
-                    print("success")
-                case .FAILED:
-                    print("failure")
-                default:
-                    print("default here")
-                }
+            loadData()
+        }
+    }
 
-                if let datas = response.data {
-                    for s in datas {
-                        print(s.name, s.bodySide)
-                    }
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        if let op = fetchOp {
+            op.cancel()
+        }
+    }
+
+    func loadData() {
+        fetchOp = dispatch(ListAction.Request("search text"), ListAction.self) {
+            (response: ListAction.Response) in
+            print(response.code)
+            if let datas = response.data {
+                for s in datas {
+                    print(s.name, s.bodySide)
                 }
             }
-
         }
     }
 
