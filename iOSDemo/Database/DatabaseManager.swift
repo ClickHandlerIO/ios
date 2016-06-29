@@ -12,7 +12,7 @@ class DatabaseManager {
     private var key: String = "passme"
     // todo where / how to store encryption key for the db. as well as trigger re-key
     private var databaseFolder = "/db"
-    private var databaseFileName = "/movemedical2.sqlite"
+    private var databaseFileName = "/movemedical3.sqlite"
 
     deinit {
         // todo disconnect

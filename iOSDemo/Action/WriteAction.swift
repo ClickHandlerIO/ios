@@ -23,6 +23,7 @@ struct WriteAction: DatabaseActionProtocol {
         let facility = FacilityEntity()
         facility.id = "c"
         facility.name = "ScrippsC"
+        facility.bodySide = .BILATERAL
 
         var addr = Address()
         addr.line1 = "Aln1"

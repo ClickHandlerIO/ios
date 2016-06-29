@@ -9,6 +9,12 @@
 import UIKit
 import GRDBCipher
 
+extension UIViewController {
+    func dispatch<Request, Response, Action:ActionProtocol where Action.Request == Request, Action.Response == Response>(request: Request, _ action: Action.Type, _ callback: ((Response) -> (Void))?) -> NSOperation {
+        return ActionDispatcher.instance.queue(request, action, callback)
+    }
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -96,7 +102,7 @@ class ViewController: UIViewController {
 
                 if let datas = response.data {
                     for s in datas {
-                        print(s.name)
+                        print(s.name, s.bodySide)
                     }
                 }
             }
