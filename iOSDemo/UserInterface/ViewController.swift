@@ -46,7 +46,12 @@ class ViewController: BaseViewController {
         loadData()
 
         WsDispatcher.instance.send(LoginRequest()) {
-            (response: LoginResponse) in
+            (response: LoginResponse?) in
+            guard let response = response else {
+                print("Response is nil!")
+                return
+            }
+
             print("HERE!", response.code)
         }
     }

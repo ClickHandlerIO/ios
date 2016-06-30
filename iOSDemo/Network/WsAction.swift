@@ -6,8 +6,8 @@
 import Foundation
 import SwiftyJSON
 
-protocol WsRequest {
-    associatedtype Response
+protocol WsRequest: AnyObject {
+    associatedtype Response: AnyObject
 
     static func getPath() -> String
 

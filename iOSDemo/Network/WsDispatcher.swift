@@ -13,6 +13,8 @@ class WsDispatcher: WebSocketDelegate {
 
     var reachability: Reachability?
     let socket = WebSocket(url: NSURL(string: apiURL)!, protocols: ["chat", "superchat"])
+    var callMap: [NSUUID:((String?) -> Void)?] = [:]
+    var queue: [(message:String, onResponse:((String?) -> Void)?)] = []
 
     func start() {
         startMonitoringReachability()
@@ -60,26 +62,46 @@ class WsDispatcher: WebSocketDelegate {
         // pass this to the front of the queue
     }
 
-    func send<REQ, RESP where REQ:WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP) -> Void)?) {
+    func send<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
 
         if !REQ.isQueueable() {
             if isWsConnected() {
-                // todo send request now
-            }else {
-                // todo send failure now (null response?)
+//                sendNow(request, onResponse)
+            } else {
+                if let onResponse = onResponse {
+                    onResponse(nil)
+                }
             }
             return
         }
 
         if !isWsConnected() {
-            // todo add to queue
+            // todo queue
+//            if let request = request as? AnyObject {
+//                if let onResponse = onResponse as? ((AnyObject?) -> Void)? {
+//                    queue.append((request: request, onResponse: onResponse))
+//                }
+//            }
             return
         }
 
-        // todo send now
+//        sendNow(request, onResponse)
+    }
+
+    func sendNow<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
+
+    }
+
+    private func sendMessage(message: String, _ onResponse: ((String?) -> Void)?) {
+        let uuid = NSUUID()
+        if let onResponse = onResponse {
+            callMap[uuid] = onResponse
+        }
+        socket.writeString(message)
     }
 
     func emptyWsQueue() {
+        // todo go through queue and pass nil for all response
         // todo remove all req in queue
     }
 
