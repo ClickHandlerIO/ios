@@ -60,6 +60,7 @@ class WsDispatcher: WebSocketDelegate {
         }
 
         callMap[messageId]?(wsMessage.body)
+        callMap.removeValueForKey(messageId)
     }
 
     func websocketDidReceiveData(socket: WebSocket, data: NSData) {
@@ -69,13 +70,12 @@ class WsDispatcher: WebSocketDelegate {
         return socket.isConnected
     }
 
-    func login(loginAction: AnyObject) {
-        // pass this to the front of the queue
-    }
-
     func send<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
         let messageId = getNextRequestId()
-        let message = getRequestMessage(request, messageId)
+        guard let message = getRequestMessage(request, messageId) else {
+            print("Error, attempting to send nil message")
+            return
+        }
         let messageCallback = getMessageCallback(onResponse)
 
         if !REQ.isQueueable() {
@@ -97,9 +97,12 @@ class WsDispatcher: WebSocketDelegate {
         sendMessage(message, messageId, messageCallback)
     }
 
-    private func getRequestMessage<REQ:WsRequest>(request: REQ, _ requestId: Int) -> String {
-        // todo
-        return ""
+    private func getRequestMessage<REQ:WsRequest>(request: REQ, _ requestId: Int) -> String? {
+        let header = WsHeader()
+        header.method = WsMethod.IN.rawValue
+        header.id = requestId
+        header.type = REQ.getPath()
+        return WsMessage(header: header, body: request.stringify()).encode()
     }
 
     private func getMessageCallback<RESP:JSONSerializable>(onResponse: ((RESP?) -> Void)?) -> ((String?) -> Void)? {
