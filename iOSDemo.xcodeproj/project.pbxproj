@@ -11,6 +11,7 @@
 		5A416049890993E9CE482F89 /* WsDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4164D34BB6C280BB67BF19 /* WsDispatcher.swift */; };
 		5A41622DEB96AF0AE1A6FD2C /* SchemaAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4162379A06268DA226F227 /* SchemaAction.swift */; };
 		5A4163CD086B346FD1412949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41679655338D20727D8558 /* ViewController.swift */; };
+		5A416450E05CC6B2D23F8564 /* ReachabilityChangedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4164A9C2D297FE9FF29E62 /* ReachabilityChangedEvent.swift */; };
 		5A416474C9931F60789F407A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416185F38FD7A4DA9512C9 /* BaseViewController.swift */; };
 		5A4165016B497DE47EDD6938 /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416BE4820120168D3AEE61 /* EventBus.swift */; };
 		5A4167026B448C42AFDDD7D2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41634208C37D2D6485BDD3 /* Address.swift */; };
@@ -200,6 +201,7 @@
 		5A4162379A06268DA226F227 /* SchemaAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaAction.swift; sourceTree = "<group>"; };
 		5A41634208C37D2D6485BDD3 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		5A416389FAB38585639DDCA6 /* LoggedInEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInEvent.swift; sourceTree = "<group>"; };
+		5A4164A9C2D297FE9FF29E62 /* ReachabilityChangedEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityChangedEvent.swift; sourceTree = "<group>"; };
 		5A4164D34BB6C280BB67BF19 /* WsDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WsDispatcher.swift; sourceTree = "<group>"; };
 		5A4166563E0CFE0567EB984B /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		5A4166EF14DD6DB22AD33A7F /* ActionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionProtocol.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 			isa = PBXGroup;
 			children = (
 				5A4164D34BB6C280BB67BF19 /* WsDispatcher.swift */,
+				5A4164A9C2D297FE9FF29E62 /* ReachabilityChangedEvent.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -805,6 +808,7 @@
 				5A416BBBBE7DCB24DCCBCEE0 /* AssociatedObjectFunc.swift in Sources */,
 				5A416474C9931F60789F407A /* BaseViewController.swift in Sources */,
 				5A416DC0507FC41B02057D41 /* BaseTableViewController.swift in Sources */,
+				5A416450E05CC6B2D23F8564 /* ReachabilityChangedEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

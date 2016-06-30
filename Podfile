@@ -2,6 +2,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'iOSDemo' do
+  pod 'Starscream', '~>1.1.3'
   pod 'SwiftyJSON', '~> 2.3'
   pod 'ReachabilitySwift', '~> 2.3'
   pod 'Locksmith', '~> 2.0.8'

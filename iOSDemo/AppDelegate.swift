@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         if let w = window {
+            // start up ws dispatcher
+            WsDispatcher.instance.startMonitoringReachability()
+
             w.rootViewController = UINavigationController(rootViewController: ViewController())
             w.makeKeyAndVisible()
         }
