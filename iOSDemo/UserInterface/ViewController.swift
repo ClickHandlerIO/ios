@@ -45,14 +45,18 @@ class ViewController: BaseViewController {
 //        EventBus.publish(LoggedInEvent("Jane Doe"))
         loadData()
 
-        WsDispatcher.instance.send(LoginRequest()) {
-            (response: LoginResponse?) in
+        let loginRequest = WsLogin.Request()
+        loginRequest.email = "jjohnson@integralife.com"
+        loginRequest.password = "passme"
+
+        WsDispatcher.instance.send(loginRequest) {
+            (response: WsLogin.Response?) in
             guard let response = response else {
                 print("Response is nil!")
                 return
             }
 
-            print("HERE!", response.code)
+            print("HERE!", response.code, response.sessionId)
         }
     }
 
