@@ -321,7 +321,34 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-USER.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB.xcodeproj" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/CHANGELOG.md" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Zone.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Month.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Year.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Period.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTime.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDateTime.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTimeError.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Clock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Duration.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Instant.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalTime.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DayOfWeek.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithInternetProtocol.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Dictionary_Initializers.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithError.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithAccessibleOption.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithInternetAuthenticationType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Locksmith.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithSecurityClass.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Locksmith.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReachabilitySwift/Reachability/Reachability.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" isTestSource="false" />
@@ -332,19 +359,64 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftDate/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReachabilitySwift/Reachability/Reachability.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Region.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Equations.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Operations.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeZone+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateFormatter+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+NSDatePort.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateComponents+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Dictionary+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateInterval.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Components.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Additions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Formatter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSCalendar+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSLocale+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeInterval+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+StartEnd.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Comparisons.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDate+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Duration.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/SwiftMoment.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Moment.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Extensions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/TimeUnit.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Operators.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

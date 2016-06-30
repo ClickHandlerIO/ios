@@ -84,10 +84,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/DateTimeKit/DateTimeKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Locksmith/Locksmith.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ReachabilitySwift/ReachabilitySwift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftDate/SwiftDate.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftMoment/SwiftMoment.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/DateTimeKit/DateTimeKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Locksmith/Locksmith.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ReachabilitySwift/ReachabilitySwift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftDate/SwiftDate.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SwiftMoment/SwiftMoment.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftyJSON/SwiftyJSON.framework"
 fi

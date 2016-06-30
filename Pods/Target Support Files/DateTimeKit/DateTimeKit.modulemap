@@ -1,0 +1,6 @@
+framework module DateTimeKit {
+  umbrella header "DateTimeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

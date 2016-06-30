@@ -1,15 +1,36 @@
 PODS:
+  - DateTimeKit (1.0.0)
+  - Locksmith (2.0.8)
   - ReachabilitySwift (2.3.3)
+  - SwiftDate (3.0.8)
+  - SwiftMoment (0.5.1)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
+  - DateTimeKit (from `https://github.com/edwardaux/DateTimeKit.git`)
+  - Locksmith (~> 2.0.8)
   - ReachabilitySwift (~> 2.3)
+  - SwiftDate (~> 3.0.8)
+  - SwiftMoment (~> 0.5.1)
   - SwiftyJSON (~> 2.3)
 
+EXTERNAL SOURCES:
+  DateTimeKit:
+    :git: https://github.com/edwardaux/DateTimeKit.git
+
+CHECKOUT OPTIONS:
+  DateTimeKit:
+    :commit: d8e2f7db673981cc73469678b3aba48c75bd6321
+    :git: https://github.com/edwardaux/DateTimeKit.git
+
 SPEC CHECKSUMS:
+  DateTimeKit: 3fab8dadfd09363254fe7c9a348eb0558a11b493
+  Locksmith: a8ed41ac4c06506ea8cb199d8ec8a8d3d108eb2a
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
+  SwiftDate: 971f8b9394f664f2226b9c3ab64e801a7291c612
+  SwiftMoment: 469c0734b5d4d6631a15a91f8093cf436c3cbb7c
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 599c31794938ea54d10e65ecdaca25617437840a
+PODFILE CHECKSUM: cd2dc34918f2afae2e2741b34eca19db8d57f93e
 
 COCOAPODS: 1.0.1

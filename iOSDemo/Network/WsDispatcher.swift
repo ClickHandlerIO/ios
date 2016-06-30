@@ -8,5 +8,5 @@ import Foundation
 class WsDispatcher {
     static let instance = WsDispatcher()
 
-    // todo
+    // todo reachability
 }

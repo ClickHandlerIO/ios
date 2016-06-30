@@ -1,0 +1,28 @@
+{
+  "name": "DateTimeKit",
+  "version": "1.0.0",
+  "summary": "DateTimeKit is a Swift library that provides simple, easy-to-use date, time and timezone manipulation.",
+  "description": "DateTimeKit is a Swift library that provides simple, easy-to-use date, time and timezone manipulation.\nThe ideas behind DateTimeKit are quite heavily influenced by the JodaTime library.\n\nDateTimeKit removes the dependence on NSDate and NSCalendar and provides a new set of objects in their\nplace.",
+  "homepage": "https://github.com/edwardaux/DateTimeKit",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Daniele Margutti": "me@danielemargutti.com",
+    "Craig Edwards": "edwardaux",
+    "Zacharias Beckman": "zbeckman@HyraxLLC.com"
+  },
+  "source": {
+    "git": "https://github.com/edwardaux/DateTimeKit.git",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "DateTimeKit",
+    "DateTimeKit/**/*.{swift,h,m}"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.9"
+  }
+}
