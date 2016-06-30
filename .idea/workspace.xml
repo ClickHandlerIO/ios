@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ios.iml" afterPath="$PROJECT_DIR$/.idea/ios.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Network/WsAction.swift" afterPath="$PROJECT_DIR$/iOSDemo/Network/WsAction.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" afterPath="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" afterPath="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift" afterPath="$PROJECT_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift" />
     </list>
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +32,20 @@
           <file leaf-file-name="WsAction.swift" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iOSDemo/Network/WsAction.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
-                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#104#121#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JSONSerializable.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
                   <folding>
                     <element signature="e#104#121#0" expanded="true" />
                   </folding>
@@ -89,8 +102,18 @@
           <file leaf-file-name="WsDispatcher.swift" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-45">
-                  <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+                <state relative-caret-position="654">
+                  <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StringExtensions.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -148,8 +171,10 @@
         <option value="$PROJECT_DIR$/iOSDemo/Event/SessionStatusChangedEvent.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/SessionManager.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/WsAction.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
       </list>
     </option>
   </component>
@@ -730,7 +755,21 @@
       <option name="project" value="LOCAL" />
       <updated>1467316121152</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="checkpoint">
+      <created>1467319727780</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1467319727780</updated>
+    </task>
+    <task id="LOCAL-00031" summary="checkpoint">
+      <created>1467320321970</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1467320321970</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -807,13 +846,13 @@
     <MESSAGE value="database pools" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="add pod for reachability. basic event bus" />
-    <MESSAGE value="checkpoint" />
     <MESSAGE value="event bus working" />
     <MESSAGE value="base view controller wip" />
     <MESSAGE value="add pods" />
     <MESSAGE value="reachability" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="checkpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkpoint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -822,7 +861,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/Value.swift" />
     <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/CustomFunctions.swift" />
     <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/AggregateFunctions.swift" />
     <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Query.swift" />
@@ -1039,16 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#155#172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Network/WsConnectivityChangedEvent.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1139,21 +1167,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift">
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Network/WsAction.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
           <folding>
             <element signature="e#104#121#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="139" column="31" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

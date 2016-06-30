@@ -309,6 +309,7 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/ReachabilityChangedEvent.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/WsDispatcher.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/SessionManager.swift" isTestSource="false" />

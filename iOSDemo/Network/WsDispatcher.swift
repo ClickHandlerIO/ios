@@ -14,7 +14,7 @@ class WsDispatcher: WebSocketDelegate {
     var reachability: Reachability?
     let socket = WebSocket(url: NSURL(string: apiURL)!, protocols: ["chat", "superchat"])
     var callMap: [NSUUID:((String?) -> Void)?] = [:]
-    var queue: [(message:String, onResponse:((String?) -> Void)?)] = []
+    var queue: [(message:String, messageCallback:((String?) -> Void)?)] = []
 
     func start() {
         startMonitoringReachability()
@@ -63,18 +63,12 @@ class WsDispatcher: WebSocketDelegate {
     }
 
     func send<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
-
-        /*let onStringResponse = {
-            (message: String) in
-            // todo deserialize into RESP
-//            let onResponse = onResponse {
-//                onResponse(nil) // todo pass in
-//            }
-        }*/
+        let message = getRequestMessage(request)
+        let messageCallback = getMessageCallback(onResponse)
 
         if !REQ.isQueueable() {
             if isWsConnected() {
-//                sendNow(request, onResponse)
+                sendMessage(message, messageCallback)
             } else {
                 if let onResponse = onResponse {
                     onResponse(nil)
@@ -84,20 +78,33 @@ class WsDispatcher: WebSocketDelegate {
         }
 
         if !isWsConnected() {
-            // todo queue
-//            if let request = request as? AnyObject {
-//                if let onResponse = onResponse as? ((AnyObject?) -> Void)? {
-//                    queue.append((request: request, onResponse: onResponse))
-//                }
-//            }
+            queue.append((message: message, messageCallback: messageCallback))
             return
         }
 
-//        sendNow(request, onResponse)
+        sendMessage(message, messageCallback)
     }
 
-    func sendNow<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
+    private func getRequestMessage<REQ:WsRequest>(request: REQ) -> String {
+        // todo
+        return ""
+    }
 
+    private func getMessageCallback<RESP:JSONSerializable>(onResponse: ((RESP?) -> Void)?) -> ((String?) -> Void)? {
+        guard let onResponse = onResponse else {
+            return nil
+        }
+
+        return {
+            (message: String?) in
+            var response: RESP?
+            if let message = message {
+                if let json = message.toJSON() {
+                    response = RESP(json: json)
+                }
+            }
+            onResponse(response)
+        }
     }
 
     private func sendMessage(message: String, _ onResponse: ((String?) -> Void)?) {
@@ -108,20 +115,29 @@ class WsDispatcher: WebSocketDelegate {
         socket.writeString(message)
     }
 
-    func emptyWsQueue() {
-        // todo go through queue and pass nil for all response
-        // todo remove all req in queue
+    func emptyWsQueue(fireCallbacks: Bool = true) {
+        if (fireCallbacks) {
+            for q in queue {
+                if let callback = q.messageCallback {
+                    callback(nil)
+                }
+            }
+        }
+        queue.removeAll()
     }
 
     func flushWsQueue() {
-        // todo send all queued ws events
+        for q in queue {
+            sendMessage(q.message, q.messageCallback)
+        }
+        queue.removeAll()
     }
 
     func onLoginSuccess(sameUser: Bool) {
         if (sameUser) {
-            // todo flush the queue
+            flushWsQueue()
         } else {
-            emptyWsQueue()
+            emptyWsQueue(false)
         }
     }
 

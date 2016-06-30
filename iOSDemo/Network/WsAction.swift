@@ -8,7 +8,7 @@ import SwiftyJSON
 
 
 protocol WsRequest: JSONSerializable {
-    associatedtype Response: AnyObject
+    associatedtype Response: JSONSerializable
 
     static func getPath() -> String
 
