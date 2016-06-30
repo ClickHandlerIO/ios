@@ -2,142 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/Clock.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/DateTime.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/DateTimeError.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/DayOfWeek.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/Duration.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/Instant.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDateTime.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/LocalTime.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/Month.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/Period.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/Year.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/DateTimeKit/Zone.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/DateTimeKit/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/DateTimeKit.podspec.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/Dictionary_Initializers.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/Locksmith.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/Locksmith.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/LocksmithAccessibleOption.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/LocksmithError.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/LocksmithInternetAuthenticationType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/LocksmithInternetProtocol.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Locksmith/Source/LocksmithSecurityClass.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/DateTimeKit.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/Locksmith.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/SwiftDate.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/SwiftMoment.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/Additions.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Comparisons.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Components.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Equations.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Formatter.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+NSDatePort.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Operations.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+StartEnd.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/Dictionary+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSCalendar+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDate+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateComponents+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateFormatter+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateInterval.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSLocale+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeInterval+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeZone+SwiftDate.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftDate/Sources/SwiftDate/Region.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Duration.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Extensions.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Moment.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/Root.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/ar.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/bg.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/cs.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/da.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/de.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/en.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/en_US.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/es.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/fi.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/fr.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/gre.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/he.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/hu.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/is.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/it.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/ja.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/ko.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/lv.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/ms.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/nb.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/nl.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/pl.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/pt-PT.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/pt.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/ro.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/ru.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/sk.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/sq.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/sv.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/th.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/tr.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/uk.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/vi.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/zh-Hans.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle/zh-Hant.lproj/NSDateTimeAgo.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Operators.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/SwiftMoment.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/TimeUnit.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/DateTimeKit/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Locksmith/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Locksmith/Locksmith-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Locksmith/Locksmith-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Locksmith/Locksmith-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Locksmith/Locksmith.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Locksmith/Locksmith.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftDate/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftDate/SwiftDate.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftMoment/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-dummy.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-umbrella.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment.modulemap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ios.iml" afterPath="$PROJECT_DIR$/.idea/ios.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo.xcworkspace/xcuserdata/chris.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/iOSDemo.xcworkspace/xcuserdata/chris.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/Pods-iOSDemo.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/Pods-iOSDemo.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/ReachabilitySwift.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/ReachabilitySwift.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/SwiftyJSON.xcscheme" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/SwiftyJSON.xcscheme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/chris.xcuserdatad/xcschemes/xcschememanagement.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" afterPath="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" />
     </list>
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,19 +40,16 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Project Settings" pinned="false" current-in-tab="true">
-            <entry file="appcode.project-settings://88627a3">
-              <provider selected="true" editor-type-id="AppCode.ProjectSettings">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UIKit.UITableViewController.swift" pinned="false" current-in-tab="false">
+          <file leaf-file-name="UIKit.UITableViewController.swift" pinned="false" current-in-tab="true">
             <entry file="mock:///UIKit.UITableViewController.swift">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="420">
                   <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-                  <folding />
+                  <folding>
+                    <marker date="0" expanded="false" signature="0:30" ph="import ..." />
+                    <marker date="0" expanded="true" signature="32:568" ph="//..." />
+                    <marker date="0" expanded="true" signature="691:1140" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -290,13 +155,30 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Podfile" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Podfile" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Podfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Info.plist" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Info.plist">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Project Settings" pinned="false" current-in-tab="true">
+            <entry file="appcode.project-settings://88627a3">
+              <provider selected="true" editor-type-id="AppCode.ProjectSettings">
+                <state />
               </provider>
             </entry>
           </file>
@@ -416,24 +298,6 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iOSDemo" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iOSDemo" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserInterface" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -446,6 +310,22 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///repos/ClickHandlerIO/ios/iOSDemo/Action/ActionBase.swift" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="468" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="478" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="482" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1267" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="468" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="478" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="482" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1267" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -781,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467242442627</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add pods">
+      <created>1467307915522</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1467307915522</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,10 +678,10 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11468225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2898113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2898113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754716" sideWeight="0.5040201" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18490566" sideWeight="0.4959799" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18490566" sideWeight="0.4959799" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754716" sideWeight="0.4971187" order="7" side_tool="false" content_ui="tabs" />
@@ -861,7 +748,8 @@
     <MESSAGE value="checkpoint" />
     <MESSAGE value="event bus working" />
     <MESSAGE value="base view controller wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="base view controller wip" />
+    <MESSAGE value="add pods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -959,14 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-722">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Info.plist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,14 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1188,6 +1060,22 @@
           <folding>
             <element signature="e#144#156#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
