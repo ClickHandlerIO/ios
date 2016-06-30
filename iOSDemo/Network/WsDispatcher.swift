@@ -13,8 +13,9 @@ class WsDispatcher: WebSocketDelegate {
 
     var reachability: Reachability?
     let socket = WebSocket(url: NSURL(string: apiURL)!, protocols: ["chat", "superchat"])
-    var callMap: [NSUUID:((String?) -> Void)?] = [:]
-    var queue: [(message:String, messageCallback:((String?) -> Void)?)] = []
+    var requestCounter: Int = 0;
+    var callMap: [Int:((String?) -> Void)] = [:]
+    var queue: [(messageId:Int, message:String, messageCallback:((String?) -> Void)?)] = []
 
     func start() {
         startMonitoringReachability()
@@ -38,8 +39,8 @@ class WsDispatcher: WebSocketDelegate {
         if (SessionManager.instance.loggedIn) {
             // todo autologin if possible (look at session manager to see if currently logged in)
 
-            // todo if login successfuly flush the queue
-            // if login not successful set loggedIn to false (will fire event so the UI can handle accordingly
+            // todo if login successfuly flush the queue (same user)
+            // if login not successful set loggedIn to false (will fire event so the UI can handle accordingly)
         }
     }
 
@@ -48,7 +49,17 @@ class WsDispatcher: WebSocketDelegate {
     }
 
     func websocketDidReceiveMessage(socket: WebSocket, text: String) {
-        // todo handle recieving inbound
+        guard let wsMessage = WsMessage.decode(text) else {
+            print("Unable to decode WsMessage: " + text)
+            return
+        }
+
+        guard let messageId = wsMessage.header?.id else {
+            print("WsMessage has no id: " + text)
+            return
+        }
+
+        callMap[messageId]?(wsMessage.body)
     }
 
     func websocketDidReceiveData(socket: WebSocket, data: NSData) {
@@ -63,12 +74,13 @@ class WsDispatcher: WebSocketDelegate {
     }
 
     func send<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
-        let message = getRequestMessage(request)
+        let messageId = getNextRequestId()
+        let message = getRequestMessage(request, messageId)
         let messageCallback = getMessageCallback(onResponse)
 
         if !REQ.isQueueable() {
             if isWsConnected() {
-                sendMessage(message, messageCallback)
+                sendMessage(message, messageId, messageCallback)
             } else {
                 if let onResponse = onResponse {
                     onResponse(nil)
@@ -78,14 +90,14 @@ class WsDispatcher: WebSocketDelegate {
         }
 
         if !isWsConnected() {
-            queue.append((message: message, messageCallback: messageCallback))
+            queue.append((messageId: messageId, message: message, messageCallback: messageCallback))
             return
         }
 
-        sendMessage(message, messageCallback)
+        sendMessage(message, messageId, messageCallback)
     }
 
-    private func getRequestMessage<REQ:WsRequest>(request: REQ) -> String {
+    private func getRequestMessage<REQ:WsRequest>(request: REQ, _ requestId: Int) -> String {
         // todo
         return ""
     }
@@ -103,14 +115,15 @@ class WsDispatcher: WebSocketDelegate {
                     response = RESP(json: json)
                 }
             }
-            onResponse(response)
+            dispatch_async(dispatch_get_main_queue(), {
+                onResponse(response)
+            })
         }
     }
 
-    private func sendMessage(message: String, _ onResponse: ((String?) -> Void)?) {
-        let uuid = NSUUID()
+    private func sendMessage(message: String, _ messageId: Int, _ onResponse: ((String?) -> Void)?) {
         if let onResponse = onResponse {
-            callMap[uuid] = onResponse
+            callMap[messageId] = onResponse
         }
         socket.writeString(message)
     }
@@ -128,7 +141,7 @@ class WsDispatcher: WebSocketDelegate {
 
     func flushWsQueue() {
         for q in queue {
-            sendMessage(q.message, q.messageCallback)
+            sendMessage(q.message, q.messageId, q.messageCallback)
         }
         queue.removeAll()
     }
@@ -139,6 +152,18 @@ class WsDispatcher: WebSocketDelegate {
         } else {
             emptyWsQueue(false)
         }
+    }
+
+    func getNextRequestId() -> Int {
+        // Handle overflow.  This will probably never happen.
+        // 2 billion requests... c'mon!
+        if requestCounter < 1 {
+            requestCounter = 0;
+        }
+
+        requestCounter = requestCounter + 1
+
+        return requestCounter
     }
 
     // Reachability

@@ -18,6 +18,7 @@
 		5A4167026B448C42AFDDD7D2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41634208C37D2D6485BDD3 /* Address.swift */; };
 		5A416716C94AD6F784252CEF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4168AA2D290C366984F55D /* SessionManager.swift */; };
 		5A4167413CBD6644DB333BD2 /* FacilityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4167AF27380BFC12177CE5 /* FacilityEntity.swift */; };
+		5A4167428EB6ACAE14F780B6 /* WsMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416FACC74FE2404A745AD9 /* WsMessage.swift */; };
 		5A41684F688EC14357BE87D6 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416B8CC9F242D0A6933405 /* DatabaseManager.swift */; };
 		5A416884B76E0D2B26A18978 /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416D507CE03944FF76D440 /* ActionType.swift */; };
 		5A4168A785A3B2FB44B41E46 /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4162F1248678D0336F56E7 /* EventBus.swift */; };
@@ -224,6 +225,7 @@
 		5A416DC04DCC74092CCFD404 /* JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializable.swift; sourceTree = "<group>"; };
 		5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRecord.swift; sourceTree = "<group>"; };
 		5A416EE2BB8C4F968A05DBCF /* BodySide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodySide.swift; sourceTree = "<group>"; };
+		5A416FACC74FE2404A745AD9 /* WsMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WsMessage.swift; sourceTree = "<group>"; };
 		72A4E007E56321F2E1F2E4A3 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA00191D1DAD9C008DEE91 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA001C1D1DAD9C008DEE91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 				5A4168AA2D290C366984F55D /* SessionManager.swift */,
 				5A416CA9B1776732AE46DEFC /* SessionStatusChangedEvent.swift */,
 				5A41613FBBF883F82A3145C1 /* WsAction.swift */,
+				5A416FACC74FE2404A745AD9 /* WsMessage.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -833,6 +836,7 @@
 				5A416CAB71D452DA06062D07 /* WsAction.swift in Sources */,
 				5A416D5FB403EB530642AD19 /* StringExtensions.swift in Sources */,
 				5A4160B9366CD536F6BA47E1 /* JSONSerializable.swift in Sources */,
+				5A4167428EB6ACAE14F780B6 /* WsMessage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
