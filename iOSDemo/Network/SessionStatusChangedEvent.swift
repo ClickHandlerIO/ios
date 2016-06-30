@@ -5,10 +5,10 @@
 
 import Foundation
 
-class LoggedInEvent {
-    var username: String
+class SessionStatusChangedEvent {
+    var loggedIn: Bool
 
-    init(_ username: String) {
-        self.username = username
+    init(_ loggedIn: Bool) {
+        self.loggedIn = loggedIn
     }
 }

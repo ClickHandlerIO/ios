@@ -25,10 +25,10 @@ class ViewController: BaseViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
 
-        subscribe(LoggedInEvent.self) {
-            (event: LoggedInEvent) in
-            print("Received Event!", event.username)
-        }
+//        subscribe(LoggedInEvent.self) {
+//            (event: LoggedInEvent) in
+//            print("Received Event!", event.username)
+//        }
     }
 
     override func viewDidAppear(animated: Bool) {
@@ -42,8 +42,13 @@ class ViewController: BaseViewController {
     }
 
     func fireEvent() {
-        EventBus.publish(LoggedInEvent("Jane Doe"))
+//        EventBus.publish(LoggedInEvent("Jane Doe"))
         loadData()
+
+        WsDispatcher.instance.send(LoginRequest()) {
+            (response: LoginResponse) in
+            print("HERE!", response.code)
+        }
     }
 
     func loadData() {
