@@ -51,8 +51,8 @@ class ViewController: BaseViewController {
 
         WsDispatcher.instance.send(loginRequest) {
             (response: WsLogin.Response?) in
-            guard let response = response else {
-                print("Response is nil!")
+            guard let response = response where response.code == .SUCCESS else {
+                print("Response is nil or failed!")
                 return
             }
 

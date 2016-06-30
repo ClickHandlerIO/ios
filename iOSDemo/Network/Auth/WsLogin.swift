@@ -63,9 +63,18 @@ struct WsLogin {
     }
 
     class Response: JSONSerializable {
-        var code: WsLogin.Response.Code?
+        var code: WsLogin.Response.Code = .FAILED
         var sessionId: String?
         var logLevel: String?
+
+        enum Code: String {
+            case SUCCESS
+            case FAILED
+            case EMAIL_OR_PASSWORD_NOT_SET
+            case USER_NOT_FOUND
+            case USER_INACTIVE
+            case PASSWORD_FAILED
+        }
 
         public required init() {
         }
@@ -83,8 +92,10 @@ struct WsLogin {
                 return
             }
 
-            if let code = json["code"].string {
-                self.code = WsLogin.Response.Code(rawValue: code)
+            if let codeRaw = json["code"].string {
+                if let code = WsLogin.Response.Code(rawValue: codeRaw) {
+                    self.code = code
+                }
             }
 
             if let sessionId = json["sessionId"].string {
@@ -98,10 +109,7 @@ struct WsLogin {
 
         func asDictionary() -> [String:AnyObject] {
             var dictionary = [String: AnyObject]()
-
-            if let code = self.code {
-                dictionary["code"] = code.rawValue
-            }
+            dictionary["code"] = code.rawValue
 
             if let sessionId = self.sessionId {
                 dictionary["sessionId"] = sessionId
@@ -113,16 +121,6 @@ struct WsLogin {
 
             return dictionary
         }
-
-        enum Code: String {
-            case SUCCESS
-            case FAILED
-            case EMAIL_OR_PASSWORD_NOT_SET
-            case USER_NOT_FOUND
-            case USER_INACTIVE
-            case PASSWORD_FAILED
-        }
-
     }
 
 }
