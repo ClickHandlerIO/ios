@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		36D9EA2702EB745E4BFF69DB /* Pods_iOSDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A4E007E56321F2E1F2E4A3 /* Pods_iOSDemo.framework */; };
 		5A416049890993E9CE482F89 /* WsDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4164D34BB6C280BB67BF19 /* WsDispatcher.swift */; };
+		5A4160B9366CD536F6BA47E1 /* JSONSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A416DC04DCC74092CCFD404 /* JSONSerializable.swift */; };
 		5A41622DEB96AF0AE1A6FD2C /* SchemaAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4162379A06268DA226F227 /* SchemaAction.swift */; };
 		5A4163A7765385C4D06D6B5D /* WsConnectivityChangedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4169579D7A09D4C2E8B5DC /* WsConnectivityChangedEvent.swift */; };
 		5A4163CD086B346FD1412949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41679655338D20727D8558 /* ViewController.swift */; };
@@ -220,6 +221,7 @@
 		5A416B8CC9F242D0A6933405 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		5A416CA9B1776732AE46DEFC /* SessionStatusChangedEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStatusChangedEvent.swift; sourceTree = "<group>"; };
 		5A416D507CE03944FF76D440 /* ActionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
+		5A416DC04DCC74092CCFD404 /* JSONSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerializable.swift; sourceTree = "<group>"; };
 		5A416DD9B9C71C7347D926E9 /* BaseRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRecord.swift; sourceTree = "<group>"; };
 		5A416EE2BB8C4F968A05DBCF /* BodySide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodySide.swift; sourceTree = "<group>"; };
 		72A4E007E56321F2E1F2E4A3 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -381,6 +383,7 @@
 			isa = PBXGroup;
 			children = (
 				5A4167E52798853DC7E998AA /* StringExtensions.swift */,
+				5A416DC04DCC74092CCFD404 /* JSONSerializable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -829,6 +832,7 @@
 				5A4168A785A3B2FB44B41E46 /* EventBus.swift in Sources */,
 				5A416CAB71D452DA06062D07 /* WsAction.swift in Sources */,
 				5A416D5FB403EB530642AD19 /* StringExtensions.swift in Sources */,
+				5A4160B9366CD536F6BA47E1 /* JSONSerializable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

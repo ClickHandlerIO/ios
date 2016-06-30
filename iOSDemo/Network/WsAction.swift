@@ -6,7 +6,8 @@
 import Foundation
 import SwiftyJSON
 
-protocol WsRequest: AnyObject {
+
+protocol WsRequest: JSONSerializable {
     associatedtype Response: AnyObject
 
     static func getPath() -> String
@@ -17,6 +18,9 @@ protocol WsRequest: AnyObject {
 class LoginRequest: WsRequest {
     typealias Response = LoginResponse
 
+    var email: String? = nil
+    var password: String? = nil
+
     class func getPath() -> String {
         return "/auth/login"
     }
@@ -25,10 +29,53 @@ class LoginRequest: WsRequest {
         return false
     }
 
-    var email: String? = nil
-    var password: String? = nil
+    public required init() {}
+
+    public convenience required init?(json: JSON?) {
+        guard let json = json else {
+            return nil
+        }
+        self.init()
+        // todo handle json
+//        self.merge(json)
+    }
+
+    func asDictionary() -> [String:AnyObject] {
+        var dictionary = [String: AnyObject]()
+
+        if let email = self.email {
+            dictionary["email"] = email
+        }
+
+        if let password = self.password {
+            dictionary["password"] = password
+        }
+
+        return dictionary
+    }
 }
 
-class LoginResponse {
+class LoginResponse: JSONSerializable {
     var code: String?
+
+    public required init() {}
+
+    public convenience required init?(json: JSON?) {
+        guard let json = json else {
+            return nil
+        }
+        self.init()
+        // todo handle json
+//        self.merge(json)
+    }
+
+    func asDictionary() -> [String:AnyObject] {
+        var dictionary = [String: AnyObject]()
+
+        if let code = self.code {
+            dictionary["code"] = code
+        }
+
+        return dictionary
+    }
 }

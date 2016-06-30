@@ -64,6 +64,14 @@ class WsDispatcher: WebSocketDelegate {
 
     func send<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
 
+        /*let onStringResponse = {
+            (message: String) in
+            // todo deserialize into RESP
+//            let onResponse = onResponse {
+//                onResponse(nil) // todo pass in
+//            }
+        }*/
+
         if !REQ.isQueueable() {
             if isWsConnected() {
 //                sendNow(request, onResponse)
