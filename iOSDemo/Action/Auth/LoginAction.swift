@@ -29,12 +29,13 @@ struct LoginAction: ActionProtocol {
         // check if local login
         // todo store the User with the credentials so we can instantiate session info from it
         if let credentials = SessionManager.instance.getLastLoggedInCredentials() {
-            if credentials.username == username && credentials.password == password {
+            if credentials.user.entity?.email == username && credentials.password == password {
                 code = .SUCCESS
             }
         }
 
         if code == .FAILED {
+
             // check web
             let wsReq = WsLogin.Request()
             wsReq.email = username

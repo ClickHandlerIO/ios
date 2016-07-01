@@ -90,7 +90,6 @@ class WsDispatcher: WebSocketDelegate {
                 sendMessage(message, messageId, messageCallback)
             } else {
                 if let onResponse = onResponse {
-                    print("3")
                     onResponse(nil)
                 }
             }
