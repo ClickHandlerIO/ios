@@ -65,6 +65,7 @@ struct WsLogin {
     class Response: JSONSerializable {
         var code: WsLogin.Response.Code = .FAILED
         var sessionId: String?
+        var user: User?
         var logLevel: String?
 
         enum Code: String {
@@ -102,6 +103,8 @@ struct WsLogin {
                 self.sessionId = sessionId
             }
 
+            self.user = User(json: json["user"])
+
             if let logLevel = json["logLevel"].string {
                 self.logLevel = logLevel
             }
@@ -113,6 +116,10 @@ struct WsLogin {
 
             if let sessionId = self.sessionId {
                 dictionary["sessionId"] = sessionId
+            }
+
+            if let user = self.user {
+                dictionary["user"] = user.asDictionary()
             }
 
             if let logLevel = self.logLevel {

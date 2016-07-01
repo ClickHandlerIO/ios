@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/Model/User.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/Model/UserEntity.swift" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/iOSDemo/Network/Base/SessionManager.swift" afterPath="$PROJECT_DIR$/iOSDemo/Base/SessionManager.swift" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/iOSDemo/Network/Base/SessionStatusChangedEvent.swift" afterPath="$PROJECT_DIR$/iOSDemo/Base/SessionStatusChangedEvent.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ios.iml" afterPath="$PROJECT_DIR$/.idea/ios.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Action/Auth/LoginAction.swift" afterPath="$PROJECT_DIR$/iOSDemo/Action/Auth/LoginAction.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift" afterPath="$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift" afterPath="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Network/Base/WsAction.swift" afterPath="$PROJECT_DIR$/iOSDemo/Network/Base/WsAction.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift" afterPath="$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" afterPath="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" />
     </list>
+    <list id="3682ac3a-91ec-41ab-9afa-de2a07918724" name="New changelist" comment="" />
     <ignored path="ios.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,55 +33,68 @@
     <favorites_list name="iOSDemo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43606922">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="WsAction.swift" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsAction.swift">
+          <file leaf-file-name="WsDispatcher.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+                <state relative-caret-position="523">
+                  <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
                   <folding>
                     <element signature="e#104#121#0" expanded="true" />
-                    <element signature="e#332#393#0" expanded="true" />
+                    <element signature="e#547#695#0" expanded="true" />
+                    <element signature="e#701#779#0" expanded="true" />
+                    <element signature="e#800#849#0" expanded="true" />
+                    <element signature="e#855#910#0" expanded="true" />
+                    <element signature="e#916#1365#0" expanded="true" />
+                    <element signature="e#1371#1522#0" expanded="true" />
+                    <element signature="e#1528#1974#0" expanded="true" />
+                    <element signature="e#1980#2049#0" expanded="true" />
+                    <element signature="e#2055#2125#0" expanded="true" />
+                    <element signature="e#3093#3409#0" expanded="true" />
+                    <element signature="e#3415#3985#0" expanded="true" />
+                    <element signature="e#3991#4225#0" expanded="true" />
+                    <element signature="e#4231#4506#0" expanded="true" />
+                    <element signature="e#4512#4675#0" expanded="true" />
+                    <element signature="e#4681#4834#0" expanded="true" />
+                    <element signature="e#4840#5128#0" expanded="true" />
+                    <element signature="e#5155#5798#0" expanded="true" />
+                    <element signature="e#5804#6009#0" expanded="true" />
+                    <element signature="e#6015#6342#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FacilityEntity.swift" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift">
+          <file leaf-file-name="WsLogin.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                <state relative-caret-position="690">
+                  <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
                   <folding>
                     <element signature="e#104#121#0" expanded="true" />
-                    <element signature="e#1172#1770#0" expanded="true" />
+                    <element signature="e#303#378#0" expanded="true" />
+                    <element signature="e#388#457#0" expanded="true" />
+                    <element signature="e#467#501#0" expanded="true" />
+                    <element signature="e#511#704#0" expanded="true" />
+                    <element signature="e#1056#1401#0" expanded="true" />
+                    <element signature="e#1819#1853#0" expanded="true" />
+                    <element signature="e#1863#2056#0" expanded="true" />
+                    <element signature="e#2066#2658#0" expanded="true" />
+                    <element signature="e#2668#3186#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="JSONSerializable.swift" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#104#121#0" expanded="true" />
-                    <element signature="e#360#425#0" expanded="true" />
-                    <element signature="e#431#562#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+                <state relative-caret-position="450">
+                  <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding>
+                    <element signature="e#144#156#0" expanded="true" />
                     <element signature="e#919#1225#0" expanded="true" />
                     <element signature="e#1819#2157#0" expanded="true" />
                   </folding>
@@ -83,13 +102,35 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AppDelegate.swift" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/AppDelegate.swift">
+          <file leaf-file-name="User.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Model/User.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
                   <folding>
-                    <element signature="e#266#736#0" expanded="true" />
+                    <element signature="e#103#120#0" expanded="true" />
+                    <element signature="e#204#227#0" expanded="true" />
+                    <element signature="e#421#581#0" expanded="true" />
+                    <element signature="e#587#816#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserEntity.swift" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Model/UserEntity.swift">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1095">
+                  <caret line="73" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#103#120#0" expanded="true" />
+                    <element signature="e#255#308#0" expanded="true" />
+                    <element signature="e#326#557#0" expanded="true" />
+                    <element signature="e#563#698#0" expanded="true" />
+                    <element signature="e#774#866#0" expanded="true" />
+                    <element signature="e#885#1054#0" expanded="true" />
+                    <element signature="e#1060#1328#0" expanded="true" />
+                    <element signature="e#1334#1573#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -98,55 +139,18 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="WsDispatcher.swift" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift">
+        <leaf>
+          <file leaf-file-name="FacilityEntity.swift" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1125">
-                  <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                   <folding>
                     <element signature="e#104#121#0" expanded="true" />
-                    <element signature="e#547#682#0" expanded="true" />
-                    <element signature="e#688#766#0" expanded="true" />
-                    <element signature="e#787#836#0" expanded="true" />
-                    <element signature="e#842#897#0" expanded="true" />
-                    <element signature="e#903#1352#0" expanded="true" />
-                    <element signature="e#1358#1509#0" expanded="true" />
-                    <element signature="e#1515#1961#0" expanded="true" />
-                    <element signature="e#1967#2036#0" expanded="true" />
-                    <element signature="e#2042#2112#0" expanded="true" />
-                    <element signature="e#2118#3074#0" expanded="true" />
-                    <element signature="e#3080#3396#0" expanded="true" />
-                    <element signature="e#3402#3972#0" expanded="true" />
-                    <element signature="e#3978#4212#0" expanded="true" />
-                    <element signature="e#4218#4493#0" expanded="true" />
-                    <element signature="e#4499#4662#0" expanded="true" />
-                    <element signature="e#4668#4821#0" expanded="true" />
-                    <element signature="e#4827#5115#0" expanded="true" />
-                    <element signature="e#5142#5785#0" expanded="true" />
-                    <element signature="e#5791#5996#0" expanded="true" />
-                    <element signature="e#6002#6329#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WsMessage.swift" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsMessage.swift">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-889">
-                  <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#269#292#0" expanded="true" />
-                    <element signature="e#298#500#0" expanded="true" />
-                    <element signature="e#506#803#0" expanded="true" />
-                    <element signature="e#809#880#0" expanded="true" />
-                    <element signature="e#886#951#0" expanded="true" />
-                    <element signature="e#957#1161#0" expanded="true" />
-                    <element signature="e#1236#1250#0" expanded="true" />
-                    <element signature="e#1256#1356#0" expanded="true" />
-                    <element signature="e#1362#2475#0" expanded="true" />
-                    <element signature="e#2481#2935#0" expanded="true" />
+                    <element signature="e#540#584#0" expanded="true" />
+                    <element signature="e#614#1166#0" expanded="true" />
+                    <element signature="e#1172#1770#0" expanded="true" />
+                    <element signature="e#1846#2308#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -168,7 +172,6 @@
         <option value="$PROJECT_DIR$/iOSDemo/Action/ActionDispatcher.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Action/ActionType.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Action/ActionProtocol.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Model/Address.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Action/SchemaAction.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Model/Common/Address.swift" />
@@ -178,7 +181,6 @@
         <option value="$PROJECT_DIR$/iOSDemo/Action/ListAction.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Database/DatabaseManager.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Base/EventBus.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Event/LoggedInEvent.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Event/EventBus.swift" />
@@ -198,10 +200,16 @@
         <option value="$PROJECT_DIR$/iOSDemo/Network/WsAction.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/WsMessage.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/Base/WsAction.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Base/SessionManager.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Action/Auth/LoginAction.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Model/UserEntity.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Model/User.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift" />
       </list>
     </option>
   </component>
@@ -211,6 +219,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="x" value="29" />
     <option name="y" value="23" />
@@ -288,6 +297,46 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserInterface" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Network" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
@@ -324,7 +373,11 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Database" />
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Base" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,11 +391,73 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDBiOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,6 +647,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="" />
+      <changelist id="3682ac3a-91ec-41ab-9afa-de2a07918724" name="New changelist" comment="" />
       <created>1466793114843</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -789,54 +905,40 @@
       <option name="project" value="LOCAL" />
       <updated>1467325151599</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="checkpoint">
+      <created>1467392636213</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1467392636213</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="2248" height="1417" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19577907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2898113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754716" sideWeight="0.5040201" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18490566" sideWeight="0.4959799" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754716" sideWeight="0.5040201" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39169812" sideWeight="0.4959799" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09132075" sideWeight="0.4971187" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19577907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09132075" sideWeight="0.4971187" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3026415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29839572" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23032491" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -877,13 +979,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="93" />
+      <option name="time" value="96" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Query.swift" />
-    <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Typed/Expression.swift" />
     <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/Statement.swift" />
     <entry file="file://$PROJECT_DIR$/Pods/SQLite.swift/SQLite/Core/Connection.swift" />
     <entry file="file://$PROJECT_DIR$/GRDB.swift/SQLCipher/GRDBCipher-Bridging.h">
@@ -935,13 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GRDB.swift/GRDB/Record/Record.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="277" column="76" selection-start-line="277" selection-start-column="76" selection-end-line="277" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GRDB.swift/GRDB/Core/DatabaseQueue.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -977,13 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Directory/Facility/SaveFacilityAction.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Database/DatabaseManager.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -998,24 +1084,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/BodySide.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Model/Common/Address.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1038,13 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/EventBus.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1083,14 +1148,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/SessionManager.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/SessionStatusChangedEvent.swift">
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/SessionStatusChangedEvent.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
@@ -1150,107 +1208,29 @@
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#266#736#0" expanded="true" />
+            <element signature="e#266#736#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsMessage.swift">
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/SessionManager.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-889">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="435">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
           <folding>
-            <element signature="e#269#292#0" expanded="true" />
-            <element signature="e#298#500#0" expanded="true" />
-            <element signature="e#506#803#0" expanded="true" />
-            <element signature="e#809#880#0" expanded="true" />
-            <element signature="e#886#951#0" expanded="true" />
-            <element signature="e#957#1161#0" expanded="true" />
-            <element signature="e#1236#1250#0" expanded="true" />
-            <element signature="e#1256#1356#0" expanded="true" />
-            <element signature="e#1362#2475#0" expanded="true" />
-            <element signature="e#2481#2935#0" expanded="true" />
+            <element signature="e#264#305#0" expanded="false" />
+            <element signature="e#340#384#0" expanded="false" />
+            <element signature="e#393#518#0" expanded="false" />
+            <element signature="e#530#647#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/EventBus.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding>
-            <element signature="e#919#1225#0" expanded="true" />
-            <element signature="e#1819#2157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Auth/LoginAction.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#104#121#0" expanded="true" />
-            <element signature="e#303#378#0" expanded="true" />
-            <element signature="e#388#457#0" expanded="true" />
-            <element signature="e#467#501#0" expanded="true" />
-            <element signature="e#511#704#0" expanded="true" />
-            <element signature="e#714#1046#0" expanded="true" />
-            <element signature="e#1056#1401#0" expanded="true" />
-            <element signature="e#1795#1829#0" expanded="true" />
-            <element signature="e#2042#2584#0" expanded="true" />
-            <element signature="e#2594#3002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#104#121#0" expanded="true" />
-            <element signature="e#360#425#0" expanded="true" />
-            <element signature="e#431#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="e#104#121#0" expanded="true" />
-            <element signature="e#547#682#0" expanded="true" />
-            <element signature="e#688#766#0" expanded="true" />
-            <element signature="e#787#836#0" expanded="true" />
-            <element signature="e#842#897#0" expanded="true" />
-            <element signature="e#903#1352#0" expanded="true" />
-            <element signature="e#1358#1509#0" expanded="true" />
-            <element signature="e#1515#1961#0" expanded="true" />
-            <element signature="e#1967#2036#0" expanded="true" />
-            <element signature="e#2042#2112#0" expanded="true" />
-            <element signature="e#2118#3074#0" expanded="true" />
-            <element signature="e#3080#3396#0" expanded="true" />
-            <element signature="e#3402#3972#0" expanded="true" />
-            <element signature="e#3978#4212#0" expanded="true" />
-            <element signature="e#4218#4493#0" expanded="true" />
-            <element signature="e#4499#4662#0" expanded="true" />
-            <element signature="e#4668#4821#0" expanded="true" />
-            <element signature="e#4827#5115#0" expanded="true" />
-            <element signature="e#5142#5785#0" expanded="true" />
-            <element signature="e#5791#5996#0" expanded="true" />
-            <element signature="e#6002#6329#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1265,13 +1245,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift">
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/BodySide.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#104#121#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsMessage.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-889">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#269#292#0" expanded="false" />
+            <element signature="e#298#500#0" expanded="false" />
+            <element signature="e#506#803#0" expanded="false" />
+            <element signature="e#809#880#0" expanded="false" />
+            <element signature="e#886#951#0" expanded="false" />
+            <element signature="e#957#1161#0" expanded="false" />
+            <element signature="e#1236#1250#0" expanded="false" />
+            <element signature="e#1256#1356#0" expanded="false" />
+            <element signature="e#1362#2475#0" expanded="false" />
+            <element signature="e#2481#2935#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Directory/Facility/SaveFacilityAction.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#104#121#0" expanded="false" />
+            <element signature="e#273#349#0" expanded="false" />
+            <element signature="e#1144#1203#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Auth/LoginAction.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#317#0" expanded="true" />
+            <element signature="e#1648#1712#0" expanded="true" />
+            <element signature="e#1848#1907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GRDB.swift/GRDB/Record/Record.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
+          <folding>
+            <element signature="e#317#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="e#104#121#0" expanded="true" />
+            <element signature="e#172#257#0" expanded="true" />
+            <element signature="e#263#361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+            <element signature="e#360#425#0" expanded="true" />
+            <element signature="e#431#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/FacilityEntity.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+            <element signature="e#540#584#0" expanded="true" />
+            <element signature="e#614#1166#0" expanded="true" />
             <element signature="e#1172#1770#0" expanded="true" />
+            <element signature="e#1846#2308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/UserEntity.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="e#103#120#0" expanded="true" />
+            <element signature="e#255#308#0" expanded="true" />
+            <element signature="e#326#557#0" expanded="true" />
+            <element signature="e#563#698#0" expanded="true" />
+            <element signature="e#774#866#0" expanded="true" />
+            <element signature="e#885#1054#0" expanded="true" />
+            <element signature="e#1060#1328#0" expanded="true" />
+            <element signature="e#1334#1573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+            <element signature="e#547#695#0" expanded="true" />
+            <element signature="e#701#779#0" expanded="true" />
+            <element signature="e#800#849#0" expanded="true" />
+            <element signature="e#855#910#0" expanded="true" />
+            <element signature="e#916#1365#0" expanded="true" />
+            <element signature="e#1371#1522#0" expanded="true" />
+            <element signature="e#1528#1974#0" expanded="true" />
+            <element signature="e#1980#2049#0" expanded="true" />
+            <element signature="e#2055#2125#0" expanded="true" />
+            <element signature="e#3093#3409#0" expanded="true" />
+            <element signature="e#3415#3985#0" expanded="true" />
+            <element signature="e#3991#4225#0" expanded="true" />
+            <element signature="e#4231#4506#0" expanded="true" />
+            <element signature="e#4512#4675#0" expanded="true" />
+            <element signature="e#4681#4834#0" expanded="true" />
+            <element signature="e#4840#5128#0" expanded="true" />
+            <element signature="e#5155#5798#0" expanded="true" />
+            <element signature="e#5804#6009#0" expanded="true" />
+            <element signature="e#6015#6342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/User.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="e#103#120#0" expanded="true" />
+            <element signature="e#204#227#0" expanded="true" />
+            <element signature="e#421#581#0" expanded="true" />
+            <element signature="e#587#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+            <element signature="e#303#378#0" expanded="true" />
+            <element signature="e#388#457#0" expanded="true" />
+            <element signature="e#467#501#0" expanded="true" />
+            <element signature="e#511#704#0" expanded="true" />
+            <element signature="e#1056#1401#0" expanded="true" />
+            <element signature="e#1819#1853#0" expanded="true" />
+            <element signature="e#1863#2056#0" expanded="true" />
+            <element signature="e#2066#2658#0" expanded="true" />
+            <element signature="e#2668#3186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#144#156#0" expanded="true" />
+            <element signature="e#919#1225#0" expanded="true" />
+            <element signature="e#1819#2157#0" expanded="true" />
           </folding>
         </state>
       </provider>

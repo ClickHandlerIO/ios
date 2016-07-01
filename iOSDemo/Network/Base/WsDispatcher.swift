@@ -18,7 +18,7 @@ class WsDispatcher: WebSocketDelegate {
     var queue: [(messageId:Int, message:String, messageCallback:((String?) -> Void)?)] = []
 
     init() {
-        socket = WebSocket(url: NSURL(string: apiURL)!, protocols: ["chat", "superchat"])
+        socket = WebSocket(url: NSURL(string: WsDispatcher.apiURL)!, protocols: ["chat", "superchat"])
         socket.delegate = self
     }
 

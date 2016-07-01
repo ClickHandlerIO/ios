@@ -9,6 +9,7 @@ class SessionManager {
     static let instance = SessionManager()
 
     var _loggedIn: Bool
+
     var currentUser: AnyObject?
     // todo
 
@@ -25,6 +26,13 @@ class SessionManager {
             EventBus.publish(SessionStatusChangedEvent(_loggedIn))
         }
     }
+
+    func getLastLoggedInCredentials() -> (username: String, password: String)? {
+        // todo
+        return nil
+    }
+
+    // todo get last logged in username and password
 
     // todo other user prefs/info from logging in
 }

@@ -5,7 +5,6 @@
 
 import Foundation
 
-/*
 struct LoginAction: ActionProtocol {
     typealias Request = LoginAction.REQ
     typealias Response = LoginAction.RESP
@@ -14,23 +13,55 @@ struct LoginAction: ActionProtocol {
         return .General
     }
 
-    static func run(request: Request, operation: NSOperation) -> Response {
-        // todo guard against nil username and pw
-        // todo mulitple unwrap and guard?
-
+    static func run(request: Request, operation: NSOperation, onCompletion: ((Response) -> Void)) {
         if operation.cancelled {
-            return Response(.FAILED)
+            onCompletion(Response(.CANCELLED))
+            return
         }
 
-        if let username = request.username {
-            print("hello")
-            if let password = request.password {
-                print("there")
-                return Response(.SUCCESS)
+        guard let username = request.username, password = request.password else {
+            onCompletion(Response(.FAILED))
+            return
+        }
+
+        var code = LoginAction.Response.Code.FAILED
+
+        // check if local login
+        // todo store the User with the credentials so we can instantiate session info from it
+        if let credentials = SessionManager.instance.getLastLoggedInCredentials() {
+            if credentials.username == username && credentials.password == password {
+                code = .SUCCESS
             }
         }
 
-        return Response(.FAILED)
+        if code == .FAILED {
+            // check web
+            let wsReq = WsLogin.Request()
+            wsReq.email = username
+            wsReq.password = password
+//            WsDispatcher.instance.send(wsReq) {
+//                (wsResp: WsLogin.Response) in
+//
+//
+//            }
+
+
+        }
+
+        guard code == .SUCCESS else {
+            onCompletion(Response(code))
+            return
+        }
+
+        // open DB connection / app setup
+
+        // setup session manager
+
+        // on completion of db setup call onCompletion()
+    }
+
+    func setupAppForUser(user: AnyObject, password: String) {
+
     }
 
     struct REQ {
@@ -53,4 +84,4 @@ struct LoginAction: ActionProtocol {
 
     }
 
-}*/
+}
