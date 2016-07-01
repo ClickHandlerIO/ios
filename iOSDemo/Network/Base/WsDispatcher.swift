@@ -12,10 +12,15 @@ class WsDispatcher: WebSocketDelegate {
     static let apiURL = "wss://devapi.movemedical.com/v1"
 
     var reachability: Reachability?
-    let socket = WebSocket(url: NSURL(string: apiURL)!, protocols: ["chat", "superchat"])
+    let socket: WebSocket
     var requestCounter: Int = 0;
     var callMap: [Int:((String?) -> Void)] = [:]
     var queue: [(messageId:Int, message:String, messageCallback:((String?) -> Void)?)] = []
+
+    init() {
+        socket = WebSocket(url: NSURL(string: apiURL)!, protocols: ["chat", "superchat"])
+        socket.delegate = self
+    }
 
     func start() {
         startMonitoringReachability()
@@ -25,7 +30,6 @@ class WsDispatcher: WebSocketDelegate {
     // Socket
 
     func connectWs() {
-        socket.delegate = self;
         socket.connect()
     }
 
@@ -46,6 +50,7 @@ class WsDispatcher: WebSocketDelegate {
 
     func websocketDidDisconnect(socket: WebSocket, error: NSError?) {
         EventBus.publish(WsConnectivityChangedEvent(false))
+        connectWs()
     }
 
     func websocketDidReceiveMessage(socket: WebSocket, text: String) {
@@ -70,12 +75,14 @@ class WsDispatcher: WebSocketDelegate {
         return socket.isConnected
     }
 
-    func send<REQ, RESP where REQ: WsRequest, REQ.Response == RESP>(request: REQ, onResponse: ((RESP?) -> Void)?) {
+    func send<REQ, RESP where REQ: WsRequest, REQ.Response == RESP, RESP: JSONSerializable>(request: REQ, onResponse: ((RESP?) -> Void)?) {
         let messageId = getNextRequestId()
+
         guard let message = getRequestMessage(request, messageId) else {
             print("Error, attempting to send nil message")
             return
         }
+
         let messageCallback = getMessageCallback(onResponse)
 
         if !REQ.isQueueable() {
@@ -83,6 +90,7 @@ class WsDispatcher: WebSocketDelegate {
                 sendMessage(message, messageId, messageCallback)
             } else {
                 if let onResponse = onResponse {
+                    print("3")
                     onResponse(nil)
                 }
             }
@@ -131,7 +139,7 @@ class WsDispatcher: WebSocketDelegate {
         socket.writeString(message)
     }
 
-    func emptyWsQueue(fireCallbacks: Bool = true) {
+    private func emptyWsQueue(fireCallbacks: Bool = true) {
         if (fireCallbacks) {
             for q in queue {
                 if let callback = q.messageCallback {
@@ -142,7 +150,7 @@ class WsDispatcher: WebSocketDelegate {
         queue.removeAll()
     }
 
-    func flushWsQueue() {
+    private func flushWsQueue() {
         for q in queue {
             sendMessage(q.message, q.messageId, q.messageCallback)
         }
@@ -163,9 +171,7 @@ class WsDispatcher: WebSocketDelegate {
         if requestCounter < 1 {
             requestCounter = 0;
         }
-
         requestCounter = requestCounter + 1
-
         return requestCounter
     }
 

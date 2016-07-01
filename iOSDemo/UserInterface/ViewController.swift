@@ -43,7 +43,7 @@ class ViewController: BaseViewController {
 
     func fireEvent() {
 //        EventBus.publish(LoggedInEvent("Jane Doe"))
-        loadData()
+//        loadData()
 
         let loginRequest = WsLogin.Request()
         loginRequest.email = "jjohnson@integralife.com"
@@ -52,7 +52,7 @@ class ViewController: BaseViewController {
         WsDispatcher.instance.send(loginRequest) {
             (response: WsLogin.Response?) in
             guard let response = response where response.code == .SUCCESS else {
-                print("Response is nil or failed!")
+                print ("response is nil or failed")
                 return
             }
 

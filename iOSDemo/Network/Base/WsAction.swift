@@ -14,3 +14,9 @@ protocol WsRequest: JSONSerializable {
 
     static func isQueueable() -> Bool
 }
+
+extension WsRequest {
+    static func isQueueable() -> Bool {
+        return true
+    }
+}

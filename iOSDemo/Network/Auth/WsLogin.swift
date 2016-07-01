@@ -11,8 +11,8 @@ struct WsLogin {
     class Request: WsRequest {
         typealias Response = WsLogin.Response
 
-        var email: String? = nil
-        var password: String? = nil
+        var email: String?
+        var password: String?
 
         class func getPath() -> String {
             return "/auth/login"

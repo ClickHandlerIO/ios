@@ -47,14 +47,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Default-568h@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoUITests/iOSDemoUITests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoUITests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/TODO.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/GRDB-Bridging.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLOperator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLCollation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLFunction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/QueryInterfaceRequest.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLSelectQuery.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLCollation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLOperator.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Migrations/Migration.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Migrations/DatabaseMigrator.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/RowConvertible.swift" isTestSource="false" />
@@ -64,39 +63,50 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/TableMapping.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/GRDB.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseReader.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/SerializedDatabase.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Statement.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/StatementColumnConvertible.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseValueConvertible.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Utils.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseStore.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseQueue.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/CoreGraphics/CGFloat.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/StandardLibrary/RawRepresentable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/StandardLibrary/StandardLibrary.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/Row+Foundation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValue+Foundation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSString.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSUUID.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseDateComponents.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSNumber.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSNull.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/StatementArguments+Foundation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSURL.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSString.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseCoder.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseCoder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValue+Foundation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSURL.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Configuration.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseValue.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/RowAdapter.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/FetchRequest.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseScheduler.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseSchemaCache.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Utils.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Database.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/FetchRequest.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/RowAdapter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Row.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseWriter.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseError.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseScheduler.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Database.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabasePool.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Row.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseStore.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/SerializedDatabase.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-Testing.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/sqlite3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib-USER.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-Bridging.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-USER.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDB.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/module.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-USER.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/README.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Experimental/ManagedDataControllerTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Experimental/MappingTests.swift" isTestSource="false" />
@@ -105,8 +115,10 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/QueryInterfaceRequest/TableMapping+QueryInterfaceRequestTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/QueryInterfaceRequest/QueryInterfaceRequestTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/QueryInterfaceRequest/Record+QueryInterfaceRequestTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchRequest/FetchRequestTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchedRecordsController/FetchedRecordsControlleriOSTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchedRecordsController/FetchedRecordsControllerTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Migrations/DatabaseMigratorTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchRequest/FetchRequestTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/StatementArguments+FoundationTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/DatabaseValue+FoundationTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/Row+FoundationTests.swift" isTestSource="false" />
@@ -115,18 +127,18 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/NSDecimalNumberTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/DatabaseCoderTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordWithColumnNameManglingTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyNoneTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeySingleWithReplaceConflictResolutionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordCopyTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordFetchTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/MinimalPrimaryKeyRowIDTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordAwakeFromFetchTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordSubClassTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyMultipleTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeySingleWithReplaceConflictResolutionTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyRowIDTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/MinimalPrimaryKeySingleTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordInitializersTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyNoneTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordEditedTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyRowIDTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeySingleTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Encryption/EncryptionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseScheduler/DatabaseSchedulerTests.swift" isTestSource="false" />
@@ -146,44 +158,40 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSUUIDTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/DatabaseValueConversionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/DatabaseTimestampTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSDataTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSURLTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/DatabaseValueConvertibleFetchTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSStringTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/RawRepresentableTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSDataTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Persistable/PersistableTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Persistable/MutablePersistableTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Savepoint/SavepointTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/Betty.jpeg" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueFileAttributesTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueConcurrencyTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueBackupTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseReader/DatabaseReaderTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolConcurrencyTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolFunctionTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolCollationTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolBackupTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolConcurrencyTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolCollationTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolFunctionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolReadOnlyTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolFileAttributesTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/RowConvertibleTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/DetachedRowTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/DictionaryRowTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/AdapterRowTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/DictionaryRowTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/DetachedRowTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/MetalRowTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/TransactionObserver/TransactionObserverTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/TransactionObserver/TransactionObserverSavepointsTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueBackupTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueFileAttributesTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueConcurrencyTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/Betty.jpeg" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/TransactionObserver/TransactionObserverTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Savepoint/SavepointTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Statement/StatementArgumentsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Statement/SelectStatementTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Statement/UpdateStatementTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchedRecordsController/FetchedRecordsControlleriOSTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchedRecordsController/FetchedRecordsControllerTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/CoreGraphics/CGFloatTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/GRDBPerformanceTests-Bridging.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/FetchNamedValuesTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/PerformanceTests.sqlite" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/PerformanceModel.xcdatamodeld/PerformanceModel.xcdatamodel" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/FetchRecordTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite.swift.podspec" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite.xcodeproj" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/Documentation/Resources/playground@2x.png" isTestSource="false" />
@@ -192,14 +200,14 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/README.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Extensions/FTS4.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Extensions/R*Tree.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Setter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/CoreFunctions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Operators.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Expression.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Collation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Schema.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Query.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Operators.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Collation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/CustomFunctions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/CoreFunctions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Setter.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Expression.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/AggregateFunctions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/SQLite.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Foundation.swift" isTestSource="false" />
@@ -209,24 +217,24 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Core/Statement.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Core/Connection.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Core/SQLite-Bridging.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Core/SQLite-Bridging.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Core/Blob.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Core/SQLite-Bridging.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Core/Value.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/.travis.yml" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/CustomFunctionsTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/QueryTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/SetterTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/TestHelpers.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/SchemaTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/CustomFunctionsTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/CoreFunctionsTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ExpressionTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/QueryTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ConnectionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/OperatorsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/BlobTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/R*TreeTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/SetterTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ValueTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ExpressionTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/R*TreeTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/AggregateFunctionsTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/CoreFunctionsTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/TestHelpers.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/StatementTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/FTS4Tests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/CocoaPods/macosx/module.modulemap" isTestSource="false" />
@@ -238,6 +246,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/CocoaPods/iphoneos/module.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/CONTRIBUTING.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/Makefile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/FetchRecordTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/InsertNamedValuesTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/InsertRecordTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/PerformanceRealmTests.realm" isTestSource="false" />
@@ -249,6 +258,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDB.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMResultSet.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabase.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabasePool.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseQueue.m" isTestSource="false" />
@@ -256,55 +266,44 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabase.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabasePool.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseQueue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabase.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/PerformanceModel.xcdatamodeld/PerformanceModel.xcdatamodel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/GRDBTestCase.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/GRDBCrashTestCase.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/MigrationCrashTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/StatementCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabaseValueConvertibleCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/RecordCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/StatementColumnConvertibleCrashTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabasePoolCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabaseQueueCrashTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/StatementCrashTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabasePoolCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/StatementInformationTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabasePoolSchemaCacheTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/NSDataMemoryTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabasePoolReleaseMemoryTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabaseQueueSchemaCacheTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabaseQueueReleaseMemoryTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlcipher.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlite3.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlcipher.xcodeproj" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlite3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/module.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDB.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDBCipher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDBCipher-Bridging.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDB.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/module.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/GRDB.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlite3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlite3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlcipher.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlcipher.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/module.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-USER.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-Testing.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-Bridging.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/sqlite3.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib-USER.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib.xcodeproj" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDB.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/module.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-USER.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/GRDB.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/CHANGELOG.md" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB.xcodeproj" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemoTests/iOSDemoTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Base/EventBus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Directory/Facility/ListFacilitiesAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Directory/Facility/SaveFacilityAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/SchemaAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Auth/LoginAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
@@ -323,33 +322,34 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Base/BaseRecord.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/BodySide.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Database/DatabaseManager.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/ViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseTableViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseTableViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Zone.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Month.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalTime.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Period.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTime.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTimeError.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Year.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Month.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Clock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Duration.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Instant.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DayOfWeek.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Clock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDateTime.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithAccessibleOption.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithInternetProtocol.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Dictionary_Initializers.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithError.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Locksmith.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithInternetAuthenticationType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Locksmith.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithSecurityClass.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithAccessibleOption.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReachabilitySwift/Reachability/Reachability.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Dictionary_Initializers.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-prefix.pch" isTestSource="false" />
@@ -358,12 +358,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/DateTimeKit/DateTimeKit-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith.xcconfig" isTestSource="false" />
@@ -404,26 +404,26 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Starscream/Source/WebSocket.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Starscream/Source/SSLSecurity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReachabilitySwift/Reachability/Reachability.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Region.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateFormatter+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Components.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Operations.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSCalendar+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Dictionary+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeZone+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSLocale+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+NSDatePort.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Dictionary+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateComponents+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Equations.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateInterval.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Components.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Additions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Formatter.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Equations.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSCalendar+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateFormatter+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeInterval+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+StartEnd.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Comparisons.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDate+SwiftDate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Duration.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/SwiftMoment.h" isTestSource="false" />
