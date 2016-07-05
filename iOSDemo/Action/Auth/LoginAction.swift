@@ -57,20 +57,22 @@ struct LoginAction: ActionProtocol {
     static func setupForUser(user: User, _ password: String, _ callback: ((Response) -> Void)) {
 
         // open DB connection
-        if !DatabaseManager.instance.open() {
-            loginFailed(callback, .DB_CONNECTION)
-            return
-        }
+        DatabaseManager.instance.open() {
+            (success: Bool) in
+            if !success {
+                loginFailed(callback, .DB_CONNECTION)
+                return
+            }
 
-        // Setup session. If same user as logged in previously flush WsQueue, else clear it
-        let sameUser = SessionManager.instance.loginSuccessful(user, password)
-        if sameUser {
-            WsDispatcher.instance.flushWsQueue()
-        }else {
-            WsDispatcher.instance.emptyWsQueue()
+            // Setup session. If same user as logged in previously flush WsQueue, else clear it
+            let sameUser = SessionManager.instance.loginSuccessful(user, password)
+            if sameUser {
+                WsDispatcher.instance.flushWsQueue()
+            }else {
+                WsDispatcher.instance.emptyWsQueue()
+            }
+            callback(Response(.SUCCESS))
         }
-
-        callback(Response(.SUCCESS))
     }
 
     struct REQ {

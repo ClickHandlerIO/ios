@@ -19,7 +19,7 @@ class DatabaseManager {
     }
 
     // todo make this async with callback
-    func open() -> Bool {
+    func open(callback:((Bool) -> Void)) {
         close() // make sure its closed
 
         var config = Configuration()
@@ -35,10 +35,10 @@ class DatabaseManager {
         do {
             dbPool = try DatabasePool(path: getDbPath(), configuration: config)
             // todo call versioning script
-            return true // todo probably switch to callback pattern
+            callback(true)
         } catch {
             print("Failed to connect to database")
-            return false
+            callback(false)
         }
     }
 

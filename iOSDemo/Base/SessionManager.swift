@@ -31,7 +31,7 @@ class SessionManager {
 
     func loginSuccessful(user: User, _ password: String) -> Bool {
         var sameUser = false
-
+        // todo check if it is the same user
 
         // Save last logged in user to keychain
         do {
