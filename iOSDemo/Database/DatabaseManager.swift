@@ -20,6 +20,8 @@ class DatabaseManager {
 
     // todo make this async with callback
     func open() -> Bool {
+        close() // make sure its closed
+
         var config = Configuration()
         config.passphrase = key
         config.fileAttributes = [NSFileProtectionKey: NSFileProtectionComplete]

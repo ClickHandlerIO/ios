@@ -40,11 +40,14 @@ class WsDispatcher: WebSocketDelegate {
     func websocketDidConnect(socket: WebSocket) {
         EventBus.publish(WsConnectivityChangedEvent(true))
 
+        // If user is "logged in" attempt to create session
         if (SessionManager.instance.loggedIn) {
-            // todo autologin if possible (look at session manager to see if currently logged in)
-
-            // todo if login successfuly flush the queue (same user)
-            // if login not successful set loggedIn to false (will fire event so the UI can handle accordingly)
+            if let credentials = SessionManager.instance.getLastLoggedInCredentials() {
+                var req = LoginAction.Request()
+                req.username = credentials.user.entity?.email
+                req.password = credentials.password
+                ActionDispatcher.instance.queue(req, LoginAction.self, nil)
+            }
         }
     }
 
@@ -138,7 +141,7 @@ class WsDispatcher: WebSocketDelegate {
         socket.writeString(message)
     }
 
-    private func emptyWsQueue(fireCallbacks: Bool = true) {
+    func emptyWsQueue(fireCallbacks: Bool = false) {
         if (fireCallbacks) {
             for q in queue {
                 if let callback = q.messageCallback {
@@ -149,7 +152,7 @@ class WsDispatcher: WebSocketDelegate {
         queue.removeAll()
     }
 
-    private func flushWsQueue() {
+    func flushWsQueue() {
         for q in queue {
             sendMessage(q.message, q.messageId, q.messageCallback)
         }

@@ -15,54 +15,62 @@ struct LoginAction: ActionProtocol {
 
     static func run(request: Request, operation: NSOperation, onCompletion: ((Response) -> Void)) {
         if operation.cancelled {
-            onCompletion(Response(.CANCELLED))
+            loginFailed(onCompletion, .CANCELLED)
             return
         }
 
         guard let username = request.username, password = request.password else {
-            onCompletion(Response(.FAILED))
+            loginFailed(onCompletion, .FAILED)
             return
         }
 
-        var code = LoginAction.Response.Code.FAILED
-
-        // check if local login
-        // todo store the User with the credentials so we can instantiate session info from it
-        if let credentials = SessionManager.instance.getLastLoggedInCredentials() {
-            if credentials.user.entity?.email == username && credentials.password == password {
-                code = .SUCCESS
+        // If no WS Connection, attempt local login
+        if !WsDispatcher.instance.isWsConnected() {
+            if let credentials = SessionManager.instance.getLastLoggedInCredentials() {
+                if credentials.user.entity?.email == username && credentials.password == password {
+                    setupForUser(credentials.user, credentials.password, onCompletion)
+                    return
+                }
             }
         }
 
-        if code == .FAILED {
-
-            // check web
-            let wsReq = WsLogin.Request()
-            wsReq.email = username
-            wsReq.password = password
-//            WsDispatcher.instance.send(wsReq) {
-//                (wsResp: WsLogin.Response) in
-//
-//
-//            }
-
-
+        // Check Web
+        let wsReq = WsLogin.Request()
+        wsReq.email = username
+        wsReq.password = password
+        WsDispatcher.instance.send(wsReq) {
+            (wsResp: WsLogin.Response?) in
+            guard let response = wsResp, let user = wsResp?.user where response.code == .SUCCESS else {
+                loginFailed(onCompletion, .FAILED)
+                return
+            }
+            setupForUser(user, password, onCompletion)
         }
+    }
 
-        guard code == .SUCCESS else {
-            onCompletion(Response(code))
+    static func loginFailed(callback: ((Response) -> Void), _ code: LoginAction.Response.Code) {
+        DatabaseManager.instance.close()
+        SessionManager.instance.logout()
+        callback(Response(code))
+    }
+
+    static func setupForUser(user: User, _ password: String, _ callback: ((Response) -> Void)) {
+
+        // open DB connection
+        if !DatabaseManager.instance.open() {
+            loginFailed(callback, .DB_CONNECTION)
             return
         }
 
-        // open DB connection / app setup
+        // Setup session. If same user as logged in previously flush WsQueue, else clear it
+        let sameUser = SessionManager.instance.loginSuccessful(user, password)
+        if sameUser {
+            WsDispatcher.instance.flushWsQueue()
+        }else {
+            WsDispatcher.instance.emptyWsQueue()
+        }
 
-        // setup session manager
-
-        // on completion of db setup call onCompletion()
-    }
-
-    func setupAppForUser(user: AnyObject, password: String) {
-
+        callback(Response(.SUCCESS))
     }
 
     struct REQ {
@@ -80,6 +88,7 @@ struct LoginAction: ActionProtocol {
         enum Code {
             case SUCCESS
             case FAILED
+            case DB_CONNECTION
             case CANCELLED
         }
 

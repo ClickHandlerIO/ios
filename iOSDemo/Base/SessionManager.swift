@@ -29,7 +29,10 @@ class SessionManager {
         }
     }
 
-    func loginSuccessful(user: User, password: String) {
+    func loginSuccessful(user: User, _ password: String) -> Bool {
+        var sameUser = false
+
+
         // Save last logged in user to keychain
         do {
             try Locksmith.saveData([SessionManager.userKey: user.stringify(), SessionManager.passwordKey: password], forUserAccount: SessionManager.keychainAccount)
@@ -39,6 +42,7 @@ class SessionManager {
 
         self.user = user
         self.loggedIn = true
+        return sameUser
     }
 
     func logout() {

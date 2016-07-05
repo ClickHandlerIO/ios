@@ -43,6 +43,7 @@ class UserEntity: BaseRecord, JSONSerializable {
         guard let json = json else {
             return nil
         }
+
         self.init()
         self.merge(json)
     }
