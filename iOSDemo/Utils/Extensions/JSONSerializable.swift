@@ -6,7 +6,7 @@
 import Foundation
 import SwiftyJSON
 
-public protocol JSONSerializable {
+protocol JSONSerializable {
     init()
 
     init?(json: JSON?)
@@ -18,7 +18,7 @@ public protocol JSONSerializable {
     func stringify() -> String
 }
 
-public extension JSONSerializable {
+ extension JSONSerializable {
     func asJSON() -> JSON {
         return JSON(asDictionary())
     }

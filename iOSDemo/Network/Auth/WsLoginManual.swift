@@ -6,10 +6,10 @@
 import Foundation
 import SwiftyJSON
 
-struct WsLogin {
+struct WsLoginManual {
 
     class Request: WsRequest {
-        typealias Response = WsLogin.Response
+        typealias Response = WsLoginManual.Response
 
         var email: String?
         var password: String?
@@ -63,7 +63,7 @@ struct WsLogin {
     }
 
     class Response: JSONSerializable {
-        var code: WsLogin.Response.Code = .FAILED
+        var code: WsLoginManual.Response.Code = .FAILED
         var sessionId: String?
         var user: User?
         var logLevel: String?
@@ -94,7 +94,7 @@ struct WsLogin {
             }
 
             if let codeRaw = json["code"].string {
-                if let code = WsLogin.Response.Code(rawValue: codeRaw) {
+                if let code = WsLoginManual.Response.Code(rawValue: codeRaw) {
                     self.code = code
                 }
             }

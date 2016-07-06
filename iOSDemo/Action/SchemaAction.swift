@@ -19,7 +19,7 @@ struct SchemaAction: DatabaseActionProtocol {
             onCompletion(Response(.CANCELLED))
             return
         }
-        try db.execute(FacilityEntity.databaseTableCreateSql())
+        try db.execute(FacilityEntity_Manual.databaseTableCreateSql())
         onCompletion(Response(.SUCCESS))
     }
 

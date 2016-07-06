@@ -6,7 +6,7 @@
 import Foundation
 import GRDBCipher
 
-class FacilityEntity: BaseRecord {
+class FacilityEntity_Manual: BaseRecord {
     var id: String?
     var name: String?
     var bodySide: BodySide?

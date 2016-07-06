@@ -35,11 +35,11 @@ struct LoginAction: ActionProtocol {
         }
 
         // Check Web
-        let wsReq = WsLogin.Request()
+        let wsReq = WsLoginManual.Request()
         wsReq.email = username
         wsReq.password = password
         WsDispatcher.instance.send(wsReq) {
-            (wsResp: WsLogin.Response?) in
+            (wsResp: WsLoginManual.Response?) in
             guard let response = wsResp, let user = wsResp?.user where response.code == .SUCCESS else {
                 loginFailed(onCompletion, .FAILED)
                 return

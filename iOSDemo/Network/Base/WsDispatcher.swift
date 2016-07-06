@@ -43,11 +43,11 @@ class WsDispatcher: WebSocketDelegate {
         // If user is "logged in" attempt to create session
         if (SessionManager.instance.loggedIn) {
             if let credentials = SessionManager.instance.getLastLoggedInCredentials() {
-                let wsReq = WsLogin.Request()
+                let wsReq = WsLoginManual.Request()
                 wsReq.email = credentials.user.entity?.email
                 wsReq.password = credentials.password
                 WsDispatcher.instance.send(wsReq) {
-                    (wsResp: WsLogin.Response?) in
+                    (wsResp: WsLoginManual.Response?) in
                     guard let response = wsResp, let user = wsResp?.user where response.code == .SUCCESS else {
                         SessionManager.instance.logout()
                         return

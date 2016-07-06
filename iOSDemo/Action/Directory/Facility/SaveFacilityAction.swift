@@ -20,7 +20,7 @@ struct WriteAction: DatabaseActionProtocol {
             return
         }
 
-        let facility = FacilityEntity()
+        let facility = FacilityEntity_Manual()
         facility.id = "c"
         facility.name = "ScrippsC"
         facility.bodySide = .BILATERAL

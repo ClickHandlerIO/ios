@@ -25,7 +25,7 @@ struct ListAction: DatabaseActionProtocol {
             return
         }
 
-        onCompletion(Response(FacilityEntity.fetchAll(db, "SELECT * FROM FacilityEntity")))
+        onCompletion(Response(FacilityEntity_Manual.fetchAll(db, "SELECT * FROM FacilityEntity")))
     }
 
     struct REQ {
@@ -40,13 +40,13 @@ struct ListAction: DatabaseActionProtocol {
 
     struct RESP {
         var code: Code
-        var data: [FacilityEntity]?
+        var data: [FacilityEntity_Manual]?
 
         init() {
             code = .SUCCESS
         }
 
-        init(_ data: [FacilityEntity]?) {
+        init(_ data: [FacilityEntity_Manual]?) {
             self.init()
             self.data = data
         }
