@@ -7,7 +7,7 @@ import Foundation
 import GRDBCipher
 import SwiftyJSON
 
-class UserEntity: BaseRecord, JSONSerializable {
+class UserEntity_Manual: BaseRecord, JSONSerializable {
     var id: String?
     var email: String?
 

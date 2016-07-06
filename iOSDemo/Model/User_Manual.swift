@@ -6,7 +6,7 @@
 import Foundation
 import SwiftyJSON
 
-class User: JSONSerializable {
+class User_Manual: JSONSerializable {
     var entity: UserEntity?
 
     required init() {
