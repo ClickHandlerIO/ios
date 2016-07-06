@@ -63,13 +63,13 @@ class UserEntity: BaseRecord, JSONSerializable {
     }
 
     func asDictionary() -> [String:AnyObject] {
-        var dictionary = [String: AnyObject]()
+        var dictionary: [String:AnyObject] = [:]
 
         if let id = self.id {
             dictionary["id"] = id
         }
 
-            dictionary["email"] = email
+        dictionary["email"] = email
 
         return dictionary
     }

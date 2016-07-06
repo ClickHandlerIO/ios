@@ -52,7 +52,8 @@ class WsDispatcher: WebSocketDelegate {
                         SessionManager.instance.logout()
                         return
                     }
-                    setupForUser(user, password, onCompletion)
+                    // todo
+//                    setupForUser(user, wsReq.password, onCompletion)
                 }
             }else {
                 SessionManager.instance.logout()

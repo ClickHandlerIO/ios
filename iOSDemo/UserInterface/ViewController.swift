@@ -34,11 +34,12 @@ class ViewController: BaseViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
 
-        if (DatabaseManager.instance.open()) {
-            dispatch(SchemaAction.Request(), SchemaAction.self, nil)
-            dispatch(WriteAction.Request(), WriteAction.self, nil)
-            loadData()
-        }
+        // todo
+//        if (DatabaseManager.instance.open()) {
+//            dispatch(SchemaAction.Request(), SchemaAction.self, nil)
+//            dispatch(WriteAction.Request(), WriteAction.self, nil)
+//            loadData()
+//        }
     }
 
     func fireEvent() {
