@@ -25,7 +25,7 @@ struct WriteAction: DatabaseActionProtocol {
         facility.name = "ScrippsC"
         facility.bodySide = .BILATERAL
 
-        var addr = Address()
+        var addr = Address_Manual()
         addr.line1 = "Aln1"
         addr.line2 = "Bln2"
         addr.line3 = "Cln3"

@@ -32,7 +32,7 @@ class ActionDispatcher {
     }
 
     func queue<Request, Response, Action:ActionProtocol where Action.Request == Request, Action.Response == Response>(request: Request, _ action: Action.Type, _ callback: ((Response) -> (Void))?) -> NSOperation {
-        var operation = ActionOperation<Response>({
+        let operation = ActionOperation<Response>({
             op in
             action.run(request, operation: op, onCompletion: {
                 response in

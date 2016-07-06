@@ -6,14 +6,14 @@
 import Foundation
 import GRDBCipher
 
-enum BodySide: String {
-    case LEFT
-    case RIGHT
-    case BILATERAL
-    case FAR_LATERAL
-    case UNKNOWN
+enum BodySide_Manual: String {
+case LEFT
+case RIGHT
+case BILATERAL
+case FAR_LATERAL
+case UNKNOWN
 }
 
-extension BodySide: DatabaseValueConvertible {
+extension BodySide_Manual: DatabaseValueConvertible {
 
 }

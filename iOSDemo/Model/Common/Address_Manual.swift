@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct Address {
+struct Address_Manual {
     var line1: String?
     var line2: String?
     var line3: String?

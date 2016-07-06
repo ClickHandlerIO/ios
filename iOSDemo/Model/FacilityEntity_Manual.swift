@@ -9,7 +9,7 @@ import GRDBCipher
 class FacilityEntity_Manual: BaseRecord {
     var id: String?
     var name: String?
-    var bodySide: BodySide?
+    var bodySide: BodySide_Manual?
 
     // todo save a Date
     // any other types?
@@ -47,7 +47,7 @@ class FacilityEntity_Manual: BaseRecord {
     required init(_ row: Row) {
         id = row.value(named: "id")
         name = row.value(named: "name")
-        bodySide = row.value(named: "bodySide") as BodySide?
+        bodySide = row.value(named: "bodySide") as BodySide_Manual?
         addressLine1 = row.value(named: "addressLine1")
         addressLine2 = row.value(named: "addressLine2")
         addressLine3 = row.value(named: "addressLine3")
@@ -75,8 +75,8 @@ class FacilityEntity_Manual: BaseRecord {
 
     // Embedded Types
 
-    func createAddress() -> Address {
-        var address = Address()
+    func createAddress() -> Address_Manual {
+        var address = Address_Manual()
         address.line1 = self.addressLine1
         address.line2 = self.addressLine2
         address.line3 = self.addressLine3
@@ -87,7 +87,7 @@ class FacilityEntity_Manual: BaseRecord {
         return address
     }
 
-    func applyAddress(address: Address) {
+    func applyAddress(address: Address_Manual) {
         self.addressLine1 = address.line1
         self.addressLine2 = address.line2
         self.addressLine3 = address.line3
