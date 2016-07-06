@@ -36,10 +36,8 @@ extension DatabaseActionProtocol {
                     try run(request, db: db, operation: operation, onCompletion: onCompletion)
                 }
             }
-        } catch let err {
-            print("DatabaseActionProtocol error \(err)")
         } catch {
-            print("DatabaseActionProtocol empty error")
+            print("DatabaseActionProtocol error")
         }
     }
 }

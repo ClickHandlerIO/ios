@@ -12,10 +12,6 @@ class FileEntity: AbstractEntity {
     var size: Int?
     var storeBucket: String?
     var storeId: String?
-//    var keyDEFAULT_ALGORITHM: String?
-//    var keyAlgorithm: String?
-//    var keyKey: String?
-//    var keyMd5: String?
     var storageClass: String?
     var status: FileStatus?
 
@@ -74,13 +70,6 @@ override func merge(json: JSON?) {
         self.storeId = storeId
     }
     
-//    if let key = EncodedKey(json: json["key"]) {
-//        self.keyDEFAULT_ALGORITHM = key.DEFAULT_ALGORITHM
-//        self.keyAlgorithm = key.algorithm
-//        self.keyKey = key.key
-//        self.keyMd5 = key.md5
-//    }
-    
     if let storageClass = json["storageClass"].string {
         self.storageClass = storageClass
     }
@@ -131,8 +120,6 @@ override func asDictionary() -> [String:AnyObject] {
         dictionary["storeId"] = storeId
     }
     
-//    dictionary["key"] = createKey().asDictionary()
-    
     if let storageClass = self.storageClass {
         dictionary["storageClass"] = storageClass
     }
@@ -157,22 +144,4 @@ required init(_ row: Row) {
 override var persistentDictionary: [String:DatabaseValueConvertible?] {
     return [:]
 }
-
-// Key
-
-//func createKey() -> EncodedKey {
-//    let key = EncodedKey()
-//    key.dEFAULT_ALGORITHM = self.keyDEFAULT_ALGORITHM
-//    key.algorithm = self.keyAlgorithm
-//    key.key = self.keyKey
-//    key.md5 = self.keyMd5
-//    return key
-//}
-//
-//func applyKey(key: EncodedKey) {
-//    self.keyDEFAULT_ALGORITHM = key.DEFAULT_ALGORITHM
-//    self.keyAlgorithm = key.algorithm
-//    self.keyKey = key.key
-//    self.keyMd5 = key.md5
-//}
 }

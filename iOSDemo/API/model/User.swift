@@ -53,8 +53,8 @@ func merge(json: JSON?) {
     if let colleagueIdsArrayValue = json["colleagueIds"].array {
         self.colleagueIds = []
         for item in colleagueIdsArrayValue {
-            if var colleagueIds = colleagueIds {
-                colleagueIds.append(item.stringValue)
+            if var colleagueIds = colleagueIds, let itemValue = item.string {
+                colleagueIds.append(itemValue)
             }
         }
     }
@@ -62,8 +62,8 @@ func merge(json: JSON?) {
     if let teamIdsArrayValue = json["teamIds"].array {
         self.teamIds = []
         for item in teamIdsArrayValue {
-            if var teamIds = teamIds {
-                teamIds.append(item.stringValue)
+            if var teamIds = teamIds, let itemValue = item.string {
+                teamIds.append(itemValue)
             }
         }
     }
