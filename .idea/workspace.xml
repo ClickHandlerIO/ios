@@ -1,11 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="">
+    <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="code gen compiling">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/AbstractEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Address.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/AeEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/AeToTeamEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/AttributableType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/AvailablePerspective.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BarcodeEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BarcodeType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BinDetail.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BizUnit.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BizUnitEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BizUnitOption.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BizUnitRelation.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/BodySide.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CancelReason.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseEventEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseEventOpsStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseEventSalesStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseEventState.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseEventStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseLoaningMethodology.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseUsageDisposition.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseViewing.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CaseViewingEnded.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Completion.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CompletionResult.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ComponentContainerType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ConsumerEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ContactEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ContactType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Container.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ConversationEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ConversationParticipantEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ConversationParticipantType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ConversationUpdated.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CycleCountItemEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/CycleCountStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/DceEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/DelegateRelation.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/DeviceType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/DirectoryNonPersonType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Email.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/EncodedKey.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/EventEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/EventState.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/EventStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/EventType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FacilityEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FacilityOption.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FacilityRelation.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FacilityType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FileEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FileStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FoundReason.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Gender.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/HcpEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/HcpType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/HcrEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/HcrTeam.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/HcrTeamType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/HcrType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/HoldReasonEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/InventoryLocation.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/InventoryType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/InventoryTypeEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ItemCategoryEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ItemClass.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ItemEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ItemType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ItemVersionEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LoanEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LoanReason.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LoanState.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LoanStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Location.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LocationHint.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LocationType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LostReason.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/LotEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/MessageAddedUpdated.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/MessageEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/MessageParticipantEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/NotesChanged.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrderHeaderEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrderReasonEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrderReasonGroup.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrderState.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrderStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrgEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrgInfo.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrgType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrgUnit.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OrgUnitEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OuOption.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/OuRelation.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Outcome.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Pack.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PackageEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PackageState.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PackageStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PatientEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PatientType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PersonName.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PersonType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PhoneNumber.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PhysicianEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PhysicianType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Pick.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/PickResult.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ProcedureEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ProcedureOption.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/RestockType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Result.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/SerialEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ShipmentEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ShipmentState.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/ShipmentStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Stock.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockContainerType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockEntry.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockItem.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockLite.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockMatch.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockSortBy.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockState.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/StockStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/SystemAdminEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/TZ.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/TeamOption.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/UnexpectedItem.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/UnexpectedItemResult.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/UnitOfMeasure.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/UsageCaptureType.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/User.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/UserEntity.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/UserPerspective.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/UserStatus.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iOSDemo/API/model/Visibility.swift" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ios.iml" afterPath="$PROJECT_DIR$/.idea/ios.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/API/model/FileEntity.swift" afterPath="$PROJECT_DIR$/iOSDemo/API/model/FileEntity.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/API/model/User.swift" afterPath="$PROJECT_DIR$/iOSDemo/API/model/User.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" afterPath="$PROJECT_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" />
     </list>
     <list id="3682ac3a-91ec-41ab-9afa-de2a07918724" name="New changelist" comment="" />
     <ignored path="ios.iws" />
@@ -27,51 +165,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PackageEntity.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOSDemo/API/model/PackageEntity.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileEntity.swift" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOSDemo/API/model/FileEntity.swift">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1057">
-              <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-                <element signature="e#380#416#0" expanded="true" />
-                <element signature="e#418#556#0" expanded="true" />
-                <element signature="e#558#1729#0" expanded="true" />
-                <element signature="e#1731#2850#0" expanded="true" />
-                <element signature="e#2860#2932#0" expanded="true" />
-                <element signature="e#2934#2983#0" expanded="true" />
-                <element signature="e#3055#3073#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionProtocol.swift" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ActionProtocol.swift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Base/ActionProtocol.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#579#1423#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_string.h" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_string.h" pinned="false" current-in-tab="true">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/secure/_string.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="697">
               <caret line="110" column="2" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
               <folding />
             </state>
@@ -96,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/iOSDemo/Network/WsMessage.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Network/Base/WsAction.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift" />
@@ -147,6 +255,7 @@
         <option value="$PROJECT_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" />
         <option value="$PROJECT_DIR$/GRDB.swift/SQLCipher/src/sqlite3.c" />
         <option value="$PROJECT_DIR$/iOSDemo/API/model/User.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/API/ws/WsLogout.swift" />
       </list>
     </option>
   </component>
@@ -230,15 +339,29 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="Supporting Files" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,6 +378,36 @@
               <option name="myItemId" value="GRDB" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDBiOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GRDB" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -264,7 +417,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/iOSDemo/API/model/Visibility.swift" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/iOSDemo/API/ws" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="iOSDemo" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///repos/ClickHandlerIO/ios/iOSDemo/Action/ActionBase.swift" />
@@ -764,7 +917,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467841206202</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="code gen compiling">
+      <created>1467847177298</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1467847177298</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -843,7 +1003,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/WsGetItem.swift" />
     <entry file="file://$PROJECT_DIR$/../../axis/move-api/build/swift/model/BarcodeEntity.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="678">
@@ -1028,11 +1187,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#17#0" expanded="false" />
-            <element signature="e#1076#1112#0" expanded="false" />
-            <element signature="e#1114#1252#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,11 +1195,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1538">
           <caret line="114" column="5" selection-start-line="114" selection-start-column="5" selection-end-line="114" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#17#0" expanded="false" />
-            <element signature="e#1076#1112#0" expanded="false" />
-            <element signature="e#1114#1252#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,9 +1203,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#407#1296#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,10 +1211,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#17#0" expanded="false" />
-            <element signature="e#577#856#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,10 +1245,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#358#838#0" expanded="true" />
-            <marker date="1467847054000" expanded="false" signature="882:1351" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,17 +1261,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="203" column="62" selection-start-line="203" selection-start-column="62" selection-end-line="203" selection-end-column="62" />
-          <folding>
-            <element signature="e#4169#4554#0" expanded="true" />
-            <element signature="e#4556#4898#0" expanded="true" />
-            <element signature="e#4910#5086#0" expanded="true" />
-            <element signature="e#5088#5225#0" expanded="true" />
-            <element signature="e#5247#5616#0" expanded="true" />
-            <element signature="e#5956#6347#0" expanded="true" />
-            <element signature="e#6349#6683#0" expanded="true" />
-            <element signature="e#6699#7002#0" expanded="true" />
-            <element signature="e#7004#7258#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1152,9 +1285,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
-          <folding>
-            <marker date="1467847054000" expanded="false" signature="958:1253" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,13 +1293,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#110#129#0" expanded="true" />
-            <element signature="e#131#269#0" expanded="true" />
-            <element signature="e#271#436#0" expanded="true" />
-            <element signature="e#438#637#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,9 +1301,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1186,10 +1309,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#524#662#0" expanded="false" />
-            <element signature="e#2303#3566#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,12 +1325,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#138#183#0" expanded="true" />
-            <element signature="e#185#323#0" expanded="true" />
-            <element signature="e#325#474#0" expanded="true" />
-            <element signature="e#476#659#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1218,9 +1333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,22 +1341,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1057">
           <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#380#416#0" expanded="true" />
-            <element signature="e#418#556#0" expanded="true" />
-            <element signature="e#558#1729#0" expanded="true" />
-            <element signature="e#1731#2850#0" expanded="true" />
-            <element signature="e#2860#2932#0" expanded="true" />
-            <element signature="e#2934#2983#0" expanded="true" />
-            <element signature="e#3055#3073#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include/secure/_string.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="697">
           <caret line="110" column="2" selection-start-line="110" selection-start-column="2" selection-end-line="110" selection-end-column="2" />
           <folding />
         </state>
@@ -1275,8 +1379,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Base/ActionProtocol.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="600">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#579#1423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/ws/WsLogout.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding />
         </state>
       </provider>
