@@ -22,10 +22,10 @@ struct WsLoginManual {
             return false
         }
 
-        public required init() {
+         required init() {
         }
 
-        public convenience required init?(json: JSON?) {
+         convenience required init?(json: JSON?) {
             guard let json = json else {
                 return nil
             }
@@ -33,7 +33,7 @@ struct WsLoginManual {
             self.merge(json)
         }
 
-        public func merge(json: JSON?) {
+         func merge(json: JSON?) {
             guard let json = json else {
                 return
             }
@@ -77,10 +77,10 @@ struct WsLoginManual {
             case PASSWORD_FAILED
         }
 
-        public required init() {
+         required init() {
         }
 
-        public convenience required init?(json: JSON?) {
+         convenience required init?(json: JSON?) {
             guard let json = json else {
                 return nil
             }
@@ -88,7 +88,7 @@ struct WsLoginManual {
             self.merge(json)
         }
 
-        public func merge(json: JSON?) {
+         func merge(json: JSON?) {
             guard let json = json else {
                 return
             }

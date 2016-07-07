@@ -39,7 +39,7 @@ class UserEntity_Manual: BaseRecord, JSONSerializable {
 
     // JSON
 
-    public convenience required init?(json: JSON?) {
+    convenience required init?(json: JSON?) {
         guard let json = json else {
             return nil
         }
@@ -48,7 +48,7 @@ class UserEntity_Manual: BaseRecord, JSONSerializable {
         self.merge(json)
     }
 
-    public func merge(json: JSON?) {
+   func merge(json: JSON?) {
         guard let json = json else {
             return
         }

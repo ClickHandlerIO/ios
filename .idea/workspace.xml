@@ -2,147 +2,267 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/AbstractEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Address.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/AeEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/AeToTeamEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/AttributableType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/AvailablePerspective.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BarcodeEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BarcodeType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BinDetail.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BizUnit.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BizUnitEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BizUnitOption.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BizUnitRelation.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/BodySide.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CancelReason.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseEventEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseEventOpsStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseEventSalesStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseEventState.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseEventStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseLoaningMethodology.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseUsageDisposition.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseViewing.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CaseViewingEnded.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Completion.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CompletionResult.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ComponentContainerType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ConsumerEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ContactEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ContactType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Container.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ConversationEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ConversationParticipantEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ConversationParticipantType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ConversationUpdated.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CycleCountItemEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/CycleCountStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/DceEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/DelegateRelation.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/DeviceType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/DirectoryNonPersonType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Email.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/EncodedKey.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/EventEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/EventState.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/EventStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/EventType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/FacilityEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/FacilityOption.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/FacilityRelation.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/FacilityType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/FileEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/FileStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/FoundReason.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Gender.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/HcpEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/HcpType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/HcrEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/HcrTeam.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/HcrTeamType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/HcrType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/HoldReasonEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/InventoryLocation.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/InventoryType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/InventoryTypeEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ItemCategoryEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ItemClass.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ItemEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ItemType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ItemVersionEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LoanEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LoanReason.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LoanState.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LoanStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Location.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LocationHint.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LocationType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LostReason.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/LotEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/MessageAddedUpdated.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/MessageEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/MessageParticipantEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/NotesChanged.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrderHeaderEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrderReasonEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrderReasonGroup.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrderState.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrderStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrgEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrgInfo.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrgType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrgUnit.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OrgUnitEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OuOption.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/OuRelation.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Outcome.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Pack.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PackageEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PackageState.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PackageStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PatientEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PatientType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PersonName.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PersonType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PhoneNumber.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PhysicianEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PhysicianType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Pick.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/PickResult.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ProcedureEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ProcedureOption.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/RestockType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Result.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/SerialEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ShipmentEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ShipmentState.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/ShipmentStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Stock.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockContainerType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockEntry.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockItem.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockLite.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockMatch.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockSortBy.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockState.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/StockStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/SystemAdminEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/TZ.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/TeamOption.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/UnexpectedItem.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/UnexpectedItemResult.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/UnitOfMeasure.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/UsageCaptureType.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/User.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/UserEntity.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/UserPerspective.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/UserStatus.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Model/Visibility.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAcceptLostFoundStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAdHocCreateShipment.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddAeToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddAeToTeam.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddCycleCountItems.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddHcrToColleague.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddHcrToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddHcrToTeam.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddItemCategoryToSalesOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddMemberCategories.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAddParticipant.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsArchiveConversation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsArchiveConversations.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAssignPick.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsAutoVerifyPackage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCancelCaseEvent.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCompareCycleCountItems.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCompleteCycleCount.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCompletePick.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsConfigureItem.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateBizUnitToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateCaseEvent.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateConversation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateCycleCount.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateHcrMatrix.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateItem.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateItemCategory.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateItemVersion.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateLoan.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateLot.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateMessage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateNote.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateOrder.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateOrderReason.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateOrgUnitToFacility.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePackage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePatient.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePhysicianBizUnitProcedure.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePhysicianToFacility.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePick.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePick3.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateProcedureToBizUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateRestockOrderOnPar.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateSerial.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateTeamToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsDeleteNote.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsDeliverPackage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditCaseEventDetails.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditCaseEventScheduling.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditCaseUsage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditItem.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditItemCategory.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditItemVersion.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditLot.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditOrder.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsEditSerial.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsForgotPassword.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetAe.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetBin.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetBizUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetCaseEventDetail.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetConsumer.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetConversation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetCycleCount.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetCycleCountItem.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetDce.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetFacility.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetHcp.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetHcr.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetInfoForKitVerify.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetInfoForPackageVerify.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetItem.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetItemInfo.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetLoan.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetOrder.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetOrg.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetPackageDetail.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetPatient.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetPhysician.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetPicksForShipment.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetProcedure.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetShipmentDetail.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetStockLocationSummary.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetSystemAdmin.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetTeam.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetUnexpectedItemInfo.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetUser.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsHoldStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListAeLinkedOrgUnits.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListAeLinkedTeams.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListAeOrgUnitOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListAeTeamOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListBins.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListBizUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListBizUnitForBizUnitProcedure.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListBizUnitLinkedOus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListBizUnitLinkedProcedures.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListBizUnitOuOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListBizUnitProcedureOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListCaseEvents.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListCaseUsage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListContactsFrom.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListContactsTo.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListConversations.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListCoverageForScheduling.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListCycleCountItems.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListCycleCounts.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListDelegateOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListFacilities.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListFacilitiesForHcrMatrix.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedDelegates.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedOus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedPhysicians.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListFacilityOuOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListFacilityPhysicianOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListForKitSourcing.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListForMatrix.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrColleagueOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrLinkedColleagues.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrLinkedOrgUnits.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrLinkedTeams.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrMatrix.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrOrgUnitOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrTeamForScheduling.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrTeamForSearch.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrTeamOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHcrTeams.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHoldReasons.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHospitalsForScheduling.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListHospitalsForSearch.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListInventoryLocations.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListInventoryTypes.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListItemAndVersion.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListItemCategories.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListItemComponents.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListItemVersions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListItems.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListKitTrayStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListLoanLines.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListLoans.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListLostFoundStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListLotSerial.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListMemberCategories.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListMessages.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListNotes.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOpsOrgUnits.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrderLines.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrderReasons.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrders.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrg.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrgUnitLinkedDelegates.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuBizUnitOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuFacilityOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuLinkedBizUnits.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuLinkedFacilities.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuLinkedTeams.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuTeamOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPackages.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPhysicianBizUnitProcedure.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPhysicianFacilityOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPhysicianLinkedFacilities.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPhysicians.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPhysiciansForHcrMatrix.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPicks.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListPossibleUsageStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListProcedureBizUnitOptions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListProcedureForBizUnitProcedure.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListProcedureLinkedBizUnits.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListProceduresForHcrMatrix.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListProceduresForScheduling.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListProceduresForSearch.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListRequestedItems.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListSalesOrgUnits.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListShipments.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListShipmentsForOrder.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListStockContainers.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListStockDetail.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListStockForAdHocTransfer.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListStockForKit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListStockForPackage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListStockHolds.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListSurgeonPhysiciansForScheduling.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListSurgeonPhysiciansForSearch.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsListUsersForAssignPick.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsLogin.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsLogout.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsLookUpItemStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsMarkMessageRead.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsMarkMessagesRead.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsPendingPoReport.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsPendingPoReportGraph.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsPrepareShipment.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsReconcileCaseUsages.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsReconcileLostFoundStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveAeToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveAeToTeam.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveBizUnitToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveCaseUsage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveHcrToColleague.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveHcrToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveHcrToTeam.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveItemCategory.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveItemCategoryToSalesOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveMemberCategory.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveOrgUnitToFacility.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveParticipant.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemovePhysicianBizUnitProcedure.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemovePhysicianToFacility.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveProcedureToBizUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRemoveTeamToOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsRescheduleEvent.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveAe.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveBin.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveBizUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveCaseUsages.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveConsumer.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveContact.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveDce.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveFacility.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveHcp.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveHcr.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveLoanLines.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveOrderLines.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveOrg.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveOrgUnit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSavePhysician.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveProcedure.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveRequestedItems.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveSystemAdmin.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSaveTeam.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsStartFileUpload.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSwapStockForPick.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSyncCaseEvent.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsSyncLoan.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUnholdStock.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventOpsStatus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventPatient.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventSalesStatus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventStatus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateConversation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateLoan.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateLoanStatus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateOrderStatus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdatePackage.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdatePackageStates.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateShipmentStatus.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsUpdateUser.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsVerifyKit.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsVerifyPackage.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ios.iml" afterPath="$PROJECT_DIR$/.idea/ios.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Model/UserEntity_Manual.swift" afterPath="$PROJECT_DIR$/iOSDemo/Model/UserEntity_Manual.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Model/User_Manual.swift" afterPath="$PROJECT_DIR$/iOSDemo/Model/User_Manual.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift" afterPath="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift" />
     </list>
     <list id="3682ac3a-91ec-41ab-9afa-de2a07918724" name="New changelist" comment="" />
     <ignored path="ios.iws" />
@@ -163,7 +283,149 @@
     <favorites_list name="iOSDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WsCreateMessage.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateMessage.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding>
+                <marker date="1467850016000" expanded="true" signature="3081:3083" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsListOuFacilityOptions.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuFacilityOptions.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+              <folding>
+                <element signature="e#360#466#0" expanded="true" />
+                <element signature="e#484#553#0" expanded="true" />
+                <element signature="e#596#623#0" expanded="true" />
+                <element signature="e#641#827#0" expanded="true" />
+                <element signature="e#845#1698#0" expanded="true" />
+                <marker date="1467850016000" expanded="true" signature="3775:3777" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionManager.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/Base/SessionManager.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsListOuLinkedFacilities.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuLinkedFacilities.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#363#470#0" expanded="true" />
+                <element signature="e#488#557#0" expanded="true" />
+                <element signature="e#600#627#0" expanded="true" />
+                <element signature="e#645#831#0" expanded="true" />
+                <element signature="e#849#1703#0" expanded="true" />
+                <marker date="1467850016000" expanded="true" signature="3779:3781" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsGetAe.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsGetAe.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
+              <folding>
+                <element signature="e#1561#1580#0" expanded="true" />
+                <element signature="e#1582#1720#0" expanded="true" />
+                <marker date="1467850016000" expanded="true" signature="5855:5857" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsCompletePick.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsCompletePick.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="e#1554#1573#0" expanded="true" />
+                <element signature="e#1575#1713#0" expanded="true" />
+                <element signature="e#1715#2313#0" expanded="true" />
+                <element signature="e#2315#2515#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsPendingPoReport.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsPendingPoReport.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+              <folding>
+                <element signature="e#834#982#0" expanded="true" />
+                <element signature="e#1221#1240#0" expanded="true" />
+                <element signature="e#1242#1380#0" expanded="true" />
+                <element signature="e#1382#2061#0" expanded="true" />
+                <element signature="e#2063#2777#0" expanded="true" />
+                <element signature="e#2912#2931#0" expanded="true" />
+                <element signature="e#2933#3071#0" expanded="true" />
+                <element signature="e#3073#3597#0" expanded="true" />
+                <element signature="e#3599#3799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsListItemAndVersion.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsListItemAndVersion.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsLoginManual.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+              <folding>
+                <element signature="e#480#507#0" expanded="true" />
+                <element signature="e#1820#1847#0" expanded="true" />
+                <element signature="e#1858#2044#0" expanded="true" />
+                <element signature="e#2055#2646#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WsCreatePhysicianToFacility.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePhysicianToFacility.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,11 +433,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/iOSDemo/Network/WsDispatcher.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Network/Base/WsAction.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Model/Base/BaseRecord.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Model/User.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLogin.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Database/DatabaseManager.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/Base/SessionManager.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/AppDelegate.swift" />
@@ -201,14 +458,11 @@
         <option value="$PROJECT_DIR$/iOSDemo/API/TZ.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/CaseLoaningMethodology.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/RestockType.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/Address.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/AbstractEntity.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/FacilityEntity.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/model/HcpEntity.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/model/HcrEntity.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Model/User_Manual.swift" />
-        <option value="$PROJECT_DIR$/iOSDemo/Model/UserEntity_Manual.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/model/HoldReasonEntity.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/model/PhoneNumber.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/model/ConsumerEntity.swift" />
@@ -222,6 +476,14 @@
         <option value="$PROJECT_DIR$/iOSDemo/API/model/User.swift" />
         <option value="$PROJECT_DIR$/iOSDemo/API/ws/WsLogout.swift" />
         <option value="$PROJECT_DIR$/GRDB.swift/SQLCipher/src/sqlite3.c" />
+        <option value="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrg.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Model/UserEntity_Manual.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Model/User_Manual.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateMessage.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuFacilityOptions.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuLinkedFacilities.swift" />
+        <option value="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetAe.swift" />
       </list>
     </option>
   </component>
@@ -292,6 +554,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,7 +663,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/iOSDemo/API/Model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/iOSDemo/API/Ws" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="iOSDemo" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///repos/ClickHandlerIO/ios/iOSDemo/Action/ActionBase.swift" />
@@ -897,7 +1177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1467847738763</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add model">
+      <created>1467847841452</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1467847841452</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -942,7 +1229,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/GRDB.swift" />
     </ignored-roots>
-    <MESSAGE value="operation queues working" />
     <MESSAGE value="working" />
     <MESSAGE value="action queues working and db action type plumbed out to provide db connection" />
     <MESSAGE value="org" />
@@ -967,7 +1253,8 @@
     <MESSAGE value="before importing api files" />
     <MESSAGE value="code gen compiling" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="add model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,69 +1263,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../axis/move-api/build/swift/model/BarcodeEntity.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/AvailablePerspective.swift" />
-    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/Address.swift" />
-    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/FacilityEntity.swift" />
-    <entry file="file://$PROJECT_DIR$/../../axis/move-api/build/swift/model/FacilityEntity.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/UserEntity.swift" />
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/BodySide_Manual.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Directory/Facility/SaveFacilityAction.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/Common/Address_Manual.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/API/OrgType.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/API/RestockType.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1055,32 +1279,6 @@
             <element signature="e#1186#1791#0" expanded="false" />
             <element signature="e#2358#2772#0" expanded="false" />
             <element signature="e#2778#3134#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Directory/Facility/ListFacilitiesAction.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/SessionManager.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <element signature="e#1277#1760#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1188,32 +1386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/UserEntity_Manual.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#1068#1336#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/User_Manual.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/PhoneNumber.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1242,14 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/OrgInfo.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1334,7 +1498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/API/ws/WsLogout.swift">
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsLogout.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
@@ -1363,8 +1527,206 @@
         <state relative-caret-position="600">
           <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
-            <element signature="e#579#1423#0" expanded="true" />
+            <element signature="e#579#1423#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="843" column="9" selection-start-line="843" selection-start-column="9" selection-end-line="843" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsListOrg.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateTeamToOrgUnit.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/UserEntity_Manual.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="e#892#1055#0" expanded="true" />
+            <element signature="e#1060#1321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Action/Directory/Facility/ListFacilitiesAction.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Model/User_Manual.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Base/WsDispatcher.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsCreatePhysicianToFacility.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+          <folding>
+            <element signature="e#480#507#0" expanded="true" />
+            <element signature="e#1820#1847#0" expanded="true" />
+            <element signature="e#1858#2044#0" expanded="true" />
+            <element signature="e#2055#2646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/OrgInfo.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#300#927#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/Base/SessionManager.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsCreateMessage.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <marker date="1467850016000" expanded="true" signature="3081:3083" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuFacilityOptions.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <element signature="e#360#466#0" expanded="true" />
+            <element signature="e#484#553#0" expanded="true" />
+            <element signature="e#596#623#0" expanded="true" />
+            <element signature="e#641#827#0" expanded="true" />
+            <element signature="e#845#1698#0" expanded="true" />
+            <marker date="1467850016000" expanded="true" signature="3775:3777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsListOuLinkedFacilities.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#363#470#0" expanded="true" />
+            <element signature="e#488#557#0" expanded="true" />
+            <element signature="e#600#627#0" expanded="true" />
+            <element signature="e#645#831#0" expanded="true" />
+            <element signature="e#849#1703#0" expanded="true" />
+            <marker date="1467850016000" expanded="true" signature="3779:3781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Model/OrgType.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsGetAe.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="128" column="48" selection-start-line="128" selection-start-column="48" selection-end-line="128" selection-end-column="48" />
+          <folding>
+            <element signature="e#1561#1580#0" expanded="true" />
+            <element signature="e#1582#1720#0" expanded="true" />
+            <marker date="1467850016000" expanded="true" signature="5855:5857" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsCompletePick.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#1554#1573#0" expanded="true" />
+            <element signature="e#1575#1713#0" expanded="true" />
+            <element signature="e#1715#2313#0" expanded="true" />
+            <element signature="e#2315#2515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsPendingPoReport.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#834#982#0" expanded="true" />
+            <element signature="e#1221#1240#0" expanded="true" />
+            <element signature="e#1242#1380#0" expanded="true" />
+            <element signature="e#1382#2061#0" expanded="true" />
+            <element signature="e#2063#2777#0" expanded="true" />
+            <element signature="e#2912#2931#0" expanded="true" />
+            <element signature="e#2933#3071#0" expanded="true" />
+            <element signature="e#3073#3597#0" expanded="true" />
+            <element signature="e#3599#3799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/API/Ws/WsListItemAndVersion.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
