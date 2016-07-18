@@ -8,6 +8,15 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
+    init() {
+        super.init(nibName:nil, bundle: nil)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("Init with coder not expected")
+    }
+
+
     // Lifecycle
 
     override func viewWillDisappear(animated: Bool) {

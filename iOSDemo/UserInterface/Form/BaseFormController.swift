@@ -27,13 +27,13 @@ class BaseFormController: BaseTableViewController {
         if let formControl = getControl(indexPath) {
             return formControl.cell
         }
-        println("Error: no form control for index path [" + indexPath.row + ", " + indexPath.section + "]")
+        print("Error: no form control for index path: " + String(indexPath.row) + ", " + String(indexPath.section) + "]")
         return UITableViewCell()
     }
 
-    func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
-        if let formControl = getControl(indexPath) {
-            formControl.onCellTouch(self.navigationController)
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if let formControl = getControl(indexPath), navController = self.navigationController {
+            formControl.onCellTouch(navController)
         }
     }
 
