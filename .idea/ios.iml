@@ -53,11 +53,12 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Directory/Facility/ListFacilitiesAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Directory/Facility/SaveFacilityAction.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionDispatcher.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Base/ActionProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/SchemaAction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Action/Auth/LoginAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrgEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockContainerType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ConsumerEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/MessageEntity.swift" isTestSource="false" />
@@ -74,44 +75,43 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/EventEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrgUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BinDetail.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FacilityRelation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockEntry.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrderState.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ConversationEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseViewingEnded.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PackageEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PackageState.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/EventState.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrderReasonGroup.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/DceEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CycleCountItemEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ProcedureOption.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseEventOpsStatus.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ContactType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/LostReason.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PickResult.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PhoneNumber.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/LocationType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockSortBy.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/UnexpectedItemResult.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseEventSalesStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OuRelation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/InventoryTypeEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/AeToTeamEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrderStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/AvailablePerspective.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BarcodeType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseEventState.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/AbstractEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseViewingEnded.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BarcodeEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BizUnitEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/UnexpectedItem.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PatientType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Address.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FacilityEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/EventStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/TeamOption.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FoundReason.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/InventoryLocation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/AbstractEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OuOption.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ShipmentStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/InventoryTypeEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Completion.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CycleCountItemEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Outcome.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/HcrEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FacilityType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockMatch.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/HcrType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/DirectoryNonPersonType.swift" isTestSource="false" />
@@ -122,17 +122,19 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/InventoryType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockItem.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FacilityRelation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockSortBy.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseEventStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/SerialEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PatientEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockState.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BizUnitOption.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrgUnitEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/DceEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/NotesChanged.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/EventStatus.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OuRelation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FacilityOption.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FacilityEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BodySide.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Gender.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Stock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Container.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/HcpEntity.swift" isTestSource="false" />
@@ -140,29 +142,27 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/UserPerspective.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ItemCategoryEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PackageStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseEventOpsStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ConversationParticipantEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ItemEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/TZ.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/UnitOfMeasure.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/AttributableType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Gender.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/LocationHint.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/LoanEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Pack.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/HcrTeamType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Pick.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BarcodeType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/RestockType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrderHeaderEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/LoanReason.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/UserStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrderReasonEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/UnitOfMeasure.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ContactType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrgEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Pick.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/TZ.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/HoldReasonEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PersonName.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/HcrTeam.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/MessageParticipantEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseLoaningMethodology.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrderReasonEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/LoanState.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/EncodedKey.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Result.swift" isTestSource="false" />
@@ -172,154 +172,154 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ConversationParticipantType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CaseUsageDisposition.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/AeEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BodySide.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FacilityType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/LotEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/OrgInfo.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/EventType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/UnexpectedItem.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CompletionResult.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/FileStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ConversationUpdated.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Email.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Completion.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ProcedureEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/User.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ItemType.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PackageEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/StockLite.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CycleCountStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/PersonType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Address.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Location.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/CancelReason.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/HoldReasonEntity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ProcedureOption.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ShipmentEntity.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/ComponentContainerType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/BizUnitRelation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/Visibility.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/DelegateRelation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Model/EventType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetItemInfo.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePatient.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveOrgUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListMessages.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateCycleCount.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockForPackage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrColleagueOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveSystemAdmin.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuBizUnitOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsVerifyKit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetConsumer.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventOpsStatus.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditItemCategory.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSyncLoan.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProceduresForScheduling.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveFacility.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProceduresForHcrMatrix.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRescheduleEvent.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateTeamToOrgUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveProcedureToBizUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCancelCaseEvent.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditCaseEventScheduling.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListMemberCategories.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsArchiveConversations.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHospitalsForSearch.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBizUnitOuOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateUser.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetPicksForShipment.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProcedureForBizUnitProcedure.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBizUnitLinkedProcedures.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateItemVersion.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveBin.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListRequestedItems.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuTeamOptions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOpsOrgUnits.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditLot.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSavePhysician.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOrderLines.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetOrgUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPhysicians.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCompletePick.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOrderReasons.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListSurgeonPhysiciansForSearch.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateStock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveHcrToColleague.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsMarkMessagesRead.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdatePackageStates.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAcceptLostFoundStock.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrLinkedColleagues.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetProcedure.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItemVersions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilities.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSyncCaseEvent.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedOus.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveProcedure.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePhysicianToFacility.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsMarkMessageRead.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveHcp.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateRestockOrderOnPar.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddParticipant.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsReconcileCaseUsages.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetCycleCountItem.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetAe.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditOrder.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPackages.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateMessage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditCaseUsage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveDce.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePick3.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveItemCategory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveHcrToOrgUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveLoanLines.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetPhysician.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsPrepareShipment.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventPatient.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetCycleCount.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsLogout.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateProcedureToBizUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateConversation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItemAndVersion.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBins.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetStockLocationSummary.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateMessage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetCaseEventDetail.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemovePhysicianToFacility.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProceduresForSearch.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdatePackageStates.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetLoan.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListShipmentsForOrder.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrTeamForSearch.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListCycleCounts.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListLostFoundStock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetPicksForShipment.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveParticipant.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveTeam.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventSalesStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditLot.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetUnexpectedItemInfo.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPhysicianFacilityOptions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetConsumer.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuLinkedTeams.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockContainers.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetInfoForPackageVerify.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddMemberCategories.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHospitalsForSearch.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuBizUnitOptions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditSerial.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockForKit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveTeamToOrgUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListKitTrayStock.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveBizUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveDce.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetConversation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveHcrToOrgUnit.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProceduresForSearch.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPhysicians.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateOrderReason.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListCycleCounts.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProcedureLinkedBizUnits.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrLinkedOrgUnits.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItemComponents.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListRequestedItems.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateOrder.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOrgUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPossibleUsageStock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOrg.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBizUnitLinkedOus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListNotes.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListForKitSourcing.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateBizUnitToOrgUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePick3.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsLogin.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateNote.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPhysiciansForHcrMatrix.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItemCategories.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListSurgeonPhysiciansForSearch.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveRequestedItems.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockForAdHocTransfer.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetBin.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrLinkedTeams.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateOrderStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetTeam.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsStartFileUpload.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsMarkMessageRead.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListSalesOrgUnits.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditItemVersion.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSavePhysician.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateStock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSwapStockForPick.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetFacility.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetBizUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateConversation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetStock.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePick.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateItem.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsArchiveConversation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsPrepareShipment.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetStockLocationSummary.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveOrg.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveMemberCategory.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddHcrToOrgUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrTeams.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrLinkedColleagues.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsForgotPassword.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventOpsStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOrg.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBizUnitProcedureOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateOrgUnitToFacility.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetPatient.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListContactsFrom.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItemComponents.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilitiesForHcrMatrix.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetDce.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockDetail.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateLoanStatus.swift" isTestSource="false" />
@@ -328,202 +328,205 @@
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveAe.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveBizUnitToOrgUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListCaseUsage.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProcedureBizUnitOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListInventoryTypes.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveOrg.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListMemberCategories.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAcceptLostFoundStock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBizUnitForBizUnitProcedure.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateHcrMatrix.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPhysicianFacilityOptions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHospitalsForScheduling.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditSerial.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveCaseUsages.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditOrder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateRestockOrderOnPar.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveCaseUsage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsHoldStock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCompleteCycleCount.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveProcedure.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockForPackage.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrTeamOptions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListLoanLines.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityOuOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetSystemAdmin.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrMatrix.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetConversation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedPhysicians.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListAeLinkedOrgUnits.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveHcrToColleague.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRescheduleEvent.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityOuOptions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsReconcileLostFoundStock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddHcrToColleague.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetStock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetBizUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsVerifyPackage.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuLinkedBizUnits.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProcedureForBizUnitProcedure.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuLinkedFacilities.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveHcr.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveCaseUsages.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrOrgUnitOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListLotSerial.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListAeLinkedTeams.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddHcrToColleague.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetHcp.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOrders.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetCaseEventDetail.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsReconcileLostFoundStock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddAeToOrgUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveHcr.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveBizUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUnholdStock.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrColleagueOptions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProceduresForHcrMatrix.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBizUnit.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveOrderLines.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetUser.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveCaseUsage.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveItemCategory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBins.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPackages.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsDeliverPackage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddAeToTeam.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemovePhysicianBizUnitProcedure.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPossibleUsageStock.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddHcrToTeam.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetOrg.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePhysicianBizUnitProcedure.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveContact.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsLookUpItemStock.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditCaseUsage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuFacilityOptions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePick.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockHolds.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHoldReasons.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListConversations.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItemVersions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetShipmentDetail.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOrgUnitLinkedDelegates.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListDelegateOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveAeToOrgUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetPackageDetail.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItems.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsHoldStock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsStartFileUpload.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateLoan.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateLoan.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListForMatrix.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOpsOrgUnits.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateConversation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetItem.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListShipments.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddItemCategoryToSalesOrgUnit.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsArchiveConversations.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProcedureBizUnitOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveHcrToTeam.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetHcr.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuFacilityOptions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateHcrMatrix.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditCaseEventDetails.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListInventoryLocations.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListAeTeamOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventStatus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsArchiveConversation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsConfigureItem.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddMemberCategories.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAssignPick.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrTeamForScheduling.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreatePackage.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListBizUnitProcedureOptions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddAeToTeam.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedOus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedDelegates.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrTeams.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListItemAndVersion.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateCaseEvent.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditCaseEventScheduling.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListCoverageForScheduling.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetShipmentDetail.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsPendingPoReportGraph.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveOrderLines.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityLinkedDelegates.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPhysicianLinkedFacilities.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsDeleteNote.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListSurgeonPhysiciansForScheduling.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAdHocCreateShipment.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityPhysicianOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsPendingPoReport.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilityPhysicianOptions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetAe.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCompareCycleCountItems.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateShipmentStatus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditItem.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListCaseEvents.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateLoan.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateSerial.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHospitalsForScheduling.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAddCycleCountItems.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateOrderReason.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsAdHocCreateShipment.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetOrder.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsSaveConsumer.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListUsersForAssignPick.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListCycleCountItems.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListAeOrgUnitOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateLot.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdateCaseEventPatient.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateSerial.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListFacilitiesForHcrMatrix.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListStockForAdHocTransfer.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListHcrLinkedOrgUnits.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsConfigureItem.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuTeamOptions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetInfoForKitVerify.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetProcedure.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListCaseEvents.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveOrgUnitToFacility.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsEditItemCategory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetPatient.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPicks.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateItemCategory.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListProcedureLinkedBizUnits.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateCaseEvent.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetHcp.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetUnexpectedItemInfo.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsCreateItem.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListInventoryLocations.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemoveAeToTeam.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListPhysicianBizUnitProcedure.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListContactsTo.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsUpdatePackage.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListLostFoundStock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListSurgeonPhysiciansForScheduling.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuLinkedBizUnits.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsGetCycleCountItem.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListLoans.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsRemovePhysicianBizUnitProcedure.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListOuLinkedFacilities.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsAction.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsMessage.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsDispatcher.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsConnectivityChangedEvent.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/ReachabilityChangedEvent.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/API/Ws/WsListLoanLines.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Utils/Extensions/StringExtensions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Utils/Extensions/JSONSerializable.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsAction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsMessage.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/ReachabilityChangedEvent.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsConnectivityChangedEvent.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Base/WsDispatcher.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Network/Auth/WsLoginManual.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/BodySide_Manual.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Common/Address_Manual.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/User_Manual.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/FacilityEntity_Manual.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Base/BaseRecord.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/UserEntity_Manual.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Database/DatabaseManager.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Base/SessionStatusChangedEvent.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Base/SessionManager.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Base/EventBus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/UserEntity_Manual.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/BodySide_Manual.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Common/Address_Manual.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/FacilityEntity_Manual.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/Base/BaseRecord.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Model/User_Manual.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/ViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseFormController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/Base/BaseTableViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/FormSection.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/iOSDemo/UserInterface/FormControl.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/TODO.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/GRDB-Bridging.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLCollation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLFunction.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLOperator.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/QueryInterfaceRequest.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLSelectQuery.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLOperator.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/QueryInterface/SQLFunction.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Migrations/Migration.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Migrations/DatabaseMigrator.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/Record.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/Persistable.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/RowConvertible.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/FetchedRecordsController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/TableMapping.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/FetchedRecordsController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Record/RowConvertible.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/GRDB.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseReader.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseWriter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/SerializedDatabase.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseError.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/StatementColumnConvertible.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseValue.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseStore.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseQueue.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Statement.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseValueConvertible.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/RowAdapter.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseScheduler.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/FetchRequest.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Utils.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Row.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseSchemaCache.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/CoreGraphics/CGFloat.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/StandardLibrary/RawRepresentable.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/StandardLibrary/StandardLibrary.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/Row+Foundation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSNull.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseDateComponents.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSNumber.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValue+Foundation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/StatementArguments+Foundation.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSURL.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSString.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseCoder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValue+Foundation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSUUID.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseError.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabasePool.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Database.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseDateComponents.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSNull.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSURL.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSNumber.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/StatementArguments+Foundation.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseCoder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Support/Foundation/NSDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Configuration.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/SerializedDatabase.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseValueConvertible.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/RowAdapter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseScheduler.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseSchemaCache.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/FetchRequest.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Utils.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Statement.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Database.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseWriter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseValue.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabasePool.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/Row.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB/Core/DatabaseStore.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/README.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Experimental/ManagedDataControllerTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Experimental/MappingTests.swift" isTestSource="false" />
@@ -534,37 +537,30 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/QueryInterfaceRequest/Record+QueryInterfaceRequestTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchRequest/FetchRequestTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Migrations/DatabaseMigratorTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/StatementArguments+FoundationTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/DatabaseValue+FoundationTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/Row+FoundationTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/NSDateComponentsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/NSDateTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/DatabaseValue+FoundationTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/NSDateComponentsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/NSDecimalNumberTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/StatementArguments+FoundationTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/Row+FoundationTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Foundation/DatabaseCoderTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordFetchTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyMultipleTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyNoneTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordCopyTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/MinimalPrimaryKeyRowIDTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordAwakeFromFetchTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordEditedTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordSubClassTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/MinimalPrimaryKeySingleTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordSubClassTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyMultipleTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeySingleWithReplaceConflictResolutionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordWithColumnNameManglingTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordInitializersTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/RecordEditedTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeyRowIDTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Record/PrimaryKeySingleTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Encryption/EncryptionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseScheduler/DatabaseSchedulerTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Function/FunctionTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/StatementColumnConvertible/StatementColumnConvertibleTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/StatementColumnConvertible/StatementColumnConvertibleFetchTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValue/DatabaseValueTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Database/InMemoryDatabaseTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Database/DatabaseTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Database/ReadOnlyDatabaseTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Collation/CollationTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NumericOverflowTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSNumberTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSNullTests.swift" isTestSource="false" />
@@ -577,6 +573,11 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSStringTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/RawRepresentableTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValueConvertible/NSDataTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseValue/DatabaseValueTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Database/InMemoryDatabaseTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Database/DatabaseTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Database/ReadOnlyDatabaseTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Collation/CollationTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Persistable/PersistableTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Persistable/MutablePersistableTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolConcurrencyTests.swift" isTestSource="false" />
@@ -585,23 +586,25 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolBackupTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolReadOnlyTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabasePool/DatabasePoolFileAttributesTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/StatementColumnConvertible/StatementColumnConvertibleTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/StatementColumnConvertible/StatementColumnConvertibleFetchTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseReader/DatabaseReaderTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseError/DatabaseErrorTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/RowConvertibleTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/AdapterRowTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/DictionaryRowTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/DetachedRowTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/AdapterRowTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Row/MetalRowTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/TransactionObserver/TransactionObserverSavepointsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/TransactionObserver/TransactionObserverTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Savepoint/SavepointTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueConcurrencyTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/Betty.jpeg" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueFileAttributesTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueConcurrencyTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueBackupTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/DatabaseQueue/DatabaseQueueTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Statement/SelectStatementTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Statement/StatementArgumentsTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Statement/SelectStatementTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/Core/Statement/UpdateStatementTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchedRecordsController/FetchedRecordsControlleriOSTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Public/FetchedRecordsController/FetchedRecordsControllerTests.swift" isTestSource="false" />
@@ -618,13 +621,13 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Extensions/FTS4.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Extensions/R*Tree.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Schema.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Query.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Operators.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Expression.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Setter.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/CoreFunctions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Query.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/CustomFunctions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/AggregateFunctions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Setter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/CustomFunctions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Typed/Collation.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/SQLite.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLite/Foundation.swift" isTestSource="false" />
@@ -647,21 +650,21 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/CocoaPods/iphoneos/module.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/Makefile" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/CONTRIBUTING.md" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/SchemaTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/CustomFunctionsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/CustomFunctionsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/CoreFunctionsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/QueryTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/SetterTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/SchemaTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ConnectionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/OperatorsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/BlobTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/R*TreeTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/StatementTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ValueTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ExpressionTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/SetterTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/AggregateFunctionsTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/TestHelpers.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/StatementTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/ExpressionTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/SQLite.swift/SQLiteTests/FTS4Tests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/FetchRecordTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/InsertNamedValuesTests.swift" isTestSource="false" />
@@ -675,49 +678,49 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDB.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMResultSet.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabase.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMResultSet.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabasePool.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseQueue.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMResultSet.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabase.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabasePool.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabasePool.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabase.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/fmdb/src/fmdb/FMDatabaseQueue.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Performance/PerformanceModel.xcdatamodeld/PerformanceModel.xcdatamodel" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/GRDBTestCase.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/GRDBCrashTestCase.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/MigrationCrashTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/StatementCrashTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/RecordCrashTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabasePoolCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabaseValueConvertibleCrashTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/RecordCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/StatementColumnConvertibleCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabaseQueueCrashTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/DatabasePoolCrashTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Crash/StatementCrashTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/StatementInformationTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabasePoolSchemaCacheTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabaseQueueReleaseMemoryTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/NSDataMemoryTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabasePoolReleaseMemoryTests.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabasePoolSchemaCacheTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabaseQueueSchemaCacheTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Tests/Private/DatabaseQueueReleaseMemoryTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDB.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDBCipher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDBCipher-Bridging.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlite3.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlcipher.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlcipher.xcodeproj" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/src/sqlite3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDBCipher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDBCipher-Bridging.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/GRDB.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLCipher/module.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/module.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/GRDB.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/Support/module.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-USER.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-Testing.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-Bridging.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/sqlite3.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib-USER.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/src/SQLiteLib.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-Bridging.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite-USER.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDBCustomSQLite.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/GRDB.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/SQLiteCustom/module.modulemap" isTestSource="false" />
@@ -725,21 +728,21 @@
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/GRDB.xcodeproj" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GRDB.swift/CHANGELOG.md" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Zone.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTimeError.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalTime.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Month.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Year.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDateTime.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Clock.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Duration.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalTime.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Period.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTime.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTimeError.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Month.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Duration.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Instant.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DayOfWeek.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/DateTime.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/Clock.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/DateTimeKit/DateTimeKit/LocalDateTime.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithAccessibleOption.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithInternetProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Dictionary_Initializers.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithInternetProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithError.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/LocksmithInternetAuthenticationType.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Locksmith/Source/Locksmith.swift" isTestSource="false" />
@@ -756,11 +759,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-iOSDemo/Pods-iOSDemo-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Locksmith/Locksmith.modulemap" isTestSource="false" />
@@ -800,34 +803,34 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SwiftMoment/SwiftMoment-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Starscream/Source/WebSocket.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Starscream/Source/SSLSecurity.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Region.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeZone+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateFormatter+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Operations.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeZone+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDate+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Equations.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSLocale+SwiftDate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Dictionary+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+NSDatePort.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateComponents+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDateInterval.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Components.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Additions.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+NSDatePort.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Formatter.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSCalendar+SwiftDate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Formatter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Region.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSTimeInterval+SwiftDate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Equations.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+StartEnd.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/DateInRegion+Comparisons.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/NSDate+SwiftDate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftDate/Sources/SwiftDate/Dictionary+SwiftDate.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Operators.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Duration.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/SwiftMoment.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Moment.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Extensions.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/TimeUnit.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/MomentFromNow.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SwiftMoment/SwiftMoment/SwiftMoment/Operators.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
