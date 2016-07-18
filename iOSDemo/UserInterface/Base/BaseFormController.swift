@@ -24,7 +24,17 @@ class BaseFormController: BaseTableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        if let formControl = getControl(indexPath) {
+            return formControl.cell
+        }
+        println("Error: no form control for index path [" + indexPath.row + ", " + indexPath.section + "]")
         return UITableViewCell()
+    }
+
+    func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
+        if let formControl = getControl(indexPath) {
+            formControl.onCellTouch(self.navigationController)
+        }
     }
 
     // Form Control Helpers
@@ -49,7 +59,10 @@ class BaseFormController: BaseTableViewController {
         }
     }
 
-    func getControl(indexPath: NSIndexPath) -> FormControl? {
+    func getControl(indexPath: NSIndexPath?) -> FormControl? {
+        guard let indexPath = indexPath else {
+            return nil
+        }
         return getFormSection(indexPath.section).controls[indexPath.row]
     }
 }

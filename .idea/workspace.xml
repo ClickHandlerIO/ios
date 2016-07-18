@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ff5236c-f2e5-4fb3-b434-8a3d099cd035" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/UserInterface/Base/BaseFormController.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/UserInterface/FormControl.swift" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iOSDemo/UserInterface/FormSection.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ios.iml" afterPath="$PROJECT_DIR$/.idea/ios.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/iOSDemo.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetItem.swift" afterPath="$PROJECT_DIR$/iOSDemo/API/Ws/WsGetItem.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iOSDemo/UserInterface/Base/BaseFormController.swift" afterPath="$PROJECT_DIR$/iOSDemo/UserInterface/Base/BaseFormController.swift" />
     </list>
     <list id="3682ac3a-91ec-41ab-9afa-de2a07918724" name="New changelist" comment="" />
     <ignored path="ios.iws" />
@@ -44,14 +39,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BaseTableViewController.swift" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BaseTableViewController.swift" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/Base/BaseTableViewController.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                <state relative-caret-position="300">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding>
                     <element signature="e#255#361#0" expanded="true" />
                     <element signature="e#367#511#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ViewController.swift" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#1257#1851#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -89,13 +96,9 @@
           <file leaf-file-name="BaseFormController.swift" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/Base/BaseFormController.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#268#375#0" expanded="true" />
-                    <element signature="e#381#533#0" expanded="true" />
-                    <element signature="e#685#838#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="465">
+                  <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -173,7 +176,7 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2166" />
+    <option name="width" value="1948" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -249,28 +252,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="UserInterface" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iOSDemo" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iOSDemo" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UserInterface" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,13 +518,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1466793114843</updated>
-    </task>
-    <task id="LOCAL-00001" summary="working">
-      <created>1467075933318</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1467075933318</updated>
     </task>
     <task id="LOCAL-00002" summary="working">
       <created>1467086034836</created>
@@ -881,15 +855,22 @@
       <option name="project" value="LOCAL" />
       <updated>1467850108650</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="form model work">
+      <created>1468857764325</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1468857764326</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2166" height="1417" extended-state="0" />
+    <frame x="0" y="23" width="1948" height="1417" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18228438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20290607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2890566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -926,7 +907,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/GRDB.swift" />
     </ignored-roots>
-    <MESSAGE value="action queues working and db action type plumbed out to provide db connection" />
     <MESSAGE value="org" />
     <MESSAGE value="db work" />
     <MESSAGE value="db and encryption working!" />
@@ -951,11 +931,12 @@
     <MESSAGE value="work" />
     <MESSAGE value="add model" />
     <MESSAGE value="add Ws" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Ws" />
+    <MESSAGE value="form model work" />
+    <option name="LAST_COMMIT_MESSAGE" value="form model work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="102" />
+      <option name="time" value="103" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1256,19 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-          <folding>
-            <element signature="e#224#666#0" expanded="false" />
-            <element signature="e#672#913#0" expanded="false" />
-            <element signature="e#919#1251#0" expanded="false" />
-            <element signature="e#1857#2195#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/Model/User_Manual.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1327,16 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/FormControl.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#104#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/FormSection.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1350,8 +1308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/Base/BaseTableViewController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#255#361#0" expanded="true" />
             <element signature="e#367#511#0" expanded="true" />
@@ -1359,15 +1317,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/ViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#1257#1851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/FormControl.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#104#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iOSDemo/UserInterface/Base/BaseFormController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="e#268#375#0" expanded="true" />
-            <element signature="e#381#533#0" expanded="true" />
-            <element signature="e#685#838#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
